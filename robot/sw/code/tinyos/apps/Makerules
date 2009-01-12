@@ -1,0 +1,15 @@
+#
+# Makefile to be included by each application's Makefile for Ragobot
+# Author: Parixit Aghera 
+#
+
+RAGOBOT_TOSDIR = ../../tos
+
+INCLUDE = -I. -I$(RAGOBOT_TOSDIR)/interfaces \
+          -I$(RAGOBOT_TOSDIR)/system -I$(RAGOBOT_TOSDIR)/lib \
+	  -I$(RAGOBOT_TOSDIR)/sensorboards/$(SENSORBOARD) \
+	  -I$(RAGOBOT_TOSDIR)/platform/$(PLATFORM)
+
+CFLAGS += $(INCLUDE)
+
+include $(TOSDIR)/../apps/Makerules

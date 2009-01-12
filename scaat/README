@@ -1,0 +1,6 @@
+
+This directory contains files that act as a tcp client to the C implementation of the serial forwarder. This tcp client is integrated with the SCAAT prediction filter.
+
+Files other than tcp.c and tcp.h  are the scaat code and the test_lob_scaat is the test code which is not currently compiled.
+
+Please change the make file to include test_lob_sccat and remove tcp.c if you want to use only the scaat code.

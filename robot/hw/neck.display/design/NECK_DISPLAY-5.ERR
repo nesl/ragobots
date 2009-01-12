@@ -1,0 +1,34 @@
+Update90   Version 10.1.0
+	Copyright 1985-2003 Cadence Design Systems, Inc.
+updating 'C:\Projects\ragobots_hw\robot\hw\neck.display\design\NECK_DISPLAY-5.MAX' into 'C:\Projects\ragobots_hw\robot\hw\neck.display\design\NECK_DISPLAY-5.NEW'
+SAMTEC/HSEC8/50/CARD insertion point moved from (0,0) to (441,0)
+SAMTEC/HSEC8/50/CARD_J1 insertion point moved from (0,0) to (441,0)
+PANASONIC/EVQPH/4 insertion point moved from (0,0) to (79,126)
+CRYSTALFONTZ/CFAG/16 insertion point moved from (425,0) to (375,0)
+BLKCON2.0MM/VH/TM2OE/8 insertion point moved from (0,0) to (118,-39)
+MURATA/CSTCR insertion point moved from (0,0) to (59,0)
+PANASONIC/EVND8A/3 insertion point moved from (0,0) to (98,98)
+MOLEX/54819-0579 insertion point moved from (0,0) to (63,-83)
+ECS/CSM-7/2 insertion point moved from (62,0) to (187,0)
+PANASONIC/EVQPH/4_SW3 insertion point moved from (0,0) to (79,126)
+PANASONIC/EVQPH/4_SW2 insertion point moved from (0,0) to (79,126)
+MILLMAX/851XX00610001000/6/PGM_P_GPU insertion point moved from (-100,0) to (-125,0)
+CRYSTALFONTZ/CFAG/16_LCD1 insertion point moved from (425,0) to (375,0)
+MILLMAX/851XX00610001000/6/PGM_P_DFLH insertion point moved from (-100,0) to (-125,0)
+BLKCON2.0MM/VH/TM2OE/8_J2 insertion point moved from (0,0) to (118,-39)
+PANASONIC/EVQPH/4_SW4 insertion point moved from (0,0) to (79,126)
+MURATA/CSTCR_X1 insertion point moved from (0,0) to (-59,0)
+PANASONIC/EVND8A/3_R1 insertion point moved from (0,0) to (-98,98)
+PANASONIC/EVQPH/4_SW1 insertion point moved from (0,0) to (79,126)
+MOLEX/54819-0579_CN1 insertion point moved from (0,0) to (-63,-83)
+PANASONIC/EVQPH/4_SW5 insertion point moved from (0,0) to (79,126)
+ECS/CSM-7/2_Y1 insertion point moved from (-62,0) to (-187,0)
+MILLMAX/851XX00610001000/6/PGM insertion point moved from (100,0) to (125,0)
+Moving component origin for DFLH
+Moving component origin for SW1
+Moving component origin for SW2
+Moving component origin for SW3
+Moving component origin for SW4
+Moving component origin for SW5
+
+Update completed.

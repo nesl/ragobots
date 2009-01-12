@@ -1,0 +1,357 @@
+Archive member included because of file (symbol)
+
+c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/avr5\libgcc.a(_copy_data.o)
+                              ddsc.o (__do_copy_data)
+c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/avr5\libgcc.a(_clear_bss.o)
+                              ddsc.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+i2c_tail            0x1               i2c.o
+i2c_head            0x1               i2c.o
+robot_state         0x1               ddsc.o
+i2c_buffer          0xfa              i2c.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/../../../../avr/lib/avr5/crtm168.o
+LOAD ddsc.o
+LOAD uart0.o
+LOAD i2c.o
+LOAD tp.o
+LOAD c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/avr5\libgcc.a
+LOAD c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x123e
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/../../../../avr/lib/avr5/crtm168.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+ *(.init0)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/../../../../avr/lib/avr5/crtm168.o
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x4 c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/../../../../avr/lib/avr5/crtm168.o
+ *(.text)
+ .text          0x0000009e        0x4 c:/progra~1/WinAVR/bin/../lib/gcc/avr/3.4.3/../../../../avr/lib/avr5/crtm168.o
+                0x0000009e                __vector_22
+                0x0000009e                __vector_1
+                0x0000009e                __vector_12
+                0x0000009e                __bad_interrupt
+                0x0000009e                __vector_6
+                0x0000009e                __vector_3
+                0x0000009e                __vector_23
+                0x0000009e                __vector_25
+                0x0000009e                __vector_11
+                0x0000009e                __vector_13
+                0x0000009e                __vector_17
+                0x0000009e                __vector_19
+                0x0000009e                __vector_7
+                0x0000009e                __vector_5
+                0x0000009e                __vector_4
+                0x0000009e                __vector_9
+                0x0000009e                __vector_2
+                0x0000009e                __vector_21
+                0x0000009e                __vector_15
+                0x0000009e                __vector_8
+                0x0000009e                __vector_14
+                0x0000009e                __vector_10
+                0x0000009e                __vector_16
+                0x0000009e                __vector_18
+                0x0000009e                __vector_20
+ .text          0x000000a2       0x9a ddsc.o
+                0x000000a2                init_mcu
+                0x000000d6                main
+                0x000000b8                stall
+ .text          0x0000013c      0xf36 uart0.o
+                0x0000018c                send_byte_serial
+                0x0000013c                init_serial
+                0x0000103a                UART_send_HEX16
+                0x00000ce4                UART_send_HEX4
+                0x00000182                USRT_send_2bytes
+                0x0000100a                UART_send_HEX16b
+                0x00000ca0                UART_send_BIN8
+                0x00000ff2                UART_send_HEX8
+                0x000001be                UART_send_BIN4
+                0x000001b8                uart0_force_byte
+ .text          0x00001072      0x140 i2c.o
+                0x000010a8                i2c_enqueue
+                0x00001110                __vector_24
+                0x000010d0                i2c_dequeue
+                0x0000107c                i2c_count
+                0x000010f6                init_I2C_slave
+                0x00001072                init_i2c_buffer
+ .text          0x000011b2       0x8c tp.o
+                0x000011e6                tp7
+                0x000011b2                init_tp
+                0x000011ba                tpl
+                0x00001212                tp8
+                0x0000123e                . = ALIGN (0x2)
+ *(.text.*)
+                0x0000123e                . = ALIGN (0x2)
+ *(.fini9)
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+                0x0000123e                _etext = .
+
+.data           0x00800100        0x0 load address 0x0000123e
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.gnu.linkonce.d*)
+                0x00800100                . = ALIGN (0x2)
+                0x00800100                _edata = .
+                0x00800100                PROVIDE (__data_end, .)
+
+.bss            0x00800100       0xfd
+                0x00800100                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(COMMON)
+ COMMON         0x00800100        0x1 ddsc.o
+                                  0x0 (size before relaxing)
+                0x00800100                robot_state
+ COMMON         0x00800101       0xfc i2c.o
+                                  0x0 (size before relaxing)
+                0x00800101                i2c_tail
+                0x00800102                i2c_head
+                0x00800103                i2c_buffer
+                0x008001fd                PROVIDE (__bss_end, .)
+                0x0000123e                __data_load_start = LOADADDR (.data)
+                0x0000123e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001fd        0x0
+                0x008001fd                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001fd                PROVIDE (__noinit_end, .)
+                0x008001fd                _end = .
+                0x008001fd                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x50
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x14 ddsc.o
+ .debug_aranges
+                0x00000014       0x14 uart0.o
+ .debug_aranges
+                0x00000028       0x14 i2c.o
+ .debug_aranges
+                0x0000003c       0x14 tp.o
+
+.debug_pubnames
+                0x00000000      0x1fe
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x42 ddsc.o
+ .debug_pubnames
+                0x00000042       0xd6 uart0.o
+ .debug_pubnames
+                0x00000118       0xb0 i2c.o
+ .debug_pubnames
+                0x000001c8       0x36 tp.o
+
+.debug_info     0x00000000      0xce4
+ *(.debug_info)
+ .debug_info    0x00000000      0x122 ddsc.o
+ .debug_info    0x00000122      0x925 uart0.o
+ .debug_info    0x00000a47      0x1af i2c.o
+ .debug_info    0x00000bf6       0xee tp.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x37d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xe8 ddsc.o
+ .debug_abbrev  0x000000e8       0xd8 uart0.o
+ .debug_abbrev  0x000001c0      0x138 i2c.o
+ .debug_abbrev  0x000002f8       0x85 tp.o
+
+.debug_line     0x00000000      0x97e
+ *(.debug_line)
+ .debug_line    0x00000000      0x158 ddsc.o
+ .debug_line    0x00000158      0x589 uart0.o
+ .debug_line    0x000006e1      0x183 i2c.o
+ .debug_line    0x00000864      0x11a tp.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x1eb
+ *(.debug_str)
+ .debug_str     0x00000000       0xaa ddsc.o
+                                 0xde (size before relaxing)
+ .debug_str     0x000000aa       0xc0 uart0.o
+                                0x171 (size before relaxing)
+ .debug_str     0x0000016a       0x74 i2c.o
+                                0x12e (size before relaxing)
+ .debug_str     0x000001de        0xd tp.o
+                                 0xb0 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(ddsc.elf elf32-avr)

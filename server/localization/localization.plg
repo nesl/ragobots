@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: localization - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\advait\LOCALS~1\Temp\RSP104.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /I ".\\" /I "C:\Program Files\ImageMagick-6.0.2-Q16\include" /I "libwww\include" /I "libwww\include\w3c-libwww" /I "libwww\include\windows" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_VISUALC_" /D "NeedFunctionPrototypes" /D "_DLL" /D "_MAGICKMOD_" /D "USE_METEOR" /U "WWW_WIN_DLL" /FR"Debug/localization/" /Fo"Debug/localization/" /Fd"Debug/localization/" /FD /c 
+"C:\opt\ragobot\ChangeFormat.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\advait\LOCALS~1\Temp\RSP104.tmp" 
+Creating temporary file "C:\DOCUME~1\advait\LOCALS~1\Temp\RSP105.tmp" with contents
+[
+CORE_RL_magick_.lib CORE_RL_Magick++_.lib X11.lib kernel32.lib user32.lib gdi32.lib odbc32.lib odbccp32.lib ole32.lib oleaut32.lib winmm.lib dxguid.lib wsock32.lib advapi32.lib wwwinit.lib wwwapp.lib wwwxml.lib wwwhtml.lib wwwtelnt.lib wwwnews.lib wwwhttp.lib wwwmime.lib wwwgophe.lib wwwftp.lib wwwfile.lib wwwdir.lib wwwcache.lib wwwstream.lib wwwmux.lib wwwtrans.lib wwwcore.lib wwwutils.lib pics.lib xmlparse.lib gnu_regex.lib xmltok.lib zlib.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/localization/localization.pdb" /debug /machine:I386 /out:"Debug/localization/localization.exe" /libpath:"C:\Program Files\ImageMagick-6.0.2-Q16\lib\\" /libpath:"C:\Program Files\ImageMagick-6.0.2-Q16\lib" /libpath:"libwww\lib" 
+.\Debug\localization\ChangeFormat.obj
+.\Debug\localization\chunk.obj
+.\Debug\localization\CMvision.obj
+.\Debug\localization\MoteCom.obj
+.\Debug\localization\ProcessFrame.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\advait\LOCALS~1\Temp\RSP105.tmp"
+<h3>Output Window</h3>
+Compiling...
+ChangeFormat.cpp
+Magick lib DLL import interface
+Magick module DLL export interface
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/localization/localization.bsc"  .\Debug\localization\ChangeFormat.sbr .\Debug\localization\chunk.sbr .\Debug\localization\CMvision.sbr .\Debug\localization\MoteCom.sbr .\Debug\localization\ProcessFrame.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+localization.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

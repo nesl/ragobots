@@ -1,0 +1,88 @@
+Ragobot Rev.C Assembly Notes:
+RBTBDYC
+==============================
+GERBER
+------
+Filenames are "RAGOBOT" with the following extensions:
+
+.OTL	BOARD OUTLINE
+.TOP	TOP METAL
+.BOT	BOTTOM METAL
+.DRI	NC DRILL
+
+.SMB	SOLDER MASK BOTTOM
+.SMT	SOLDER MASK TOP
+.SPB	SOLDER PASTE BOTTOM
+.SPT	SOLDER PASTE TOP
+.SST	SILK SCREEN TOP
+.SSB	SILK SCREEN BOTTOM
+
+LEDS
+----
+D7, D8, D9, D10 (Thruhole tri-color LEDs are on the TOP side of the board, with the diffuser overhanging the edge of the board -- i.e., LED's face out from PCB)
+
+D1, D2, D3, D4, D5, D6, DDSCL, D_BCU, D_IRISL, D_IRISU (SMT LED's)  The tick mark (looks like -> " ^ ") on the end of the silk-screen place-outline for these parts indicates the Cathode, which is indicated on the actual part by a line.
+
+The IR LED's (D12-D17) should be soldered in from the bottom *PRIOR* to installing the IR Receivers (IR1-IR6).
+
+The IR LED's (D12-D17) should be oriented as indicated on the bottom silk-screen with their diffusers pointed away from the center of the board.
+
+RN1 should be placed before the LED BAR GRAPH. The LED BAR GRAPH goes on top of the RN1. 
+
+SENSORS
+-------
+ACCEL1 (Accelerometer) Pin 1 is marked by a 1 on the silkscreen and a dot on the IC.
+
+MAG1 (Magnetometer) Pin 1 is marked by a 1 on the silkscreen and a dot on the IC.
+
+IR Receivers (IR1-IR6) should be installed *AFTER* the IR LED's (D12-D17) are soldered in from the bottom.
+
+
+CONNECTORS
+----------
+"BRAIN" (also labeled "BRAIN1") -- Polarity is guided by boss holes and trapezoidal land pattern.
+
+"HEAD" (also labeled "J16") -- Polarity is guided by trapezoidal land pattern.
+
+IC's
+----
+DBNCE1 -- Pin 1 has a wider land pattern than the other three. The corner of the place outline, by Pin 1, on the top silkscreen is indented, but this is difficult to see on the actual PCB (check the Gerber: RAGOBOT.SST if necessary)
+
+
+DO NOT POPULATE:
+----------------
+The following reference designators are not to be populated. These parts are not included in the BOM we sent you. They appear here simply to confirm our intent. This list may not necessarily be complete:
+
+2.5 (item 1)
+R80, R81 (item 17)
+D31 (item 20)
+LS1 (item 46)
+LS2 (item 47)
+MAGX (item 50)
+MAGY (item 51)
+MECH5 MECH6 MECH7 MECH8 (item 52)
+P_BCU P_DDSC P_IRISL P_IRISU (item 56)
+SR+ (item 71)
+TP1 (item 75)
+TP2 (item 76)
+TP3 (item 77)
+TP4 (item 78)
+TP5 (item 79)
+TP6 (item 80)
+TP7 (item 81)
+TP8 (item 82)
+
+OTHER
+1) Item 24 uses either 490-1814-1-ND or PCC2413CT-ND
+2) Item 90 uses either TKS2509CT-ND or 445-2001-1-ND
+***************************************************************************
+CALL US IF YOU HAVE QUESTIONS, ANY TIME DAY OR NIGHT (INCLUDING WEEKENDS, HOLIDAYS, ETC):
+
+UCLA NES Laboratory (310-825-7707, 310-206-5698)
+Jonathan Friedman, jf@ee.ucla.edu, 404-259-8168 (cell)
+David Lee, davidlee@ee.ucla.edu, 408-318-2373 (cell)
+***************************************************************************
+
+
+
+

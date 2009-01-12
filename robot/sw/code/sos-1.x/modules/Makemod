@@ -1,0 +1,11 @@
+####
+# General defines used by many targets
+####
+
+INCDIR += -I$(RAGOBOTDIR)/include
+
+#VPATH += $(RAGOBOTDIR)/include/hardware/
+INCDIR += -I$(RAGOBOTDIR)/include/hardware
+
+include $(ROOTDIR)/modules/Makerules
+

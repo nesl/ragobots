@@ -1,0 +1,211 @@
+   1               		.file	"cb3.c"
+   2               		.arch atmega48
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  12               		.text
+  13               	.Ltext0:
+  49               	.global	init_CB3
+  51               	init_CB3:
+   1:cb3.c         **** /*
+   2:cb3.c         **** #################################################################################
+   3:cb3.c         **** # RAGOBOT:IRMAN CONTROL BUS 3 (CB3) DRIVER
+   4:cb3.c         **** # ------------------------------------------------------------------------------
+   5:cb3.c         **** # Defines pins, ports, and signals
+   6:cb3.c         **** # 
+   7:cb3.c         **** # APPLIES TO (Ragobot Part Numbers):
+   8:cb3.c         **** # ------------------------------------------------------------------------------
+   9:cb3.c         **** # RBTBDYB
+  10:cb3.c         **** #
+  11:cb3.c         **** # COPYRIGHT NOTICE
+  12:cb3.c         **** # ------------------------------------------------------------------------------
+  13:cb3.c         **** # "Copyright (c) 2000-2003 The Regents of the University  of California.
+  14:cb3.c         **** # All rights reserved.
+  15:cb3.c         **** # Permission to use, copy, modify, and distribute this software and its
+  16:cb3.c         **** # documentation for any purpose, without fee, and without written agreement is
+  17:cb3.c         **** # hereby granted, provided that the above copyright notice, the following
+  18:cb3.c         **** # two paragraphs and the author appear in all copies of this software.
+  19:cb3.c         **** # IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR
+  20:cb3.c         **** # DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT
+  21:cb3.c         **** # OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF
+  22:cb3.c         **** # CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  23:cb3.c         **** # THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES,
+  24:cb3.c         **** # INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+  25:cb3.c         **** # AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+  26:cb3.c         **** # ON AN "AS IS" BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATION TO
+  27:cb3.c         **** # PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS."
+  28:cb3.c         **** #
+  29:cb3.c         **** # DEVELOPED BY
+  30:cb3.c         **** # ------------------------------------------------------------------------------
+  31:cb3.c         **** # Jonathan Friedman, GSR
+  32:cb3.c         **** # Networked and Embedded Systems Laboratory (NESL)
+  33:cb3.c         **** # University of California, Los Angeles (UCLA)
+  34:cb3.c         **** #
+  35:cb3.c         **** # REVISION HISTORY
+  36:cb3.c         **** # ------------------------------------------------------------------------------
+  37:cb3.c         **** # <for dates and comments, see cvs>
+  38:cb3.c         **** # Original by Jonathan Friedman, UCLA (jf@ee.ucla.edu) 		
+  39:cb3.c         **** #################################################################################
+  40:cb3.c         **** */
+  41:cb3.c         **** 
+  42:cb3.c         **** #include <inttypes.h>
+  43:cb3.c         **** #include <avr/io.h>
+  44:cb3.c         **** #include <avr/interrupt.h>
+  45:cb3.c         **** #include <avr/signal.h>
+  46:cb3.c         **** #include "cb3.h"
+  47:cb3.c         **** #include "jonathan.h"
+  48:cb3.c         **** 
+  49:cb3.c         **** uint8_t CB2STATE;
+  50:cb3.c         **** volatile uint8_t PORTI[8];
+  51:cb3.c         **** 
+  52:cb3.c         **** void init_CB3(){
+  53               	.LM1:
+  54               	/* prologue: frame size=0 */
+  55               	/* prologue end (size=0) */
+  53:cb3.c         **** 	uint8_t i;
+  54:cb3.c         **** 	//INIT HARDWARE PORTS
+  55:cb3.c         **** 		cbi(CB3PORTL,CB3LOAD);
+  57               	.LM2:
+  58 0000 2C98      		cbi 37-0x20,4
+  56:cb3.c         **** 		cbi(CB3PORTC,CB3CLOCK);
+  60               	.LM3:
+  61 0002 2D98      		cbi 37-0x20,5
+  57:cb3.c         **** 		sbi(CB3DDRL,CB3LOAD);
+  63               	.LM4:
+  64 0004 249A      		sbi 36-0x20,4
+  58:cb3.c         **** 		sbi(CB3DDRC,CB3CLOCK);
+  66               	.LM5:
+  67 0006 259A      		sbi 36-0x20,5
+  59:cb3.c         **** 		cbi(CB3DDRD,CB3OUTPUT); //OUTPUT *FROM* CB3; MCU INPUT	
+  69               	.LM6:
+  70 0008 5298      		cbi 42-0x20,2
+  71 000a E0E0      		ldi r30,lo8(PORTI)
+  72 000c F0E0      		ldi r31,hi8(PORTI)
+  73 000e 87E0      		ldi r24,lo8(7)
+  74               	.L5:
+  60:cb3.c         **** 	//CLEAR VIRTUAL PORTS
+  61:cb3.c         **** 	for (i=0; i<8; i++){
+  62:cb3.c         **** 		PORTI[i] = 0x00;
+  76               	.LM7:
+  77 0010 1192      		st Z+,__zero_reg__
+  79               	.LM8:
+  80 0012 8150      		subi r24,lo8(-(-1))
+  81 0014 87FF      		sbrs r24,7
+  82 0016 FCCF      		rjmp .L5
+  83               	/* epilogue: frame size=0 */
+  84 0018 0895      		ret
+  85               	/* epilogue end (size=1) */
+  86               	/* function init_CB3 size 13 (12) */
+  89               	.Lscope0:
+  92               	.global	read_CB3_1B
+  94               	read_CB3_1B:
+  63:cb3.c         **** 	}
+  64:cb3.c         **** }
+  65:cb3.c         **** 
+  66:cb3.c         **** //Shift it all in
+  67:cb3.c         **** inline void read_CB3_1B(){
+  96               	.LM9:
+  97               	/* prologue: frame size=0 */
+  98               	/* prologue end (size=0) */
+  99 001a E0E0      		ldi r30,lo8(PORTI+7)
+ 100 001c F0E0      		ldi r31,hi8(PORTI+7)
+ 101 001e 97E0      		ldi r25,lo8(7)
+ 102               	.L15:
+  68:cb3.c         **** 	uint8_t i;
+  69:cb3.c         **** 	//DATA COMES IN MSb FIRST
+  70:cb3.c         **** 	for(i = 0;  i < 8; i++){
+  71:cb3.c         **** 		//READ BIT
+  72:cb3.c         **** 		//temp |= ((CB3PORTD & _BV(CB3OUTPUT)) >> (CB3OUTPUT)) << i;
+  73:cb3.c         **** 		PORTI[7-i] = CB3PORTD;
+ 104               	.LM10:
+ 105 0020 89B1      		in r24,41-0x20
+ 106 0022 8083      		st Z,r24
+  74:cb3.c         **** 		//CLOCK HIGH
+  75:cb3.c         **** 		sbi(CB3PORTC,CB3CLOCK);
+ 108               	.LM11:
+ 109 0024 2D9A      		sbi 37-0x20,5
+  76:cb3.c         **** 		//CLOCK LOW
+  77:cb3.c         **** 		cbi(CB3PORTC,CB3CLOCK);
+ 111               	.LM12:
+ 112 0026 2D98      		cbi 37-0x20,5
+ 114               	.LM13:
+ 115 0028 9150      		subi r25,lo8(-(-1))
+ 116 002a 3197      		sbiw r30,1
+ 117 002c 97FF      		sbrs r25,7
+ 118 002e F8CF      		rjmp .L15
+ 119               	/* epilogue: frame size=0 */
+ 120 0030 0895      		ret
+ 121               	/* epilogue end (size=1) */
+ 122               	/* function read_CB3_1B size 12 (11) */
+ 125               	.Lscope1:
+ 128               	.global	read_CB3
+ 130               	read_CB3:
+  78:cb3.c         **** 	}
+  79:cb3.c         **** }	
+  80:cb3.c         **** 
+  81:cb3.c         **** //ASSUME CB3PORTL.CB3LOAD = 0 PRIOR TO CALLING THIS FUNCTION
+  82:cb3.c         **** inline void read_CB3(){
+ 132               	.LM14:
+ 133               	/* prologue: frame size=0 */
+ 134               	/* prologue end (size=0) */
+  83:cb3.c         **** 	//CAPTURE DATA
+  84:cb3.c         **** 		sbi(CB3PORTL,CB3LOAD);
+ 136               	.LM15:
+ 137 0032 2C9A      		sbi 37-0x20,4
+ 138 0034 E0E0      		ldi r30,lo8(PORTI+7)
+ 139 0036 F0E0      		ldi r31,hi8(PORTI+7)
+ 140 0038 97E0      		ldi r25,lo8(7)
+ 141               	.L24:
+ 142               	.LBB2:
+ 143               	.LBB3:
+ 145               	.LM16:
+ 146 003a 89B1      		in r24,41-0x20
+ 147 003c 8083      		st Z,r24
+ 149               	.LM17:
+ 150 003e 2D9A      		sbi 37-0x20,5
+ 152               	.LM18:
+ 153 0040 2D98      		cbi 37-0x20,5
+ 155               	.LM19:
+ 156 0042 9150      		subi r25,lo8(-(-1))
+ 157 0044 3197      		sbiw r30,1
+ 158 0046 97FF      		sbrs r25,7
+ 159 0048 F8CF      		rjmp .L24
+ 160               	.LBE3:
+ 161               	.LBE2:
+  85:cb3.c         **** 	//SHIFT IN CAPTURED DATA
+  86:cb3.c         **** 		read_CB3_1B();
+  87:cb3.c         **** 	//LOAD LOW (clock is already low)
+  88:cb3.c         **** 		cbi(CB3PORTL, CB3LOAD);
+ 163               	.LM20:
+ 164 004a 2C98      		cbi 37-0x20,4
+ 165               	/* epilogue: frame size=0 */
+ 166 004c 0895      		ret
+ 167               	/* epilogue end (size=1) */
+ 168               	/* function read_CB3 size 14 (13) */
+ 176               	.Lscope2:
+ 178               		.comm PORTI,8,1
+ 179               		.comm CB2STATE,1,1
+ 182               		.text
+ 184               	Letext:
+ 185               	/* File "cb3.c": code   39 = 0x0027 (  36), prologues   0, epilogues   3 */
+DEFINED SYMBOLS
+                            *ABS*:00000000 cb3.c
+                            *ABS*:0000003f __SREG__
+                            *ABS*:0000003e __SP_H__
+                            *ABS*:0000003d __SP_L__
+                            *ABS*:00000000 __tmp_reg__
+                            *ABS*:00000001 __zero_reg__
+c:\DOCUME~1\JFRIED~1.SPA\LOCALS~1\Temp/ccaMaaaa.s:51     .text:00000000 init_CB3
+                            *COM*:00000008 PORTI
+c:\DOCUME~1\JFRIED~1.SPA\LOCALS~1\Temp/ccaMaaaa.s:94     .text:0000001a read_CB3_1B
+c:\DOCUME~1\JFRIED~1.SPA\LOCALS~1\Temp/ccaMaaaa.s:130    .text:00000032 read_CB3
+                            *COM*:00000001 CB2STATE
+c:\DOCUME~1\JFRIED~1.SPA\LOCALS~1\Temp/ccaMaaaa.s:184    .text:0000004e Letext
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss

@@ -1,0 +1,24 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-30.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Net CB2_CONTROL1 renamed to N2596609
+Adding U69.5 to net DGND_CN
+Adding BRAIN1.13 to net BCU_BRAIN0
+Adding U12.13 to net AND_B
+Adding U12.11 to net AND_Y
+Adding U12.12 to net AND_A
+Adding NECK.28 to net N1605123
+Adding NECK.26 to net N1605784
+Adding NECK.34 to net N1605976
+Adding NECK.24 to net N1605594
+Adding NECK.36 to net N1606170
+Adding U3.4 to net N2661181
+Adding U3.15 to net N2664992
+Adding DDSC.13 to net HEAD_EN
+Adding J20.13 to net N1558683
+Adding BRAIN1.29 to net BCU_BRAIN_1
+Adding DDSC.14 to net NECK_EN
+Deleting net CB2_CONTROL0
+*EOF*
+No errors found

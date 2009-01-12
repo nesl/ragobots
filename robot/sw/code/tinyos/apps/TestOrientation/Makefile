@@ -1,0 +1,3 @@
+COMPONENT=TestOrientation
+include ../Makerules
+

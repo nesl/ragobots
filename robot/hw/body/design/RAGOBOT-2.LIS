@@ -1,0 +1,18 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-1.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding footprint PERICOM/QSOP/24
+Adding component BS_CB2
+Adding BS_CB2.24 to net 5_VCC_CN
+Adding BS_CB2.19 to net CB2_CLOCK
+Adding BS_CB2.6 to net CB2_CLOCK
+Adding BS_CB2.20 to net CB2_RESET
+Adding BS_CB2.9 to net CB2_RESET
+Adding BS_CB2.16 to net CB2_UPDATE
+Adding BS_CB2.5 to net CB2_UPDATE
+Adding BS_CB2.12 to net CHARGE-
+Adding BS_CB2.3 to net BRAIN_CB2DATAIN
+Adding BS_CB2.1 to net CB2_CONTROL0
+*EOF*
+No errors found

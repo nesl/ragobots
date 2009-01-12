@@ -1,0 +1,1 @@
+int8_t magsensor_test_init();

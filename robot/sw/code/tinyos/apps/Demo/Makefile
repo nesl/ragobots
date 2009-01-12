@@ -1,0 +1,3 @@
+COMPONENT=Demo
+include ../Makerules
+

@@ -1,0 +1,59 @@
+(ExpressProject "portexp"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "t:\orcad_lib\j_connector.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\portexp.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "PORTEXP.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\portexp.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CONNECTOR_DB9_P
+      (FullPartName "CONNECTOR_DB9_P.Normal")
+      (LibraryName "T:\ORCAD_LIB\J_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock_NESL_C
+      (LibraryName "T:\ORCAD_LIB\J_TITLE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "T:\orcad_lib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Projects\ragobots_hw\robot\hw\expansion\portexp\design\portexp.dsn")
+      (Path "Design Resources"
+         "C:\Projects\ragobots_hw\robot\hw\expansion\portexp\design\portexp.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "t:\orcad_lib\j_connector.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 585"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 44 1030 44 656")
+        (Scroll "46 93")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\EXPANSION\PORTEXP\DESIGN\PORTEXP.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "jfriedman"))

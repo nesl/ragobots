@@ -1,0 +1,1891 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding footprint HIROSE/DF11-14DP-2DS/14
+Adding footprint SOG.050/24/WG.420/L.600
+Adding footprint MILLMAX/851XX00510001000/5/PGM
+Adding footprint TOSHIBA/CRS06/A
+Adding footprint SOG.050/16/WG.420/L.425
+Adding footprint SOG.65M/8/WG4.10/L3.17
+Adding footprint NESL/TESTPOINT_0.040/SM
+Adding footprint SAMTEC/MB1/50/A
+Adding footprint BLKCON2.0MM/VH/TM1SQ/2
+Adding footprint HIROSE/DF11-12DP-2DS/12
+Adding footprint LINEAR/TSOT23/6
+Adding footprint SAMTEC/HSEC8/50
+Adding footprint SM/C_0805
+Adding footprint ECS/CSM-7/2
+Adding footprint SOG.65M/16/WG6.70/L5.10
+Adding footprint ANALOG_DEVICES/ADXL320
+Adding footprint TI/SC70/6
+Adding footprint SM/SOT23_123
+Adding package PLANTRACO/DESKTOP_ROVER/14_0
+Adding package PERICOM/PI5C3384Q/3384C/32384_0
+Adding package T:\ORCAD_LIB\C_DISCRETE.OLB/CAP NP
+Adding package MAXIM/MAX941
+Adding package MILLMAX/851-XX-005/PGM
+Adding package ALLEGRO/A3966SLB/SOIC16
+Adding package TOSHIBA/TC7WH74FU
+Adding package HEADER_1
+Adding package T:\ORCAD_LIB\J_DISCRETE.OLB/EXB2HVXX1JV
+Adding package ATLA/NERVE/MB1-150/A
+Adding package HEADER_12
+Adding package \\CAMELOT\CADD_DB\ORCAD_LIB\J_POWER.OLB/FAIRCHILD/FDS6912A_DUAL_NFET
+Adding package LINEAR/LTC4412
+Adding package SAMTEC/HSEC8/50
+Adding package FAIRCHILD/NDS8958_DUAL_NP
+Adding package CRYSTAL
+Adding package TOSHIBA/74HC14/14
+Adding package PHILIPS/PCA9554(A)/DIP16_SO16
+Adding package ANALOG_DEVICES/ADXL320
+Adding package MAXIM/MAX3371
+Adding package NSM/LM4050CEM3
+Adding package HONEYWELL/HMC1022
+Adding component MECH6
+Adding component UCG1
+Adding component BS_CB2
+Adding component P_BCU
+Adding component U17
+Adding component Q12
+Adding component R29
+Adding component C54
+Adding component R23
+Adding component DFF7
+Adding component L4
+Adding component BCU
+Adding component R30
+Adding component J42
+Adding component J20
+Adding component C71
+Adding component P_DDSC
+Adding component TP8
+Adding component R50
+Adding component TP7
+Adding component DDSCL0
+Adding component C55
+Adding component R64
+Adding component R36
+Adding component RN2
+Adding component C62
+Adding component DDSC
+Adding component R48
+Adding component CB3
+Adding component R55
+Adding component R56
+Adding component J_NERVE
+Adding component LS2
+Adding component CB33
+Adding component FOOT1
+Adding component FOOT0
+Adding component CBS1
+Adding component VR_C3
+Adding component FET2
+Adding component VR_C4
+Adding component J31
+Adding component CIN2
+Adding component J32
+Adding component SW3
+Adding component NECK
+Adding component R51
+Adding component R52
+Adding component R31
+Adding component MECH7
+Adding component R45
+Adding component MECH8
+Adding component R46
+Adding component Y1
+Adding component C46
+Adding component R73
+Adding component TP3
+Adding component C57
+Adding component C61
+Adding component TP6
+Adding component P_IRISL
+Adding component J30
+Adding component IRISU
+Adding component TP1
+Adding component TP5
+Adding component U69
+Adding component C19
+Adding component D_IRISL
+Adding component R72
+Adding component IRISL
+Adding component P_IRISU
+Adding component R28
+Adding component C58
+Adding component R24
+Adding component TP2
+Adding component R27
+Adding component TP4
+Adding component C20
+Adding component U16
+Adding component C45
+Adding component C60
+Adding component L50
+Adding component D_IRISU
+Adding component DFF6
+Adding component RN3
+Adding component U51
+Adding component R54
+Adding component DFF3
+Adding component R53
+Adding component DFF4
+Adding component DFF5
+Adding component DFF2
+Adding component C59
+Adding component U50
+Adding component DFF1
+Adding component CB12
+Adding component Q11
+Adding component ACCEL1
+Adding component RGAIN_Y
+Adding component LV4
+Adding component RGAIN_X
+Adding component R80
+Adding component DZ1
+Adding component J33
+Adding component R82
+Adding component R33
+Adding component R81
+Adding component RV1
+Adding component LV3
+Adding component LV2
+Adding component R32
+Adding component AMP_X
+Adding component R34
+Adding component R83
+Adding component Q13
+Adding component AMP_Y
+Adding component R35
+Adding component MECH5
+Adding net N1653497
+Net CB2_IRR_EN renamed to CB2_IRIS
+Adding net N2551677
+Net IRX_DATA renamed to HEAD_CB2_1
+Adding net FOOT_EN0
+Net X_M2_ADC3 renamed to HEAD_BRAIN2
+Net MAG_XOUT+ renamed to N670594
+Adding net 5_VCC_CN_IN
+Adding net HEAD_NERVE2
+Adding net N1653515
+Net AT_BASE renamed to 3.3_VCC_CN_IN
+Net X_ADC_IN0 renamed to ANALOG10
+Adding net FOOT_NERVE0
+Adding net N1682133
+Net IRR_IN renamed to HEAD_BRAIN1
+Adding net N1653521
+Net X_M2_ADC0 renamed to FOOT_BRAIN1
+Adding net CB2_CONTROL0
+Adding net N1681218
+Adding net AT_BASE
+Adding net N1680315
+Adding net BRAIN_CB2UPDATE
+Net MAG_X renamed to ANALOG1
+Adding net N1679637
+Adding net CB2_DATA_IN
+Adding net PGND_CN
+Adding net N1678968
+Net X_M2_ADC1 renamed to FOOT_BRAIN0
+Adding net CLEAR_ALERTS
+Adding net NECK_EF
+Net N656656 renamed to BRAIN_CB2DATAIN
+Adding net FOOT_CB2_1
+Net X_JTAG_TDO renamed to JTAG_TDO
+Net IRMAN_HI renamed to BCU_BRAIN0
+Net SERIAL1_RX renamed to NECK_BRAIN_TX
+Net CB3_LOAD renamed to FOOT_CB2_0
+Net BC_CHARGE renamed to ANALOG0
+Net SERIAL1_TX renamed to NECK_BRAIN_RX
+Adding net HEAD_IRIS6
+Net N655543 renamed to N1795357
+Adding net HEAD_ALERT
+Net X_BRAIN_RESET renamed to BRAIN_RESET
+Adding net FOOT_DD0
+Adding net NERVE_CB2CLOCK
+Net X_GPIO_INT renamed to HIPRI_ALERT
+Adding net NERVE_CB2UPDATE
+Adding net NERVE_CB2DATAIN
+Adding net AUDIO1-
+Adding net BRAIN_CB2RESET
+Net N9066561 renamed to N9286451
+Adding net AUDIO1+
+Net N1016384 renamed to AUDIO0-
+Net N1016243 renamed to AUDIO0+
+Adding net N2701280
+Adding net BUMP_ALERT
+Adding net N2702063
+Net IR_CLIFF1 renamed to N2354994
+Adding net N2355605
+Adding net IRIS_ALERT
+Adding net N2705048
+Adding net NECK_ALERT
+Adding net NERVE_ALERT
+Adding net DDSC_ALERT
+Adding net BCU_UART_TX
+Adding net BCU_UART_RX
+Adding net DDSC_RESET
+Net N446187 renamed to N1622204
+Adding net NECK_NERVE2
+Net N446127 renamed to N1622232
+Net X_BRAIN_3 renamed to NERVE_BRAIN0
+Net PROC_COMM_CTS renamed to NERVE_BRAIN1
+Net PROC_COMM_RTS renamed to NERVE_BRAIN2
+Net N446074 renamed to N1622228
+Net N445997 renamed to N1622172
+Net N528140 renamed to N1646800
+Net N445681 renamed to N1622208
+Adding net DDSC_LED0
+Net N528076 renamed to N1646780
+Adding net N1325806
+Net N528012 renamed to N1646776
+Net N536067 renamed to N1610303
+Net N534136 renamed to N1622168
+Adding net N1322870
+Adding net AND_B
+Net N529716 renamed to N1650309
+Net IR_RX_CHNL1 renamed to N1323146
+Net N529650 renamed to N1650145
+Adding net IRISU_PGM_TX
+Net N535893 renamed to N1629496
+Adding net IR_RX_VCC
+Net N535877 renamed to N1629347
+Net PROC_COMM_RX renamed to NERVE_SERIAL_TX
+Adding net AIR_SLINK_RX
+Net N529586 renamed to N1649982
+Net PROC_COMM_TX renamed to NERVE_SERIAL_RX
+Adding net N1322658
+Net N534774 renamed to N1629199
+Net N529526 renamed to N1649662
+Net IR_RX_CHNL2 renamed to N1323330
+Net N534708 renamed to N1628807
+Adding net N1322248
+Adding net AND_Y
+Net N534585 renamed to N1628560
+Adding net AIR_SLINK_TX
+Net N529915 renamed to N1650640
+Adding net IRIS_CNTRL
+Adding net IRISU_RESET
+Net N533969 renamed to N1626929
+Adding net IR_RX_CHNL2
+Net N662128 renamed to N1323564
+Adding net IR_RX_CHNL1
+Adding net IR_RX_CHNL6
+Net N847037 renamed to IRIS_TX_H
+Adding net N1322472
+Net N532312 renamed to N1657165
+Net N532173 renamed to N1657161
+Net N529979 renamed to N1655257
+Adding net N1322278
+Net N561027 renamed to N1609153
+Net N846064 renamed to IRIS_TX_W
+Adding net N1090832
+Net N529780 renamed to N1650474
+Net N527948 renamed to N1646772
+Net IR_RX_CHNL0 renamed to N1323354
+Net N560320 renamed to N1664535
+Net N559774 renamed to N1686890
+Adding net AIR_SLINK_XCK
+Net N559683 renamed to N1687303
+Net N560229 renamed to N1664259
+Adding net N1322078
+Net N560138 renamed to N1663955
+Net N559956 renamed to N1686082
+Net ICH_ENC renamed to N2549184
+Net N560047 renamed to N1663564
+Net N559865 renamed to N1686483
+Net N560608 renamed to N1609149
+Adding net SAMPLE_OSC
+Adding net SVCC_CN
+Net N662052 renamed to N1323568
+Net N469787 renamed to N515281
+Adding net IRIS_LED0
+Net N531989 renamed to N1611970
+Net N669880 renamed to N1322130
+Adding net IRISL_PGM_RX
+Net N532463 renamed to N165725717
+Adding net BRAIN_CB2CLOCK
+Net N532565 renamed to N165725716
+Adding net IRISL_PGM_TX
+Net N532813 renamed to N165725715
+Net RFID_RESET_B renamed to CB2_BCU
+Net N532908 renamed to N165725714
+Adding net IRISU_PGM_RX
+Net N533003 renamed to N165725713
+Adding net IRISU_PGM_SCK
+Net N533098 renamed to N165725712
+Net HEAD_ANALOG renamed to ANALOG9
+Adding net N1322820
+Net N533488 renamed to N165725711
+Net N486784 renamed to CHARGE-
+Adding net IRISL_RESET
+Net N533583 renamed to N165725710
+Net X_JTAG_TCK renamed to JTAG_TCK
+Adding net HEAD_CB2_0
+Adding net IRISL_PGM_SCK
+Adding net FOOT_NERVE1
+Adding net AND_A
+Adding net FOOT_DD1
+Adding net ANALOG8
+Net N6994400 renamed to N13220700
+Net IRMAN_MOSI renamed to BCU_MOSI
+Net N6994890 renamed to N13221100
+Net IRMAN_MISO renamed to BUMP_CS
+Net N448783 renamed to CHARGE+
+Net IRMAN_SCK renamed to BCU_SCK
+Net N6548741 renamed to N13220540
+Net N693626 renamed to N1752013
+Net X_ADC_IN1 renamed to ANALOG_BC
+Net IR_CLIFF0 renamed to N1750891
+Net RFID_RSSI renamed to ANALOG7
+Adding net BCU_MISO
+Net IR_CLIFF_ANALOG0 renamed to N1750903
+Adding net HEAD_DD
+Net N947550 renamed to N1751085
+Adding net CB2_CONTROL1
+Net N947554 renamed to N1751133
+Net N662876 renamed to N1752333
+Net IR_RX_VCC_SOURCE renamed to N1752549
+Net ACC_Z renamed to ANALOG6
+Adding net NERVE_DD
+Net N822470 renamed to N1755470
+Adding net CB2_MAG_SR
+Adding net HEAD_NERVE1
+Adding net ANALOG5
+Adding net NECK_DD
+Adding net N1605123
+Adding net N1762247
+Adding net N1605784
+Adding net N1629548
+Net VBAT_VCC_CN renamed to BATTERY+
+Adding net N1605976
+Adding net N1325654
+Net ACC_X renamed to ANALOG3
+Adding net N1605594
+Net MOTOR0+ renamed to 2.5_VREF
+Adding net N1606170
+Adding net CLIFF_3.3_VCC
+Net N1165288 renamed to N2661181
+Net CB2_5V_SHDN renamed to N2664992
+Net N742346 renamed to CLIFF_IRPT_R
+Net ACC_Y renamed to ANALOG4
+Adding net FOOT_EN1
+Adding net HEAD_NERVE0
+Adding net BUMP_DETECTED
+Net DGND_CN renamed to N2671061
+Adding net FOOT_EF0
+Net N742350 renamed to CLIFF_IRPT_L
+Adding net N1629548_553850276
+Adding net TRACTION_DDIN
+Adding net MPL_MD1
+Adding net BUMP_RESET
+Net CB2_DATA_OUT renamed to N1523407
+Net N694489 renamed to HEAD_BRAIN0
+Adding net N2570420
+Adding net FOOT_EF1
+Adding net N2568872
+Adding net M2_PWM1B
+Adding net IRIS_LED1
+Net N665716 renamed to N666462
+Adding net N1633021
+Adding net ICH_ENC
+Adding net MPL_MD0
+Adding net N2566921
+Adding net M2_PWM1A
+Net MAG_Y renamed to ANALOG2
+Adding net HEAD_EN
+Adding net NERVE_CB2RESET
+Net N742273 renamed to CLIFF_IRED-
+Net ICL_ENC renamed to N2574809
+Adding net NECK_NERVE0
+Net IR_RX_CHNL4 renamed to NECK_CB2_0
+Adding net N1524161
+Net MAG_ZOUT- renamed to MAG_YOUT+
+Adding net N1524325
+Adding net N1558683
+Adding net TRACTION_DDOUT
+Adding net MAG_VCC_CN
+Adding net CLIFF_IRED+
+Adding net NERVE_EF
+Net X_IRMAN_CBXCLOCK renamed to NECK_CB2_2
+Adding net 5_VCC_CN_553851052
+Net N655006 renamed to N659280
+Adding net I2C_SDA_5
+Adding net HEAD_EF
+Adding net N2560539
+Adding net I2C_SCL_5
+Net X_JTAG_TDI renamed to JTAG_TDI
+Adding net ACC_VCC_CN
+Adding net BCU_ALERT
+Adding net N1653509
+Adding net N1653503
+Net N705402 renamed to BRAIN_DD
+Net PUSHBUTTON renamed to M2_INT1
+Net X_M2_PW2 renamed to NECK_BRAIN2
+Net IRH_ENC renamed to N2567692
+Adding net N1627421
+Net MAG_GND_CN renamed to MAG_XOUT+
+Net IRL_ENC renamed to N2567956
+Adding net N1627415
+Adding net NERVE_EN
+Adding net MPL_MC
+Net IR_RX_CHNL3 renamed to NECK_CB2_1
+Net 3.3_VCC_CN renamed to 3.3_VCC_IRIS
+Net X_SERVO_ACC renamed to NECK_BRAIN1
+Adding net N1653491
+Adding net BCU_BRAIN_1
+Adding net SIOD
+Adding net N2550389
+Net X_M2_AC+ renamed to NECK_BRAIN0
+Adding net N1678596
+Net X_JTAG_TMS renamed to JTAG_TMS
+Adding net SIOC
+Net IR_RX_CHNL5 renamed to HEAD_CB2_2
+Adding net NECK_NERVE1
+Adding net NECK_EN
+Deleting LV1.1 from net 3.3_VCC_IRIS
+Deleting J3.31 from net 3.3_VCC_IRIS
+Deleting C36.1 from net 3.3_VCC_IRIS
+Deleting U1.2 from net 3.3_VCC_IRIS
+Deleting VR_CO1.1 from net 3.3_VCC_IRIS
+Deleting VR_L1.2 from net 3.3_VCC_IRIS
+Deleting R22.1 from net 3.3_VCC_IRIS
+Deleting CB1.1 from net 3.3_VCC_IRIS
+Deleting C17.1 from net 3.3_VCC_IRIS
+Deleting C15.1 from net 3.3_VCC_IRIS
+Deleting INV1.5 from net 3.3_VCC_IRIS
+Deleting L2.2 from net 3.3_VCC_IRIS
+Deleting U7.16 from net 3.3_VCC_IRIS
+Deleting INV2.5 from net 3.3_VCC_IRIS
+Deleting J16.29 from net 3.3_VCC_IRIS
+Deleting DBNCE1.4 from net 3.3_VCC_IRIS
+Deleting U2.8 from net 3.3_VCC_IRIS
+Deleting U3.16 from net 3.3_VCC_IRIS
+Deleting BM_R1.1 from net 3.3_VCC_IRIS
+Deleting L1.2 from net 3.3_VCC_IRIS
+Deleting BC_R4.1 from net 3.3_VCC_IRIS
+Deleting R13.1 from net 3.3_VCC_IRIS
+Deleting C3.1 from net 3.3_VCC_IRIS
+Deleting C24.1 from net 3.3_VCC_IRIS
+Deleting CB7.1 from net 3.3_VCC_IRIS
+Deleting U6.16 from net 3.3_VCC_IRIS
+Deleting D42.1 from net 3.3_VCC_IRIS
+Deleting R21.1 from net 3.3_VCC_IRIS
+Deleting C2.1 from net 3.3_VCC_IRIS
+Deleting U11.4 from net 3.3_VCC_IRIS
+Deleting L3.1 from net 3.3_VCC_IRIS
+Deleting H1.12 from net 3.3_VCC_IRIS
+Deleting VREG3.1 from net 3.3_VCC_IRIS
+Deleting D43.1 from net 3.3_VCC_IRIS
+Deleting R44.1 from net 3.3_VCC_IRIS
+Deleting C11.1 from net 3.3_VCC_IRIS
+Deleting U9.16 from net 3.3_VCC_IRIS
+Deleting CB6.1 from net 3.3_VCC_IRIS
+Deleting U13.16 from net 3.3_VCC_IRIS
+Deleting R43.1 from net 3.3_VCC_IRIS
+Deleting U11.6 from net 3.3_VCC_IRIS
+Deleting CB8.1 from net 3.3_VCC_IRIS
+Deleting U8.16 from net 3.3_VCC_IRIS
+Deleting C34.1 from net 3.3_VCC_IRIS
+Adding IRISL.18 to net 3.3_VCC_IRIS
+Adding IRISL.6 to net 3.3_VCC_IRIS
+Adding C57.1 to net 3.3_VCC_IRIS
+Adding C20.1 to net 3.3_VCC_IRIS
+Adding R28.1 to net 3.3_VCC_IRIS
+Adding IRISL.4 to net 3.3_VCC_IRIS
+Adding R24.1 to net 3.3_VCC_IRIS
+Adding R21.2 to net 3.3_VCC_IRIS
+Adding IRISU.18 to net 3.3_VCC_IRIS
+Adding IRISU.6 to net 3.3_VCC_IRIS
+Adding IRISU.4 to net 3.3_VCC_IRIS
+Adding J30.1 to net 3.3_VCC_IRIS
+Adding U69.14 to net 3.3_VCC_IRIS
+Adding R27.2 to net 3.3_VCC_IRIS
+Deleting C22.1 from net 5_AVCC_CN
+Deleting HXFT1.3 from net 5_AVCC_CN
+Deleting U1.10 from net 5_AVCC_CN
+Deleting L6.1 from net 5_AVCC_CN
+Deleting L7.1 from net 5_AVCC_CN
+Adding C1.1 to net 5_AVCC_CN
+Adding L4.2 to net 5_AVCC_CN
+Adding Q11.3 to net 5_AVCC_CN
+Adding R83.1 to net 5_AVCC_CN
+Adding R32.1 to net 5_AVCC_CN
+Adding Q13.3 to net 5_AVCC_CN
+Adding LV2.6 to net 5_AVCC_CN
+Deleting H1.6 from net 5_VCC_CN
+Deleting CB5.1 from net 5_VCC_CN
+Deleting C1.1 from net 5_VCC_CN
+Deleting LV1.5 from net 5_VCC_CN
+Deleting D18.2 from net 5_VCC_CN
+Deleting U1.13 from net 5_VCC_CN
+Deleting PAN/TILT1.2 from net 5_VCC_CN
+Deleting PAN/TILT1.5 from net 5_VCC_CN
+Deleting VREG5.1 from net 5_VCC_CN
+Deleting J16.33 from net 5_VCC_CN
+Deleting C21.1 from net 5_VCC_CN
+Deleting L5.B1 from net 5_VCC_CN
+Deleting D21.2 from net 5_VCC_CN
+Deleting D19.2 from net 5_VCC_CN
+Deleting D20.2 from net 5_VCC_CN
+Deleting CB4.1 from net 5_VCC_CN
+Deleting U1.1 from net 5_VCC_CN
+Deleting J3.30 from net 5_VCC_CN
+Deleting L5.B2 from net 5_VCC_CN
+Deleting IB1.1 from net 5_VCC_CN
+Adding BS_CB2.24 to net 5_VCC_CN
+Adding CBS1.1 to net 5_VCC_CN
+Adding R31.1 to net 5_VCC_CN
+Adding J42.1 to net 5_VCC_CN
+Adding U17.7 to net 5_VCC_CN
+Adding U17.10 to net 5_VCC_CN
+Adding C15.1 to net 5_VCC_CN
+Adding J20.28 to net 5_VCC_CN
+Adding J_NERVE.48 to net 5_VCC_CN
+Adding FOOT0.11 to net 5_VCC_CN
+Adding FOOT1.11 to net 5_VCC_CN
+Adding J32.2 to net 5_VCC_CN
+Adding NECK.48 to net 5_VCC_CN
+Adding NECK.3 to net 5_VCC_CN
+Adding BRAIN1.45 to net 5_VCC_CN
+Deleting ADC1.5 from net ANALOG3
+Deleting J15.30 from net ANALOG3
+Adding C2.1 to net ANALOG3
+Adding J_NERVE.41 to net ANALOG3
+Adding ADC1.4 to net ANALOG3
+Adding ACCEL1.12 to net ANALOG3
+Deleting J15.29 from net ANALOG4
+Deleting ADC1.6 from net ANALOG4
+Adding J_NERVE.42 to net ANALOG4
+Adding ADC1.5 to net ANALOG4
+Adding ACCEL1.10 to net ANALOG4
+Deleting U1.4 from net ANALOG6
+Deleting J15.28 from net ANALOG6
+Adding J_NERVE.44 to net ANALOG6
+Adding NECK.35 to net ANALOG6
+Deleting Q5.3 from net AGND_CN
+Deleting Q5.1 from net AGND_CN
+Deleting AC1.4 from net AGND_CN
+Deleting ADC1.16 from net AGND_CN
+Adding AC1.6 to net AGND_CN
+Adding C1.2 to net AGND_CN
+Adding Q13.1 to net AGND_CN
+Adding C31.2 to net AGND_CN
+Adding ACCEL1.6 to net AGND_CN
+Adding C30.2 to net AGND_CN
+Adding ACCEL1.7 to net AGND_CN
+Adding ACCEL1.5 to net AGND_CN
+Adding C29.2 to net AGND_CN
+Adding ACCEL1.2 to net AGND_CN
+Adding ACCEL1.3 to net AGND_CN
+Adding DZ1.2 to net AGND_CN
+Adding DZ1.3 to net AGND_CN
+Adding MAG1.7 to net AGND_CN
+Adding MAG1.13 to net AGND_CN
+Adding AMP_Y.4 to net AGND_CN
+Adding C22.2 to net AGND_CN
+Adding C23.2 to net AGND_CN
+Adding AMP_X.4 to net AGND_CN
+Adding Q11.1 to net AGND_CN
+Adding HXFT1.1 to net AGND_CN
+Adding MAG1.9 to net AGND_CN
+Adding MAG1.15 to net AGND_CN
+Adding C27.2 to net AGND_CN
+Deleting U11.2 from net 3.3_VCC_CN_IN
+Deleting BC1.11 from net 3.3_VCC_CN_IN
+Adding J31.1 to net 3.3_VCC_CN_IN
+Adding VR_L1.2 to net 3.3_VCC_CN_IN
+Adding VREG3.1 to net 3.3_VCC_CN_IN
+Adding VR_C4.2 to net 3.3_VCC_CN_IN
+Adding VR_CO1.1 to net 3.3_VCC_CN_IN
+Adding BM_R1.1 to net 3.3_VCC_CN_IN
+Adding UCG1.6 to net BATTERY-
+Deleting BC1.9 from net ANALOG0
+Adding J_NERVE.37 to net ANALOG0
+Adding AMP_X.6 to net ANALOG0
+Deleting SW2.5 from net BC_Q1_S
+Deleting SW2.2 from net BC_Q1_S
+Deleting VREG5.3 from net N2664992
+Deleting Q5.2 from net CB2_ACC_EN
+Adding BCU.24 to net CB2_ACC_EN
+Adding AC1.4 to net CB2_ACC_EN
+Adding R82.1 to net CB2_ACC_EN
+Deleting J3.10 from net CB2_CLOCK
+Deleting BRAIN1.34 from net CB2_CLOCK
+Adding U9.11 to net CB2_CLOCK
+Adding BS_CB2.19 to net CB2_CLOCK
+Adding BS_CB2.6 to net CB2_CLOCK
+Deleting J3.11 from net N1523407
+Adding U9.14 to net N1523407
+Deleting Q1.4 from net CB2_IRIS
+Adding IRISL.10 to net CB2_IRIS
+Deleting Q5.4 from net CB2_MAG_EN
+Adding LV2.5 to net CB2_MAG_EN
+Adding R34.1 to net CB2_MAG_EN
+Deleting J3.8 from net CB2_RESET
+Deleting BRAIN1.32 from net CB2_RESET
+Adding U9.10 to net CB2_RESET
+Adding BS_CB2.20 to net CB2_RESET
+Adding BS_CB2.9 to net CB2_RESET
+Deleting Q1.2 from net CB2_SERVO_EN
+Adding R35.1 to net CB2_SERVO_EN
+Deleting J3.9 from net CB2_UPDATE
+Deleting BRAIN1.33 from net CB2_UPDATE
+Adding U9.12 to net CB2_UPDATE
+Adding BS_CB2.16 to net CB2_UPDATE
+Adding BS_CB2.5 to net CB2_UPDATE
+Deleting U11.23 from net FOOT_CB2_0
+Adding FOOT0.7 to net FOOT_CB2_0
+Deleting BRAIN1.45 from net N2671061
+Deleting IR2.3 from net N2671061
+Deleting IR2.B from net N2671061
+Deleting VR_C1.1 from net N2671061
+Deleting U6.13 from net N2671061
+Deleting CB6.2 from net N2671061
+Deleting VR_CO1.2 from net N2671061
+Deleting VR_C2.1 from net N2671061
+Deleting VREG5.8 from net N2671061
+Deleting VR_CIN1.2 from net N2671061
+Deleting VREG3.2 from net N2671061
+Deleting C2.2 from net N2671061
+Deleting LV1.2 from net N2671061
+Deleting BRAIN1.51 from net N2671061
+Deleting U6.8 from net N2671061
+Deleting CB8.2 from net N2671061
+Deleting C3.2 from net N2671061
+Deleting R4.1 from net N2671061
+Deleting IR1.3 from net N2671061
+Deleting U1.38 from net N2671061
+Deleting U8.13 from net N2671061
+Deleting IR4.3 from net N2671061
+Deleting R1.1 from net N2671061
+Deleting DBNCE1.1 from net N2671061
+Deleting SW1.1 from net N2671061
+Deleting IR4.B from net N2671061
+Deleting MECH1.1 from net N2671061
+Deleting R9.1 from net N2671061
+Deleting BC_C7.2 from net N2671061
+Deleting J5.2 from net N2671061
+Deleting R12.1 from net N2671061
+Deleting C21.2 from net N2671061
+Deleting PROG2.10 from net N2671061
+Deleting PROG2.8 from net N2671061
+Deleting PROG2.6 from net N2671061
+Deleting PROG2.4 from net N2671061
+Deleting VREG3.3 from net N2671061
+Deleting PROG1.10 from net N2671061
+Deleting PROG1.8 from net N2671061
+Deleting PROG1.6 from net N2671061
+Deleting PROG1.4 from net N2671061
+Deleting VR_CS1.2 from net N2671061
+Deleting U1.3 from net N2671061
+Deleting U3.8 from net N2671061
+Deleting R10.1 from net N2671061
+Deleting MECH2.1 from net N2671061
+Deleting IR3.3 from net N2671061
+Deleting IR3.B from net N2671061
+Deleting R6.1 from net N2671061
+Deleting IR6.A from net N2671061
+Deleting IR6.B from net N2671061
+Deleting C35.2 from net N2671061
+Deleting RN1.7 from net N2671061
+Deleting RN1.6 from net N2671061
+Deleting RN1.5 from net N2671061
+Deleting RN1.4 from net N2671061
+Deleting J15.14 from net N2671061
+Deleting RN1.3 from net N2671061
+Deleting RN1.2 from net N2671061
+Deleting U3.13 from net N2671061
+Deleting H1.10 from net N2671061
+Deleting CB7.2 from net N2671061
+Deleting D22.1 from net N2671061
+Deleting D24.1 from net N2671061
+Deleting D25.1 from net N2671061
+Deleting U13.13 from net N2671061
+Deleting U13.8 from net N2671061
+Deleting R11.1 from net N2671061
+Deleting H1.19 from net N2671061
+Deleting H1.2 from net N2671061
+Deleting U2.4 from net N2671061
+Deleting C1.2 from net N2671061
+Deleting C7.2 from net N2671061
+Deleting IR4.A from net N2671061
+Deleting IR2.A from net N2671061
+Deleting R5.1 from net N2671061
+Deleting C5.2 from net N2671061
+Deleting C9.2 from net N2671061
+Deleting IR6.3 from net N2671061
+Deleting C13.2 from net N2671061
+Deleting U9.8 from net N2671061
+Deleting H1.1 from net N2671061
+Deleting IB1.2 from net N2671061
+Deleting H1.20 from net N2671061
+Deleting U9.15 from net N2671061
+Deleting H1.11 from net N2671061
+Deleting C15.2 from net N2671061
+Deleting J15.5 from net N2671061
+Deleting BM1.1 from net N2671061
+Deleting C17.2 from net N2671061
+Deleting J15.47 from net N2671061
+Deleting BM_RFILT1.1 from net N2671061
+Deleting U11.21 from net N2671061
+Deleting RN1.8 from net N2671061
+Deleting C18.2 from net N2671061
+Deleting VREG3.8 from net N2671061
+Deleting R7.1 from net N2671061
+Deleting C16.2 from net N2671061
+Deleting BC1.29 from net N2671061
+Deleting BC1.20 from net N2671061
+Deleting Q3.1 from net N2671061
+Deleting J3.32 from net N2671061
+Deleting C34.2 from net N2671061
+Deleting C36.2 from net N2671061
+Deleting C33.2 from net N2671061
+Deleting IR1.A from net N2671061
+Deleting IR3.A from net N2671061
+Deleting R2.1 from net N2671061
+Deleting C6.2 from net N2671061
+Deleting BC_R3.2 from net N2671061
+Deleting BM1.4 from net N2671061
+Deleting U11.5 from net N2671061
+Deleting U11.3 from net N2671061
+Deleting D23.1 from net N2671061
+Deleting C42.2 from net N2671061
+Deleting INV2.3 from net N2671061
+Deleting MECH3.1 from net N2671061
+Deleting J16.30 from net N2671061
+Deleting U12.7 from net N2671061
+Deleting U8.8 from net N2671061
+Deleting INV1.3 from net N2671061
+Deleting Q2.3 from net N2671061
+Deleting D29.1 from net N2671061
+Deleting BC1.17 from net N2671061
+Deleting BC1.14 from net N2671061
+Deleting Q2.1 from net N2671061
+Deleting U7.13 from net N2671061
+Deleting CB1.2 from net N2671061
+Deleting BC_C4.2 from net N2671061
+Deleting Q1.3 from net N2671061
+Deleting Q1.1 from net N2671061
+Deleting BRAIN1.1 from net N2671061
+Deleting C11.2 from net N2671061
+Deleting J15.1 from net N2671061
+Deleting J16.13 from net N2671061
+Deleting VR_CI1.2 from net N2671061
+Deleting D28.1 from net N2671061
+Deleting J16.10 from net N2671061
+Deleting J16.22 from net N2671061
+Deleting BC_C1.1 from net N2671061
+Deleting IR5.3 from net N2671061
+Deleting C8.2 from net N2671061
+Deleting IR5.B from net N2671061
+Deleting R3.1 from net N2671061
+Deleting IR5.A from net N2671061
+Deleting Q4.1 from net N2671061
+Deleting R8.1 from net N2671061
+Deleting CB10.2 from net N2671061
+Deleting BM_RSENS1.1 from net N2671061
+Deleting BC_C3.2 from net N2671061
+Deleting BC_C9.2 from net N2671061
+Deleting BC_C8.2 from net N2671061
+Deleting BC_R8.2 from net N2671061
+Deleting MECH4.1 from net N2671061
+Deleting BC_R6.1 from net N2671061
+Deleting C4.2 from net N2671061
+Deleting IR1.B from net N2671061
+Deleting J15.55 from net N2671061
+Deleting BC_C2.1 from net N2671061
+Deleting U7.8 from net N2671061
+Deleting RN1.1 from net N2671061
+Adding J42.2 to net N2671061
+Adding LV4.6 to net F5_1_VCC_CN
+Adding LV4.5 to net F5_1_VCC_CN
+Adding RV1.1 to net F5_1_VCC_CN
+Adding LV3.6 to net F5_1_VCC_CN
+Adding LV3.5 to net F5_1_VCC_CN
+Deleting AMP2.7 from net F5_VCC_CN
+Deleting AMP3.7 from net F5_VCC_CN
+Deleting AMP4.7 from net F5_VCC_CN
+Deleting C28.1 from net F5_VCC_CN
+Deleting MAG1.13 from net F5_VCC_CN
+Adding AMP_X.7 to net F5_VCC_CN
+Adding MAG1.3 to net F5_VCC_CN
+Adding MAG1.6 to net F5_VCC_CN
+Adding AMP_Y.7 to net F5_VCC_CN
+Deleting U1.37 from net ANALOG9
+Deleting J16.9 from net ANALOG9
+Deleting J15.16 from net ANALOG9
+Adding J_NERVE.47 to net ANALOG9
+Adding FOOT0.8 to net ANALOG9
+Deleting J3.20 from net I2C_SCL
+Deleting U11.28 from net I2C_SCL
+Deleting R43.2 from net I2C_SCL
+Deleting U1.39 from net I2C_SCL
+Adding R46.1 to net I2C_SCL
+Adding BCU.28 to net I2C_SCL
+Adding J20.27 to net I2C_SCL
+Adding DDSC.28 to net I2C_SCL
+Adding J_NERVE.29 to net I2C_SCL
+Adding FOOT0.6 to net I2C_SCL
+Adding FOOT1.6 to net I2C_SCL
+Adding NECK.7 to net I2C_SCL
+Adding IRISL.28 to net I2C_SCL
+Adding U50.14 to net I2C_SCL
+Adding LV4.3 to net I2C_SCL
+Deleting J3.26 from net I2C_SDA
+Deleting U11.27 from net I2C_SDA
+Deleting R44.2 from net I2C_SDA
+Deleting U1.40 from net I2C_SDA
+Adding R45.1 to net I2C_SDA
+Adding BCU.27 to net I2C_SDA
+Adding J20.25 to net I2C_SDA
+Adding DDSC.27 to net I2C_SDA
+Adding J_NERVE.28 to net I2C_SDA
+Adding FOOT0.5 to net I2C_SDA
+Adding FOOT1.5 to net I2C_SDA
+Adding NECK.5 to net I2C_SDA
+Adding IRISL.27 to net I2C_SDA
+Adding U50.15 to net I2C_SDA
+Adding LV3.3 to net I2C_SDA
+Deleting U13.4 from net N2549184
+Adding Q3.8 to net N2549184
+Adding R31.2 to net N2549184
+Adding Q3.7 to net N2549184
+Deleting U13.3 from net N2574809
+Adding R35.2 to net N2574809
+Deleting J16.23 from net IRED
+Adding J20.21 to net IRED
+Deleting U12.8 from net N2567692
+Adding R43.1 to net N2567692
+Deleting U12.6 from net N2567956
+Adding R44.1 to net N2567956
+Deleting U2.5 from net BCU_BRAIN0
+Deleting U11.12 from net BCU_BRAIN0
+Deleting U11.16 from net BUMP_CS
+Deleting R21.2 from net BUMP_CS
+Deleting PROG2.9 from net BUMP_CS
+Adding BCU.2 to net BUMP_CS
+Deleting PROG2.1 from net BCU_MOSI
+Deleting U11.15 from net BCU_MOSI
+Adding BCU.15 to net BCU_MOSI
+Adding P_BCU.2 to net BCU_MOSI
+Deleting PROG2.5 from net IRMAN_RESET
+Deleting BRAIN1.29 from net IRMAN_RESET
+Deleting U1.19 from net IRMAN_RESET
+Deleting U11.29 from net IRMAN_RESET
+Adding P_BCU.5 to net IRMAN_RESET
+Adding BCU.29 to net IRMAN_RESET
+Deleting U11.17 from net BCU_SCK
+Deleting PROG2.7 from net BCU_SCK
+Adding BCU.17 to net BCU_SCK
+Adding P_BCU.4 to net BCU_SCK
+Deleting J16.3 from net HEAD_BRAIN1
+Adding J20.15 to net HEAD_BRAIN1
+Deleting J16.15 from net HEAD_CB2_1
+Adding J20.24 to net HEAD_CB2_1
+Deleting J3.3 from net IRX_VCC
+Deleting L11.2 from net IRX_VCC
+Deleting C43.1 from net IRX_VCC
+Deleting R17.1 from net IRX_VCC
+Deleting U1.28 from net IRX_VCC
+Deleting AC1.8 from net IRX_VCC
+Deleting DAC1.8 from net IRX_VCC
+Deleting DAC1.6 from net IRX_VCC
+Deleting DAC1.7 from net IRX_VCC
+Deleting C44.1 from net IRX_VCC
+Deleting R20.1 from net IRX_VCC
+Deleting J16.11 from net IRX_VCC
+Adding J20.10 to net IRX_VCC
+Adding L50.2 to net IRX_VCC
+Deleting U11.7 from net N1750891
+Adding AC1.5 to net N1750891
+Adding DAC1.6 to net N1750891
+Adding C43.1 to net N1750891
+Adding L4.1 to net N1750891
+Adding C44.1 to net N1750891
+Adding DAC1.8 to net N1750891
+Adding DAC1.7 to net N1750891
+Deleting U11.8 from net N2354994
+Adding DFF7.2 to net N2354994
+Adding R23.2 to net N2354994
+Adding U69.3 to net N2354994
+Deleting U11.19 from net N1750903
+Deleting L9.2 from net N1750903
+Adding DAC1.2 to net N1750903
+Deleting U9.12 from net N1323354
+Adding U16.13 to net N1323354
+Deleting U9.13 from net N1323146
+Adding U16.11 to net N1323146
+Deleting U9.14 from net N1323330
+Adding U16.9 to net N1323330
+Deleting IR4.1 from net NECK_CB2_1
+Adding NECK.17 to net NECK_CB2_1
+Deleting IR5.1 from net NECK_CB2_0
+Adding NECK.15 to net NECK_CB2_0
+Deleting IR6.1 from net HEAD_CB2_2
+Adding J20.22 to net HEAD_CB2_2
+Deleting U13.6 from net N1752549
+Adding BCU.11 to net N1752549
+Deleting U11.1 from net LED_ENCODE_40KHZ
+Adding IRISL.1 to net LED_ENCODE_40KHZ
+Deleting MAG1.15 from net MAG_XOUT+
+Deleting C24.2 from net MAG_XOUT+
+Deleting C25.2 from net MAG_XOUT+
+Deleting HXFT1.1 from net MAG_XOUT+
+Deleting C22.2 from net MAG_XOUT+
+Deleting Q5.5 from net MAG_XOUT+
+Deleting Q5.6 from net MAG_XOUT+
+Deleting AMP4.5 from net MAG_XOUT+
+Deleting C28.2 from net MAG_XOUT+
+Deleting AMP4.4 from net MAG_XOUT+
+Deleting C27.2 from net MAG_XOUT+
+Deleting AMP3.5 from net MAG_XOUT+
+Deleting AMP3.4 from net MAG_XOUT+
+Deleting C23.2 from net MAG_XOUT+
+Deleting AMP2.5 from net MAG_XOUT+
+Deleting AMP2.4 from net MAG_XOUT+
+Adding AMP_X.3 to net MAG_XOUT+
+Deleting AMP2.6 from net ANALOG1
+Deleting J15.31 from net ANALOG1
+Adding J_NERVE.38 to net ANALOG1
+Adding AMP_Y.6 to net ANALOG1
+Deleting AMP2.3 from net N670594
+Adding MAG1.14 to net N670594
+Adding C26.2 to net N670594
+Deleting J15.32 from net ANALOG2
+Deleting AMP3.6 from net ANALOG2
+Adding J_NERVE.39 to net ANALOG2
+Adding NECK.43 to net ANALOG2
+Deleting AMP4.2 from net MAG_YOUT+
+Adding AMP_Y.3 to net MAG_YOUT+
+Deleting H1.16 from net 2.5_VREF
+Deleting D22.2 from net 2.5_VREF
+Adding J33.2 to net 2.5_VREF
+Adding AMP_Y.5 to net 2.5_VREF
+Adding AMP_X.5 to net 2.5_VREF
+Adding UCG1.7 to net CHARGE+
+Deleting BC_R7.1 from net N486162
+Deleting BC_R6.2 from net N486162
+Adding BC_R6.1 to net N486162
+Adding CIN2.1 to net N486162
+Adding SW3.6 to net N486162
+Adding FET2.3 to net N486162
+Adding FET2.1 to net N486162
+Adding SW2.5 to net N486162
+Adding SW2.2 to net N486162
+Deleting BC_R8.1 from net CHARGE-
+Deleting BC_R7.2 from net CHARGE-
+Adding UCG1.8 to net CHARGE-
+Adding U3.8 to net CHARGE-
+Adding CB3.2 to net CHARGE-
+Adding U3.13 to net CHARGE-
+Adding U9.8 to net CHARGE-
+Adding CB33.2 to net CHARGE-
+Adding U9.13 to net CHARGE-
+Adding MECH5.1 to net CHARGE-
+Adding MECH6.1 to net CHARGE-
+Adding MECH7.1 to net CHARGE-
+Adding MECH8.1 to net CHARGE-
+Adding BS_CB2.12 to net CHARGE-
+Adding CBS1.2 to net CHARGE-
+Adding Q3.1 to net CHARGE-
+Adding CB6.2 to net CHARGE-
+Adding U6.13 to net CHARGE-
+Adding U6.8 to net CHARGE-
+Adding CB7.2 to net CHARGE-
+Adding U7.13 to net CHARGE-
+Adding U7.8 to net CHARGE-
+Adding CB8.2 to net CHARGE-
+Adding U8.13 to net CHARGE-
+Adding U8.8 to net CHARGE-
+Adding R1.1 to net CHARGE-
+Adding R2.1 to net CHARGE-
+Adding R3.1 to net CHARGE-
+Adding R4.1 to net CHARGE-
+Adding R5.1 to net CHARGE-
+Adding R6.1 to net CHARGE-
+Adding R7.1 to net CHARGE-
+Adding R8.1 to net CHARGE-
+Adding R12.1 to net CHARGE-
+Adding R11.1 to net CHARGE-
+Adding R10.1 to net CHARGE-
+Adding R9.1 to net CHARGE-
+Adding RN1.8 to net CHARGE-
+Adding RN1.2 to net CHARGE-
+Adding RN1.1 to net CHARGE-
+Adding RN1.5 to net CHARGE-
+Adding RN1.4 to net CHARGE-
+Adding RN1.7 to net CHARGE-
+Adding RN1.6 to net CHARGE-
+Adding RN1.3 to net CHARGE-
+Adding C42.2 to net CHARGE-
+Adding R23.1 to net CHARGE-
+Adding DFF7.4 to net CHARGE-
+Adding BCU.3 to net CHARGE-
+Adding BCU.21 to net CHARGE-
+Adding BCU.5 to net CHARGE-
+Adding Q12.1 to net CHARGE-
+Adding Q12.3 to net CHARGE-
+Adding C54.2 to net CHARGE-
+Adding C18.2 to net CHARGE-
+Adding P_BCU.1 to net CHARGE-
+Adding C17.2 to net CHARGE-
+Adding J20.8 to net CHARGE-
+Adding J20.4 to net CHARGE-
+Adding J20.6 to net CHARGE-
+Adding J20.2 to net CHARGE-
+Adding J20.33 to net CHARGE-
+Adding DDSC.3 to net CHARGE-
+Adding DDSC.21 to net CHARGE-
+Adding DDSC.5 to net CHARGE-
+Adding C55.2 to net CHARGE-
+Adding C71.2 to net CHARGE-
+Adding C62.2 to net CHARGE-
+Adding RN2.14 to net CHARGE-
+Adding RN2.15 to net CHARGE-
+Adding RN2.13 to net CHARGE-
+Adding RN2.16 to net CHARGE-
+Adding RN2.11 to net CHARGE-
+Adding RN2.12 to net CHARGE-
+Adding R64.1 to net CHARGE-
+Adding P_DDSC.1 to net CHARGE-
+Adding R50.2 to net CHARGE-
+Adding DDSC.22 to net CHARGE-
+Adding J_NERVE.50 to net CHARGE-
+Adding J_NERVE.32 to net CHARGE-
+Adding J_NERVE.40 to net CHARGE-
+Adding J_NERVE.1 to net CHARGE-
+Adding J_NERVE.7 to net CHARGE-
+Adding J_NERVE.5 to net CHARGE-
+Adding FOOT0.2 to net CHARGE-
+Adding FOOT0.12 to net CHARGE-
+Adding FOOT1.2 to net CHARGE-
+Adding FOOT1.12 to net CHARGE-
+Adding BC_R3.2 to net CHARGE-
+Adding VR_CIN1.2 to net CHARGE-
+Adding VR_CS1.2 to net CHARGE-
+Adding VREG5.8 to net CHARGE-
+Adding VR_C1.1 to net CHARGE-
+Adding VREG5.3 to net CHARGE-
+Adding BC_C4.2 to net CHARGE-
+Adding CB10.2 to net CHARGE-
+Adding BC_C8.2 to net CHARGE-
+Adding BC_C9.2 to net CHARGE-
+Adding BC_C7.2 to net CHARGE-
+Adding BC1.14 to net CHARGE-
+Adding BC1.29 to net CHARGE-
+Adding J5.2 to net CHARGE-
+Adding BC1.20 to net CHARGE-
+Adding Q4.1 to net CHARGE-
+Adding BC1.17 to net CHARGE-
+Adding BC_C2.1 to net CHARGE-
+Adding BC_C1.1 to net CHARGE-
+Adding VR_C3.1 to net CHARGE-
+Adding C21.2 to net CHARGE-
+Adding D28.1 to net CHARGE-
+Adding BC_C3.2 to net CHARGE-
+Adding CIN2.2 to net CHARGE-
+Adding BC_R6.2 to net CHARGE-
+Adding BM1.4 to net CHARGE-
+Adding VREG3.8 to net CHARGE-
+Adding VR_C2.1 to net CHARGE-
+Adding VREG3.2 to net CHARGE-
+Adding VREG3.3 to net CHARGE-
+Adding D29.1 to net CHARGE-
+Adding VR_C4.1 to net CHARGE-
+Adding VR_CO1.2 to net CHARGE-
+Adding BM_RFILT1.1 to net CHARGE-
+Adding BM_RSENS1.1 to net CHARGE-
+Adding BM1.1 to net CHARGE-
+Adding VR_CI1.2 to net CHARGE-
+Adding SW3.3 to net CHARGE-
+Adding SW3.2 to net CHARGE-
+Adding NECK.49 to net CHARGE-
+Adding NECK.2 to net CHARGE-
+Adding NECK.42 to net CHARGE-
+Adding NECK.37 to net CHARGE-
+Adding NECK.41 to net CHARGE-
+Adding NECK.33 to net CHARGE-
+Adding NECK.50 to net CHARGE-
+Adding NECK.1 to net CHARGE-
+Adding NECK.45 to net CHARGE-
+Adding C46.2 to net CHARGE-
+Adding C45.2 to net CHARGE-
+Adding C57.2 to net CHARGE-
+Adding IR2.3 to net CHARGE-
+Adding C5.2 to net CHARGE-
+Adding U12.7 to net CHARGE-
+Adding P_IRISL.1 to net CHARGE-
+Adding C61.2 to net CHARGE-
+Adding IRISU.22 to net CHARGE-
+Adding IRISU.19 to net CHARGE-
+Adding IRISU.21 to net CHARGE-
+Adding IRISU.5 to net CHARGE-
+Adding IRISU.3 to net CHARGE-
+Adding R73.1 to net CHARGE-
+Adding IR4.3 to net CHARGE-
+Adding C7.2 to net CHARGE-
+Adding U16.7 to net CHARGE-
+Adding C58.2 to net CHARGE-
+Adding IR6.B to net CHARGE-
+Adding IR6.A to net CHARGE-
+Adding IR5.B to net CHARGE-
+Adding IR5.A to net CHARGE-
+Adding IR4.A to net CHARGE-
+Adding IR4.B to net CHARGE-
+Adding IR3.B to net CHARGE-
+Adding IR3.A to net CHARGE-
+Adding IR2.B to net CHARGE-
+Adding IR2.A to net CHARGE-
+Adding IR1.B to net CHARGE-
+Adding IR1.A to net CHARGE-
+Adding IR1.3 to net CHARGE-
+Adding C4.2 to net CHARGE-
+Adding R72.1 to net CHARGE-
+Adding IR3.3 to net CHARGE-
+Adding C6.2 to net CHARGE-
+Adding IR6.3 to net CHARGE-
+Adding C9.2 to net CHARGE-
+Adding P_IRISU.1 to net CHARGE-
+Adding IRISL.19 to net CHARGE-
+Adding IRISL.22 to net CHARGE-
+Adding IRISL.21 to net CHARGE-
+Adding IRISL.3 to net CHARGE-
+Adding IRISL.5 to net CHARGE-
+Adding C19.2 to net CHARGE-
+Adding Q2.1 to net CHARGE-
+Adding Q2.3 to net CHARGE-
+Adding IR5.3 to net CHARGE-
+Adding C8.2 to net CHARGE-
+Adding C60.2 to net CHARGE-
+Adding C20.2 to net CHARGE-
+Adding U69.7 to net CHARGE-
+Adding U69.9 to net CHARGE-
+Adding U69.11 to net CHARGE-
+Adding U69.13 to net CHARGE-
+Adding C16.2 to net CHARGE-
+Adding BRAIN1.1 to net CHARGE-
+Adding BRAIN1.51 to net CHARGE-
+Adding PROG1.10 to net CHARGE-
+Adding PROG1.8 to net CHARGE-
+Adding PROG1.6 to net CHARGE-
+Adding PROG1.4 to net CHARGE-
+Adding DFF4.4 to net CHARGE-
+Adding C3.2 to net CHARGE-
+Adding DFF5.4 to net CHARGE-
+Adding DBNCE1.1 to net CHARGE-
+Adding SW1.1 to net CHARGE-
+Adding DFF6.4 to net CHARGE-
+Adding CB12.2 to net CHARGE-
+Adding U51.7 to net CHARGE-
+Adding C59.2 to net CHARGE-
+Adding U50.8 to net CHARGE-
+Adding DFF1.4 to net CHARGE-
+Adding DFF2.4 to net CHARGE-
+Adding DFF3.4 to net CHARGE-
+Adding LV4.2 to net CHARGE-
+Adding C36.2 to net CHARGE-
+Adding LV3.2 to net CHARGE-
+Adding C34.2 to net CHARGE-
+Adding C24.2 to net CHARGE-
+Adding LV2.2 to net CHARGE-
+Adding C35.2 to net CHARGE-
+Adding C33.2 to net CHARGE-
+Adding C25.2 to net CHARGE-
+Adding ACCEL1.14 to net N659280
+Adding ACCEL1.15 to net N659280
+Deleting U8.14 from net BRAIN_CB2DATAIN
+Adding BS_CB2.3 to net BRAIN_CB2DATAIN
+Deleting U11.20 from net N1752333
+Adding BCU.20 to net N1752333
+Adding R33.2 to net N666462
+Deleting U11.18 from net N1752013
+Adding BCU.18 to net N1752013
+Adding C54.1 to net N1752013
+Deleting LV1.3 from net HEAD_BRAIN0
+Adding J20.16 to net HEAD_BRAIN0
+Deleting L1.1 from net BRAIN_DD
+Adding RN2.6 to net BRAIN_DD
+Adding DDSC.11 to net BRAIN_DD
+Adding UCG1.10 to net CLIFF_IRED-
+Deleting L10.1 from net CLIFF_IRPT_R
+Adding UCG1.12 to net CLIFF_IRPT_R
+Adding BCU.22 to net CLIFF_IRPT_R
+Deleting L9.1 from net CLIFF_IRPT_L
+Adding UCG1.11 to net CLIFF_IRPT_L
+Adding BCU.19 to net CLIFF_IRPT_L
+Deleting AC1.5 from net N1755470
+Deleting DAC1.2 from net N1755470
+Adding R30.2 to net N1755470
+Adding C2.2 to net N1755470
+Deleting U13.15 from net IRIS_TX_W
+Adding IRISL.23 to net IRIS_TX_W
+Deleting U13.1 from net IRIS_TX_H
+Adding IRISL.25 to net IRIS_TX_H
+Adding U12.9 to net IRIS_TX_H
+Adding IRISL.24 to net IRIS_TX_H
+Deleting Q3.7 from net N1751085
+Deleting Q3.8 from net N1751085
+Adding Q12.8 to net N1751085
+Adding Q12.7 to net N1751085
+Deleting Q3.5 from net N1751133
+Deleting Q3.6 from net N1751133
+Adding Q12.6 to net N1751133
+Adding Q12.5 to net N1751133
+Deleting J15.57 from net AUDIO0+
+Adding J_NERVE.33 to net AUDIO0+
+Deleting J15.56 from net AUDIO0-
+Adding J_NERVE.34 to net AUDIO0-
+Deleting J15.50 from net NERVE_BRAIN1
+Adding J_NERVE.9 to net NERVE_BRAIN1
+Deleting J15.49 from net NERVE_BRAIN2
+Adding J_NERVE.10 to net NERVE_BRAIN2
+Deleting J15.51 from net NERVE_SERIAL_TX
+Deleting IB1.4 from net NERVE_SERIAL_TX
+Deleting J3.29 from net NERVE_SERIAL_TX
+Adding R55.2 to net NERVE_SERIAL_TX
+Deleting D11.1 from net NERVE_SERIAL_RX
+Deleting J15.52 from net NERVE_SERIAL_RX
+Deleting J3.24 from net NERVE_SERIAL_RX
+Adding R56.2 to net NERVE_SERIAL_RX
+Deleting U1.29 from net CB2_BCU
+Adding BCU.1 to net CB2_BCU
+Deleting U1.6 from net ANALOG7
+Adding J20.9 to net ANALOG7
+Adding J_NERVE.45 to net ANALOG7
+Deleting U1.31 from net NECK_BRAIN_TX
+Adding R51.2 to net NECK_BRAIN_TX
+Deleting U1.30 from net NECK_BRAIN_RX
+Adding R52.2 to net NECK_BRAIN_RX
+Deleting BRAIN1.49 from net SERVO_PAN
+Adding NECK.44 to net SERVO_PAN
+Adding R53.2 to net SERVO_PAN
+Deleting BRAIN1.24 from net SERVO_TILT
+Adding NECK.46 to net SERVO_TILT
+Adding R54.2 to net SERVO_TILT
+Deleting U1.12 from net SGND_CN
+Deleting U1.9 from net SGND_CN
+Deleting Q1.8 from net SGND_CN
+Deleting Q1.7 from net SGND_CN
+Deleting J15.48 from net BATTERY+
+Deleting J15.54 from net BATTERY+
+Deleting J3.33 from net BATTERY+
+Adding UCG1.5 to net BATTERY+
+Adding FET2.7 to net BATTERY+
+Adding FET2.8 to net BATTERY+
+Adding FET2.5 to net BATTERY+
+Adding SW3.1 to net BATTERY+
+Adding FET2.6 to net BATTERY+
+Deleting U1.35 from net ANALOG10
+Adding J_NERVE.49 to net ANALOG10
+Adding FOOT1.8 to net ANALOG10
+Deleting U1.36 from net ANALOG_BC
+Adding BC1.9 to net ANALOG_BC
+Deleting J3.12 from net NERVE_BRAIN0
+Adding J_NERVE.8 to net NERVE_BRAIN0
+Deleting J3.27 from net BRAIN_RESET
+Adding NECK.22 to net BRAIN_RESET
+Deleting J3.2 from net HIPRI_ALERT
+Adding U50.13 to net HIPRI_ALERT
+Deleting U13.11 from net NECK_CB2_2
+Deleting U1.25 from net NECK_CB2_2
+Deleting U11.26 from net NECK_CB2_2
+Adding NECK.19 to net NECK_CB2_2
+Deleting J3.5 from net JTAG_TCK
+Adding NECK.20 to net JTAG_TCK
+Deleting J3.6 from net JTAG_TDI
+Adding NECK.14 to net JTAG_TDI
+Deleting J3.7 from net JTAG_TDO
+Adding NECK.16 to net JTAG_TDO
+Deleting J3.4 from net JTAG_TMS
+Adding NECK.18 to net JTAG_TMS
+Deleting J3.21 from net NECK_BRAIN0
+Adding NECK.21 to net NECK_BRAIN0
+Deleting J3.16 from net FOOT_BRAIN1
+Adding FOOT1.9 to net FOOT_BRAIN1
+Deleting J3.15 from net FOOT_BRAIN0
+Adding FOOT0.9 to net FOOT_BRAIN0
+Deleting J3.13 from net HEAD_BRAIN2
+Adding J20.14 to net HEAD_BRAIN2
+Deleting J3.1 from net NECK_BRAIN2
+Adding NECK.31 to net NECK_BRAIN2
+Deleting U1.11 from net NECK_BRAIN1
+Adding NECK.29 to net NECK_BRAIN1
+Adding DFF2.1 to net N1653497
+Adding U51.4 to net N1653497
+Adding Q11.8 to net N2551677
+Adding R83.2 to net N2551677
+Adding Q11.7 to net N2551677
+Adding Q11.4 to net N2551677
+Adding TP7.1 to net FOOT_EN0
+Adding DDSC.30 to net FOOT_EN0
+Adding MAG1.5 to net MAG_YOUT-
+Adding AMP_Y.2 to net MAG_YOUT-
+Adding J20.12 to net BLED
+Adding IRISL.14 to net BLED
+Adding J32.1 to net 5_VCC_CN_IN
+Adding L5.B2 to net 5_VCC_CN_IN
+Adding C21.1 to net 5_VCC_CN_IN
+Adding VR_C3.2 to net 5_VCC_CN_IN
+Adding L5.B1 to net 5_VCC_CN_IN
+Adding VREG5.1 to net 5_VCC_CN_IN
+Adding J20.18 to net HEAD_NERVE2
+Adding J_NERVE.13 to net HEAD_NERVE2
+Adding DFF5.1 to net N1653515
+Adding U51.10 to net N1653515
+Adding J_NERVE.19 to net FOOT_NERVE0
+Adding FOOT0.10 to net FOOT_NERVE0
+Adding U50.10 to net N1682133
+Adding DFF6.3 to net N1682133
+Adding DFF6.1 to net N1653521
+Adding U51.12 to net N1653521
+Adding BS_CB2.1 to net CB2_CONTROL0
+Adding BCU.23 to net CB2_CONTROL0
+Adding U69.5 to net CB2_CONTROL0
+Adding U50.9 to net N1681218
+Adding DFF5.3 to net N1681218
+Adding BCU.32 to net AT_BASE
+Adding BC_R4.1 to net AT_BASE
+Adding SW3.4 to net AT_BASE
+Adding U50.7 to net N1680315
+Adding DFF4.3 to net N1680315
+Adding BS_CB2.4 to net BRAIN_CB2UPDATE
+Adding BRAIN1.33 to net BRAIN_CB2UPDATE
+Adding U50.6 to net N1679637
+Adding DFF3.3 to net N1679637
+Adding BS_CB2.15 to net CB2_DATA_IN
+Adding BS_CB2.2 to net CB2_DATA_IN
+Adding U8.14 to net CB2_DATA_IN
+Adding U17.9 to net PGND_CN
+Adding U17.8 to net PGND_CN
+Adding U17.4 to net PGND_CN
+Adding U17.5 to net PGND_CN
+Adding C13.2 to net PGND_CN
+Adding U17.12 to net PGND_CN
+Adding U17.13 to net PGND_CN
+Adding C15.2 to net PGND_CN
+Adding U50.5 to net N1678968
+Adding DFF2.3 to net N1678968
+Adding DFF3.7 to net CLEAR_ALERTS
+Adding DFF2.7 to net CLEAR_ALERTS
+Adding U50.12 to net CLEAR_ALERTS
+Adding DFF4.7 to net CLEAR_ALERTS
+Adding DFF5.7 to net CLEAR_ALERTS
+Adding DFF6.7 to net CLEAR_ALERTS
+Adding DFF1.7 to net CLEAR_ALERTS
+Adding DDSC.23 to net NECK_EF
+Adding NECK.23 to net NECK_EF
+Adding U9.15 to net FOOT_CB2_1
+Adding FOOT1.7 to net FOOT_CB2_1
+Adding J20.32 to net HEAD_IRIS6
+Adding U69.1 to net HEAD_IRIS6
+Adding J20.23 to net HEAD_ALERT
+Adding U51.3 to net HEAD_ALERT
+Adding DFF2.2 to net HEAD_ALERT
+Adding RN3.1 to net HEAD_ALERT
+Adding RN2.4 to net FOOT_DD0
+Adding DDSC.9 to net FOOT_DD0
+Adding FOOT0.4 to net FOOT_DD0
+Adding BS_CB2.18 to net NERVE_CB2CLOCK
+Adding J_NERVE.22 to net NERVE_CB2CLOCK
+Adding BS_CB2.17 to net NERVE_CB2UPDATE
+Adding J_NERVE.23 to net NERVE_CB2UPDATE
+Adding BS_CB2.14 to net NERVE_CB2DATAIN
+Adding J_NERVE.24 to net NERVE_CB2DATAIN
+Adding J_NERVE.36 to net AUDIO1-
+Adding LS2.2 to net AUDIO1-
+Adding BS_CB2.8 to net BRAIN_CB2RESET
+Adding BRAIN1.32 to net BRAIN_CB2RESET
+Adding UCG1.1 to net MOTOR0+
+Adding U17.1 to net MOTOR0+
+Adding J_NERVE.35 to net AUDIO1+
+Adding LS2.1 to net AUDIO1+
+Adding U17.2 to net MOTOR_DIR0
+Adding BCU.13 to net MOTOR_DIR0
+Adding NECK.6 to net MOTOR_DIR0
+Adding TP4.1 to net N2701280
+Adding IRISU.9 to net N2701280
+Adding U50.11 to net BUMP_ALERT
+Adding TP5.1 to net N2702063
+Adding IRISU.10 to net N2702063
+Adding DFF7.1 to net N2355605
+Adding U69.4 to net N2355605
+Adding IRISL.9 to net IRIS_ALERT
+Adding U51.11 to net IRIS_ALERT
+Adding DFF5.2 to net IRIS_ALERT
+Adding IRISL.26 to net N2705048
+Adding TP6.1 to net N2705048
+Adding NECK.25 to net NECK_ALERT
+Adding U51.5 to net NECK_ALERT
+Adding DFF3.2 to net NECK_ALERT
+Adding RN3.2 to net NECK_ALERT
+Adding J_NERVE.26 to net NERVE_ALERT
+Adding U51.9 to net NERVE_ALERT
+Adding RN3.3 to net NERVE_ALERT
+Adding DFF4.2 to net NERVE_ALERT
+Adding DDSC.16 to net DDSC_ALERT
+Adding R48.1 to net DDSC_ALERT
+Adding P_DDSC.3 to net DDSC_ALERT
+Adding U51.13 to net DDSC_ALERT
+Adding DFF6.2 to net DDSC_ALERT
+Adding BCU.31 to net BCU_UART_TX
+Adding NECK.38 to net BCU_UART_TX
+Adding BCU.30 to net BCU_UART_RX
+Adding NECK.40 to net BCU_UART_RX
+Adding U17.14 to net MOTOR_PWM1
+Adding BCU.9 to net MOTOR_PWM1
+Adding NECK.12 to net MOTOR_PWM1
+Adding U17.3 to net MOTOR_PWM0
+Adding BCU.10 to net MOTOR_PWM0
+Adding NECK.8 to net MOTOR_PWM0
+Adding BCU.14 to net MOTOR_DIR1
+Adding U17.15 to net MOTOR_DIR1
+Adding NECK.10 to net MOTOR_DIR1
+Adding DDSC.29 to net DDSC_RESET
+Adding R36.2 to net DDSC_RESET
+Adding RN2.8 to net DDSC_RESET
+Adding RN2.7 to net DDSC_RESET
+Adding P_DDSC.5 to net DDSC_RESET
+Adding J_NERVE.18 to net NECK_NERVE2
+Adding NECK.13 to net NECK_NERVE2
+Adding DDSCL0.1 to net DDSC_LED0
+Adding DDSC.7 to net DDSC_LED0
+Adding C71.1 to net N1325806
+Adding DDSC.20 to net N1325806
+Adding IRISL.8 to net N1322870
+Adding C46.1 to net N1322870
+Adding Y1.2 to net N1322870
+Adding U12.13 to net AND_B
+Adding IRISU.16 to net IRISU_PGM_TX
+Adding R21.1 to net IRISU_PGM_TX
+Adding P_IRISU.3 to net IRISU_PGM_TX
+Adding U16.14 to net IR_RX_VCC
+Adding C58.1 to net IR_RX_VCC
+Adding TP1.1 to net AIR_SLINK_RX
+Adding IRISU.30 to net AIR_SLINK_RX
+Adding IRISL.31 to net AIR_SLINK_RX
+Adding IRISL.7 to net N1322658
+Adding Y1.1 to net N1322658
+Adding C45.1 to net N1322658
+Adding R43.2 to net IRH_ENC
+Adding U12.6 to net IRH_ENC
+Adding U16.3 to net N1322248
+Adding IR5.1 to net N1322248
+Adding U12.11 to net AND_Y
+Adding IRISL.30 to net AIR_SLINK_TX
+Adding IRISU.31 to net AIR_SLINK_TX
+Adding TP2.1 to net AIR_SLINK_TX
+Adding IRISL.32 to net IRIS_CNTRL
+Adding IRISU.32 to net IRIS_CNTRL
+Adding U16.12 to net IR_RX_CHNL0
+Adding IRISU.23 to net IR_RX_CHNL0
+Adding R24.2 to net IRISU_RESET
+Adding IRISU.29 to net IRISU_RESET
+Adding P_IRISU.5 to net IRISU_RESET
+Adding IRISU.25 to net IR_RX_CHNL2
+Adding U16.8 to net IR_RX_CHNL2
+Adding U16.10 to net IR_RX_CHNL1
+Adding IRISU.24 to net IR_RX_CHNL1
+Adding IRISU.12 to net IR_RX_CHNL6
+Adding U69.2 to net IR_RX_CHNL6
+Adding IRISU.20 to net N1322472
+Adding C19.1 to net N1322472
+Adding U16.2 to net IR_RX_CHNL5
+Adding IRISU.28 to net IR_RX_CHNL5
+Adding U16.4 to net IR_RX_CHNL4
+Adding IRISU.27 to net IR_RX_CHNL4
+Adding IRISU.26 to net IR_RX_CHNL3
+Adding U16.6 to net IR_RX_CHNL3
+Adding U16.1 to net N1322278
+Adding IR6.1 to net N1322278
+Adding FET2.2 to net N1090832
+Adding SW3.5 to net N1090832
+Adding FET2.4 to net N1090832
+Adding IRISL.11 to net IR_RX_VCC_SOURCE
+Adding C61.1 to net IR_RX_VCC_SOURCE
+Adding L50.1 to net IR_RX_VCC_SOURCE
+Adding TP3.1 to net AIR_SLINK_XCK
+Adding IRISU.2 to net AIR_SLINK_XCK
+Adding IRISL.2 to net AIR_SLINK_XCK
+Adding IR4.1 to net N1322078
+Adding U16.5 to net N1322078
+Adding U12.8 to net IRL_ENC
+Adding R44.2 to net IRL_ENC
+Adding IRISU.7 to net SAMPLE_OSC
+Adding IRISL.12 to net SAMPLE_OSC
+Adding CB5.1 to net SVCC_CN
+Adding CB4.1 to net SVCC_CN
+Adding PAN/TILT1.2 to net SVCC_CN
+Adding PAN/TILT1.5 to net SVCC_CN
+Adding Q3.6 to net SVCC_CN
+Adding Q3.5 to net SVCC_CN
+Adding IRISL.13 to net IRIS_LED0
+Adding D_IRISL.1 to net IRIS_LED0
+Adding IRISL.15 to net IRISL_PGM_RX
+Adding P_IRISL.2 to net IRISL_PGM_RX
+Adding BS_CB2.7 to net BRAIN_CB2CLOCK
+Adding BRAIN1.34 to net BRAIN_CB2CLOCK
+Adding R28.2 to net IRISL_PGM_TX
+Adding P_IRISL.3 to net IRISL_PGM_TX
+Adding IRISL.16 to net IRISL_PGM_TX
+Adding IRISU.15 to net IRISU_PGM_RX
+Adding P_IRISU.2 to net IRISU_PGM_RX
+Adding IRISU.17 to net IRISU_PGM_SCK
+Adding P_IRISU.4 to net IRISU_PGM_SCK
+Adding C60.1 to net N1322820
+Adding IRISL.20 to net N1322820
+Adding P_IRISL.5 to net IRISL_RESET
+Adding IRISL.29 to net IRISL_RESET
+Adding R27.1 to net IRISL_RESET
+Adding U9.7 to net HEAD_CB2_0
+Adding J20.26 to net HEAD_CB2_0
+Adding IRISL.17 to net IRISL_PGM_SCK
+Adding P_IRISL.4 to net IRISL_PGM_SCK
+Adding J_NERVE.20 to net FOOT_NERVE1
+Adding FOOT1.10 to net FOOT_NERVE1
+Adding U12.12 to net AND_A
+Adding RN2.5 to net FOOT_DD1
+Adding DDSC.10 to net FOOT_DD1
+Adding FOOT1.4 to net FOOT_DD1
+Adding J20.11 to net ANALOG8
+Adding J_NERVE.46 to net ANALOG8
+Adding ADC1.16 to net ANALOG8
+Adding BCU.16 to net BCU_MISO
+Adding P_BCU.3 to net BCU_MISO
+Adding R29.2 to net BCU_MISO
+Adding J20.17 to net HEAD_DD
+Adding RN2.1 to net HEAD_DD
+Adding DDSC.32 to net HEAD_DD
+Adding BS_CB2.13 to net CB2_CONTROL1
+Adding U69.6 to net CB2_CONTROL1
+Adding RN2.3 to net NERVE_DD
+Adding DDSC.2 to net NERVE_DD
+Adding J_NERVE.27 to net NERVE_DD
+Adding U3.2 to net CB2_MAG_SR
+Adding LV2.3 to net CB2_MAG_SR
+Adding J20.19 to net HEAD_NERVE1
+Adding J_NERVE.12 to net HEAD_NERVE1
+Adding J_NERVE.43 to net ANALOG5
+Adding NECK.39 to net ANALOG5
+Adding ADC1.6 to net ANALOG5
+Adding RN2.2 to net NECK_DD
+Adding DDSC.1 to net NECK_DD
+Adding NECK.27 to net NECK_DD
+Adding NECK.28 to net N1605123
+Adding D18.2 to net N1762247
+Adding R30.1 to net N1762247
+Adding NECK.26 to net N1605784
+Adding R64.2 to net N1629548
+Adding DDSCL0.2 to net N1629548
+Adding NECK.34 to net N1605976
+Adding DDSC.17 to net N1325654
+Adding P_DDSC.4 to net N1325654
+Adding NECK.24 to net N1605594
+Adding NECK.36 to net N1606170
+Adding R20.1 to net CLIFF_3.3_VCC
+Adding L11.2 to net CLIFF_3.3_VCC
+Adding R17.1 to net CLIFF_3.3_VCC
+Adding DDSC.31 to net FOOT_EN1
+Adding TP8.1 to net FOOT_EN1
+Adding J20.20 to net HEAD_NERVE0
+Adding J_NERVE.11 to net HEAD_NERVE0
+Adding DFF7.3 to net BUMP_DETECTED
+Adding BCU.25 to net BUMP_DETECTED
+Adding DDSC.25 to net FOOT_EF0
+Adding FOOT0.3 to net FOOT_EF0
+Adding R72.2 to net N1629548_553850276
+Adding D_IRISL.2 to net N1629548_553850276
+Adding UCG1.14 to net TRACTION_DDIN
+Adding DDSC.19 to net TRACTION_DDIN
+Adding R50.1 to net TRACTION_DDIN
+Adding J20.3 to net MPL_MD1
+Adding J_NERVE.6 to net MPL_MD1
+Adding DFF7.7 to net BUMP_RESET
+Adding BCU.26 to net BUMP_RESET
+Adding R82.2 to net N2570420
+Adding Q13.2 to net N2570420
+Adding DDSC.26 to net FOOT_EF1
+Adding FOOT1.3 to net FOOT_EF1
+Adding R34.2 to net N2568872
+Adding Q11.2 to net N2568872
+Adding BRAIN1.49 to net M2_PWM1B
+Adding R53.1 to net M2_PWM1B
+Adding IRISU.13 to net IRIS_LED1
+Adding D_IRISU.1 to net IRIS_LED1
+Adding R73.2 to net N1633021
+Adding D_IRISU.2 to net N1633021
+Adding BCU.8 to net ICH_ENC
+Adding Q12.4 to net ICH_ENC
+Adding J20.5 to net MPL_MD0
+Adding J_NERVE.4 to net MPL_MD0
+Adding R33.1 to net N2566921
+Adding LV2.4 to net N2566921
+Adding BRAIN1.24 to net M2_PWM1A
+Adding R54.1 to net M2_PWM1A
+Adding Q12.2 to net ICL_ENC
+Adding BCU.7 to net ICL_ENC
+Adding DDSC.13 to net HEAD_EN
+Adding BS_CB2.21 to net NERVE_CB2RESET
+Adding J_NERVE.21 to net NERVE_CB2RESET
+Adding J_NERVE.16 to net NECK_NERVE0
+Adding NECK.9 to net NECK_NERVE0
+Adding AMP_X.1 to net N652392
+Adding RGAIN_X.1 to net N652392
+Adding R52.1 to net N1524161
+Adding NECK.32 to net N1524161
+Adding R51.1 to net N1524325
+Adding NECK.30 to net N1524325
+Adding J20.13 to net N1558683
+Adding UCG1.13 to net TRACTION_DDOUT
+Adding DDSC.8 to net TRACTION_DDOUT
+Adding Q11.6 to net MAG_VCC_CN
+Adding Q11.5 to net MAG_VCC_CN
+Adding C22.1 to net MAG_VCC_CN
+Adding HXFT1.3 to net MAG_VCC_CN
+Adding L6.1 to net MAG_VCC_CN
+Adding UCG1.9 to net CLIFF_IRED+
+Adding CB3.1 to net CLIFF_IRED+
+Adding U3.16 to net CLIFF_IRED+
+Adding CB33.1 to net CLIFF_IRED+
+Adding U9.16 to net CLIFF_IRED+
+Adding R46.2 to net CLIFF_IRED+
+Adding R45.2 to net CLIFF_IRED+
+Adding U6.16 to net CLIFF_IRED+
+Adding CB6.1 to net CLIFF_IRED+
+Adding U7.16 to net CLIFF_IRED+
+Adding CB7.1 to net CLIFF_IRED+
+Adding U8.16 to net CLIFF_IRED+
+Adding CB8.1 to net CLIFF_IRED+
+Adding DFF7.8 to net CLIFF_IRED+
+Adding R22.1 to net CLIFF_IRED+
+Adding DFF7.6 to net CLIFF_IRED+
+Adding R29.1 to net CLIFF_IRED+
+Adding C17.1 to net CLIFF_IRED+
+Adding BCU.4 to net CLIFF_IRED+
+Adding BCU.6 to net CLIFF_IRED+
+Adding L3.1 to net CLIFF_IRED+
+Adding J20.30 to net CLIFF_IRED+
+Adding DDSC.18 to net CLIFF_IRED+
+Adding C62.1 to net CLIFF_IRED+
+Adding DDSC.6 to net CLIFF_IRED+
+Adding DDSC.4 to net CLIFF_IRED+
+Adding C55.1 to net CLIFF_IRED+
+Adding R48.2 to net CLIFF_IRED+
+Adding R36.1 to net CLIFF_IRED+
+Adding RN2.9 to net CLIFF_IRED+
+Adding RN2.10 to net CLIFF_IRED+
+Adding J_NERVE.3 to net CLIFF_IRED+
+Adding FOOT0.1 to net CLIFF_IRED+
+Adding FOOT1.1 to net CLIFF_IRED+
+Adding J31.2 to net CLIFF_IRED+
+Adding NECK.4 to net CLIFF_IRED+
+Adding NECK.47 to net CLIFF_IRED+
+Adding J30.2 to net CLIFF_IRED+
+Adding U50.2 to net CLIFF_IRED+
+Adding U50.1 to net CLIFF_IRED+
+Adding U50.3 to net CLIFF_IRED+
+Adding RN3.14 to net CLIFF_IRED+
+Adding RN3.15 to net CLIFF_IRED+
+Adding RN3.16 to net CLIFF_IRED+
+Adding D43.1 to net CLIFF_IRED+
+Adding DFF1.6 to net CLIFF_IRED+
+Adding DFF2.6 to net CLIFF_IRED+
+Adding DFF3.6 to net CLIFF_IRED+
+Adding DFF4.6 to net CLIFF_IRED+
+Adding DFF6.6 to net CLIFF_IRED+
+Adding DFF5.6 to net CLIFF_IRED+
+Adding DBNCE1.4 to net CLIFF_IRED+
+Adding C3.1 to net CLIFF_IRED+
+Adding DFF4.8 to net CLIFF_IRED+
+Adding R13.1 to net CLIFF_IRED+
+Adding DFF5.8 to net CLIFF_IRED+
+Adding DFF6.8 to net CLIFF_IRED+
+Adding L2.2 to net CLIFF_IRED+
+Adding CB12.1 to net CLIFF_IRED+
+Adding U51.14 to net CLIFF_IRED+
+Adding C59.1 to net CLIFF_IRED+
+Adding U50.16 to net CLIFF_IRED+
+Adding DFF1.8 to net CLIFF_IRED+
+Adding DFF2.8 to net CLIFF_IRED+
+Adding DFF3.8 to net CLIFF_IRED+
+Adding C24.1 to net CLIFF_IRED+
+Adding LV2.1 to net CLIFF_IRED+
+Adding LV3.1 to net CLIFF_IRED+
+Adding C34.1 to net CLIFF_IRED+
+Adding LV4.1 to net CLIFF_IRED+
+Adding C36.1 to net CLIFF_IRED+
+Adding AMP_Y.1 to net N652503
+Adding RGAIN_Y.1 to net N652503
+Adding DDSC.24 to net NERVE_EF
+Adding J_NERVE.25 to net NERVE_EF
+Adding R81.2 to net 5_VCC_CN_553851052
+Adding R80.2 to net 5_VCC_CN_553851052
+Adding ADC1.10 to net I2C_SDA_5
+Adding LV3.4 to net I2C_SDA_5
+Adding R80.1 to net I2C_SDA_5
+Adding AMP_X.2 to net MAG_XOUT-
+Adding MAG1.4 to net MAG_XOUT-
+Adding J20.1 to net HEAD_EF
+Adding DDSC.12 to net HEAD_EF
+Adding Q13.8 to net N2560539
+Adding Q13.7 to net N2560539
+Adding R32.2 to net N2560539
+Adding Q13.4 to net N2560539
+Adding LV4.4 to net I2C_SCL_5
+Adding ADC1.9 to net I2C_SCL_5
+Adding R81.1 to net I2C_SCL_5
+Adding L7.1 to net ACC_VCC_CN
+Adding Q13.6 to net ACC_VCC_CN
+Adding Q13.5 to net ACC_VCC_CN
+Adding BCU.12 to net BCU_ALERT
+Adding U51.1 to net BCU_ALERT
+Adding DFF1.2 to net BCU_ALERT
+Adding U51.8 to net N1653509
+Adding DFF4.1 to net N1653509
+Adding DFF3.1 to net N1653503
+Adding U51.6 to net N1653503
+Adding RGAIN_X.2 to net N652353
+Adding AMP_X.8 to net N652353
+Adding UCG1.4 to net MOTOR1-
+Adding U17.11 to net MOTOR1-
+Adding J_NERVE.31 to net N1627421
+Adding R56.1 to net N1627421
+Adding J_NERVE.30 to net N1627415
+Adding R55.1 to net N1627415
+Adding DDSC.15 to net NERVE_EN
+Adding P_DDSC.2 to net NERVE_EN
+Adding J20.7 to net MPL_MC
+Adding J_NERVE.2 to net MPL_MC
+Adding UCG1.3 to net MOTOR1+
+Adding U17.16 to net MOTOR1+
+Adding DFF1.1 to net N1653491
+Adding U51.2 to net N1653491
+Adding BRAIN1.29 to net BCU_BRAIN_1
+Adding UCG1.2 to net MOTOR0-
+Adding U17.6 to net MOTOR0-
+Adding J20.29 to net SIOD
+Adding J_NERVE.14 to net SIOD
+Adding DZ1.1 to net N2550389
+Adding RV1.2 to net N2550389
+Adding J33.1 to net N2550389
+Adding RGAIN_Y.2 to net N652464
+Adding AMP_Y.8 to net N652464
+Adding U50.4 to net N1678596
+Adding DFF1.3 to net N1678596
+Adding J20.31 to net SIOC
+Adding J_NERVE.15 to net SIOC
+Adding J_NERVE.17 to net NECK_NERVE1
+Adding NECK.11 to net NECK_NERVE1
+Adding DDSC.14 to net NECK_EN
+Deleting component US2
+Deleting component US1
+Deleting component U13
+Deleting component U11
+Deleting component U2
+Deleting component U1
+Deleting component RGAIN4
+Deleting component RGAIN3
+Deleting component RGAIN2
+Deleting component Q5
+Deleting component Q1
+Deleting component PROG2
+Deleting component MECH4
+Deleting component MECH3
+Deleting component MECH2
+Deleting component MECH1
+Deleting component LV1
+Deleting component L10
+Deleting component L9
+Deleting component L1
+Deleting component J16
+Deleting component J15
+Deleting component J3
+Deleting component INV2
+Deleting component INV1
+Deleting component IB1
+Deleting component H1
+Deleting component D42
+Deleting component D25
+Deleting component D24
+Deleting component D23
+Deleting component D22
+Deleting component D21
+Deleting component D20
+Deleting component D19
+Deleting component D11
+Deleting component CB1
+Deleting component C28
+Deleting component C11
+Deleting component BC_R8
+Deleting component BC_R7
+Deleting component AMP4
+Deleting component AMP3
+Deleting component AMP2
+Deleting net X_SERVO_EXP
+Deleting net X_M2_ADC2
+Deleting net X_IRMAN_UART_TX
+Deleting net X_IRMAN_UART_RX
+Deleting net X_IRMAN_CB4SELECT
+Deleting net X_IRMAN_CB4RESET
+Deleting net X_IRMAN_CB4DATA
+Deleting net X_CB3_1
+Deleting net X_BRAIN_4
+Deleting net X_BRAIN_2
+Deleting net X_BRAIN_1
+Deleting net USB_VCC
+Deleting net USB_SW_ADDB
+Deleting net USB_SW_ADDA
+Deleting net ULTRASOUND-_5
+Deleting net ULTRASOUND-_4
+Deleting net ULTRASOUND-_3
+Deleting net ULTRASOUND-_2
+Deleting net ULTRASOUND-_1
+Deleting net ULTRASOUND-_0
+Deleting net ULTRASOUND+_5
+Deleting net ULTRASOUND+_4
+Deleting net ULTRASOUND+_3
+Deleting net ULTRASOUND+_2
+Deleting net ULTRASOUND+_1
+Deleting net ULTRASOUND+_0
+Deleting net PROC_INT
+Deleting net POT_U
+Deleting net POT_C
+Deleting net N7139205_186909
+Deleting net N6647071
+Deleting net N848019
+Deleting net N670547
+Deleting net N664175
+Deleting net N664071
+Deleting net N652614
+Deleting net N652575
+Deleting net N33539
+Deleting net N33241
+Deleting net MIC_SHDN
+Deleting net MIC_OUT
+Deleting net MAG_ZOUT+
+Deleting net MAG_Z
+Deleting net MAG_SR
+Deleting net IR_CLIFF_ANALOG1
+Deleting net IRR_OUT
+Deleting net HIPRI_INT
+Deleting net GND_CN_IRR
+Deleting net CB4_DATAIN
+Deleting net CB3_DATAOUT
+Deleting net CAM_Y7
+Deleting net CAM_Y6
+Deleting net CAM_Y5
+Deleting net CAM_Y4
+Deleting net CAM_Y3
+Deleting net CAM_Y2
+Deleting net CAM_Y1
+Deleting net CAM_Y0
+Deleting net CAM_VSYNC
+Deleting net CAM_SIOD
+Deleting net CAM_SIOC
+Deleting net CAM_SHDN
+Deleting net CAM_RESET
+Deleting net CAM_PCLK
+Deleting net CAM_HSYNC
+Deleting net ACC_GND_CN
+*EOF*
+No errors found

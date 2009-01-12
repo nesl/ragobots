@@ -1,0 +1,13 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-2.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component MAG1
+Adding MAG1.7 to net AGND_CN
+Adding MAG1.13 to net AGND_CN
+Adding MAG1.9 to net AGND_CN
+Adding MAG1.15 to net AGND_CN
+Adding MAG1.3 to net F5_VCC_CN
+Adding MAG1.6 to net F5_VCC_CN
+*EOF*
+No errors found

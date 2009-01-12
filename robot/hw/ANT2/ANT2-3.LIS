@@ -1,0 +1,125 @@
+Post Processor Report
+OrCAD FILE: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.MAX
+Tue Dec 20 21:41:36 2005
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.TOP
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.TOP:
+---------------------------------------------------------
+D10:  0.0394 ROUND  --       0 Draws,       2 Flashes
+D11:  0.0394 SQUARE --       0 Draws,       2 Flashes
+D12:  0.1000 x 0.2000 RECTANGLE -----       4 Flashes
+D13:  0.0500 SQUARE --       0 Draws,       6 Flashes
+D14:  0.0470 SQUARE --       0 Draws,       4 Flashes
+D15:  0.0866 x 0.0394 RECTANGLE -----       2 Flashes
+D16:  0.0413 x 0.0394 RECTANGLE -----       1 Flashes
+D17:  0.0100 ROUND  --     147 Draws,       0 Flashes
+D18:  0.0197 ROUND  --      24 Draws,       0 Flashes
+D19:  0.0300 ROUND  --       2 Draws,       0 Flashes
+D20:  0.0120 ROUND  --       1 Draws,       0 Flashes
+D21:  0.0200 ROUND  --      10 Draws,       0 Flashes
+---------------------------------------------------------
+ 12 D-Codes      -----     184 Draws,      21 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.BOT
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.BOT:
+---------------------------------------------------------
+D18:  0.0197 ROUND  --       1 Draws,       0 Flashes
+D22:  0.0394 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----       1 Draws,       2 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.IN1
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.IN1:
+---------------------------------------------------------
+D30:  0.0394 ROUND  --       0 Draws,       2 Flashes
+D31:  0.0010 ROUND  --      12 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----      12 Draws,       2 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SMT
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SMT:
+---------------------------------------------------------
+D23:  0.0394 SQUARE --       0 Draws,       2 Flashes
+D24:  0.1000 x 0.2000 RECTANGLE -----       4 Flashes
+D25:  0.0500 SQUARE --       0 Draws,      10 Flashes
+D26:  0.0945 x 0.0472 RECTANGLE -----       2 Flashes
+D27:  0.0492 x 0.0472 RECTANGLE -----       1 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----       0 Draws,      19 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SMB
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SMB:
+---------------------------------------------------------
+No data on this layer
+---------------------------------------------------------
+  0 D-Codes      -----       0 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SST
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SST:
+---------------------------------------------------------
+D17:  0.0100 ROUND  --     160 Draws,       0 Flashes
+D28:  0.0060 ROUND  --      12 Draws,       0 Flashes
+D29:  0.0080 ROUND  --     317 Draws,       0 Flashes
+---------------------------------------------------------
+  3 D-Codes      -----     489 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SSB
+
+Aperture totals for C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\ANT2\ANT2-3.SSB:
+---------------------------------------------------------
+No data on this layer
+---------------------------------------------------------
+  0 D-Codes      -----       0 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0394 ROUND  --       0 Draws,       2 Flashes
+D11:  0.0394 SQUARE --       0 Draws,       2 Flashes
+D12:  0.1000 x 0.2000 RECTANGLE -----       4 Flashes
+D13:  0.0500 SQUARE --       0 Draws,       6 Flashes
+D14:  0.0470 SQUARE --       0 Draws,       4 Flashes
+D15:  0.0866 x 0.0394 RECTANGLE -----       2 Flashes
+D16:  0.0413 x 0.0394 RECTANGLE -----       1 Flashes
+D17:  0.0100 ROUND  --     307 Draws,       0 Flashes
+D18:  0.0197 ROUND  --      25 Draws,       0 Flashes
+D19:  0.0300 ROUND  --       2 Draws,       0 Flashes
+D20:  0.0120 ROUND  --       1 Draws,       0 Flashes
+D21:  0.0200 ROUND  --      10 Draws,       0 Flashes
+D22:  0.0394 ROUND  --       0 Draws,       2 Flashes
+D23:  0.0394 SQUARE --       0 Draws,       2 Flashes
+D24:  0.1000 x 0.2000 RECTANGLE -----       4 Flashes
+D25:  0.0500 SQUARE --       0 Draws,      10 Flashes
+D26:  0.0945 x 0.0472 RECTANGLE -----       2 Flashes
+D27:  0.0492 x 0.0472 RECTANGLE -----       1 Flashes
+D28:  0.0060 ROUND  --      12 Draws,       0 Flashes
+D29:  0.0080 ROUND  --     317 Draws,       0 Flashes
+D30:  0.0394 ROUND  --       0 Draws,       2 Flashes
+D31:  0.0010 ROUND  --      12 Draws,       0 Flashes
+---------------------------------------------------------
+ 22 D-Codes      -----     686 Draws,      44 Flashes
+
+
+No warnings or errors.

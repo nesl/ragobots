@@ -1,0 +1,130 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\neck.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "C:\davidlee\ragobots_hw\robot\hw\neck\design\neck.drc")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "NECK.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0")
+    (FALSE)
+    (TRUE)
+    (RootChangedForceReNetlist "x")
+    (FALSE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE) <<<<<<< Neck.opj
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (FALSE)
+    (BOM_Scope "1")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\DAVIDLEE\RAGOBOTS\ROBOT\HW\NECK\DESIGN\NECK.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "C:\DAVIDLEE\RAGOBOTS\ROBOT\HW\NECK\DESIGN\NECK.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (BOM_View_Output "FALSE")
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (FALSE)
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")) =======
+  (TRUE)
+  (PartMRUSelector
+    (HIROSE/U.FL-R-SMT
+      (FullPartName "HIROSE/U.FL-R-SMT.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (ANALOG_DEVICES/ADXL320
+      (FullPartName "ANALOG_DEVICES/ADXL320.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_SENSOR.OLB")
+      (DeviceIndex "0"))
+    (SAMTEC/HSEC8/50
+      (FullPartName "SAMTEC/HSEC8/50.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R-Pack4/A
+      (FullPartName "R-Pack4/A.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R-Pack4/B
+      (FullPartName "R-Pack4/B.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HIROSE/FH12-33S-0.5SH
+      (FullPartName "HIROSE/FH12-33S-0.5SH.Normal")
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock_NESL_C
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_TITLE.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock_B_NESL_D_LEE
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_TITLE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 325 589 185 801"))
+      (Tab 0)))
+  (HierarchyView) >>>>>>> 1.12
+  (Doc
+    (Type "COrCapturePMDoc")
+    (Frame <<<<<<< Neck.opj
+      (Placement "44 0 1 -1 -1 -4 -23 81 281 22 611"))
+    (Tab 0))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -4 -23 264 1258 264 884")
+      (Scroll "0 408")
+      (Zoom "100")
+      (Occurrence "/"))
+    (Path "C:\DAVIDLEE\RAGOBOTS\ROBOT\HW\NECK\DESIGN\NECK.DSN")
+    (Schematic "SCHEMATIC Ver. C")
+    (Page "PAGE1"))
+  (MPSSessionName "davidlee")
+  (LastUsedLibraryBrowseDirectory "\\camelot\CADD_DB\orcad_lib"))

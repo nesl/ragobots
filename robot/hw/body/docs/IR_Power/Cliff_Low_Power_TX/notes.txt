@@ -1,0 +1,1 @@
+DC IR supply is 1.311V at 2mA

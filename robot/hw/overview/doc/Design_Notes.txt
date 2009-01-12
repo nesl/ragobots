@@ -1,0 +1,116 @@
+Need to provide power distribution protection (over-current, over-temp, shorts, etc)
+
+Extremely extended pads on ATMEGA48 for probing and to support ECO's if necessary.
+
+ATMEGA48 center heat-sink pad is left floating (on smask)
+
+Emergency Motor Stop and Power Savings are implemented on the ATMEGA48 motor controller and IRMAN. Code must be VERY sure to kill the PWM outputs on startup init routine.
+
+Note: Resetting the motor controller MCU causes all-stop condition.
+
+Motor control protocol:
+1-byte commands in this format: (MSb) +xxx+yyy (LSb)
+
++xxx = signed-magnitude value representing 2^3-1 speeds forward, 2^3-1 speeds in reverse and stop (2 codes 1000,0000). Controls LEFT motor.
+
++yyy = same as +xxx, but for opposite motor. Controls RIGHT motor.
+
+The 2 stop codes are actually slightly different:
+1000 = brake to a stop (more electrical noise, power consumption, but faster)
+0000 = coast to a stop
+
+Examples:
+(msb) 01111111 -- sping clockwise at maximum speed (left motor forward speed 7, right motor reverse at speed 7)
+
+(msb) 10001000 -- brake both motors
+
+(msb) 00110101 -- slight right turn (left motor forward at speed 3, right motor forward at speed 5)
+
+----------------------------------
+
+Max V,wall_input is 15? (Diode is 20V,max)
+No protection against AC inputs is provided
+
+Motor Amp is not current-limited. Be careful! (not exactly true, we now have current monitoring, but no automatic reaction circuitry).
+Motor Amp idle current is too high, so the enable lines are not used. Instead an external power gate is provided. 
+Make sure to stop motor before putting amp to sleep.
+
+Motor control is implemented with PWM Enable-chopping. This is done because:
+1. More efficient mechanically for forward drive (no braking in off-times)
+2. Simpler for the paricular hardware to control
+But...
+1. More noise (back-EMF)
+2. More ripple (chopping-noise)
+3. Slightly higher current consumption since recirculation effect is reduced.
+Ragobot will not actually have an electrical brake because its mechanical resistance is high enough to cause it to stop virtually immediately
+
+IRMAN can not reset the BRAIN MCU
+
+Motor controller creates dominant noise spike at its PWM frequency (600Hz for Polulu) (harmonics, do not appear significant)
+Mote supply shows dominant noise frequency at 100kHz (with HF harmonics)
+
+Mouser Screws: 
+2-56,.375,Round,Spacer	534-1801D		1797DK-ND
+Zinc,2-56,.25,screw	5721-256-1/4	H700-ND
+
+Cliff detector IR is 1.42V (5mA)
+
+IR software might do best of 4 averaging
+Offers BRAIN a command called "flatten", which resets the IR threshold based on the BRAIN's knowledge that the Ragobot is on flat ground and "safe"
+
+Surface reflectivities *severly* impact IR obstacle avoidance
+
+-----------------------
+Parts:
+WM1752-ND Connector (Header)
+WM1730-ND Housing
+WM1142CT-ND Pins
+
+Rover Connector Assembly Instructions
+1. Use solder/heatshrink to add 26 gauge extensions to the 24gauge motor lines
+2. Crimp on 26gauge Molex pins
+3. Insert into WM1730-ND housing
+-----------------------
+
+The addition of an EXPANSION module may decrease IR obstacle detection performance. Application designers should take note.
+
+
+Section on SOS
+
+IRMAN Debug_Wire (internal Ragobot is compliant with loading spec for Debug_Wire) & MOTE JTAG are available for implementation on the EXPANSION header
+
+40KHZ ENCODER SIGNAL PULLS TO EXPANSION HEADER TO FACILITATE EXPANSION OF THE IR ARRAY IF NECESSARY
+
+added x_HIPRI signal at EXPANSION interface so that EXPANSION device can signal hi-priority interrupt to BRAIN
+
+VBatt is available from the Battery Monitor and is not provided to the Sensor ADC as originally envisioned.
+
+RESERVED pins should be left floating (high-Z) by user expansion hardware
+
+It may be possible for the user to create power-leaking configurations, for example installing four servos with a BRAIN like XYZ that can only control 2.
+
+BRAIN reset does not offer any pull-up on the BODY... this is the responsibility of the BRAIN module itself or its adapter.
+
+PFET on 5V Supply is 20nC (extremely low, 1/5th of typical) and 20m-Ohm (on the order of an n-FET).
+
+RFID reader can be used on I2C or SERIAL by making the BRAIN adapter board wire the 2 SERIAL pins into the I2C bus, but just remember that this converts the these pins on the EXPANSION header as well!
+
+MOUNTING HARDWARE
+------------------
+92080A704	Female Threaded Hex System of Measurement Metric Body Length 8 mm Hex Width 6 mm Screw Size M3 (>10) $1.88 each
+93657A011	Female Unthreaded Round System of Measurement Metric Body Length 8 mm Screw Size M3 Outside Diameter 6 mm Inside Diameter 3.2 mm (>10) $0.79
+92080A425	Female Threaded Hex Material Brass Brass Type Zinc-Plated Brass System of Measurement Metric Body Length 16 mm Body Length Tolerance ±.13 mm Hex Width
+6 mm Hex Width Tolerance ±.1 mm Screw Size M3 Pitch .5 mm Specifications Met
+ASTM B16 and ASTM B633 Threading Fully Threaded Thread Length 16 mm (>10) $1.80
+ 92005A112	Pan System of Measurement Metric Thread Size M3 Pitch .5 mm Length 4 mm Thread Point Style Standard Machine $2.08 per Pack of 100 
+92005A124  	$3.52 per Pack of 100  Material Type Steel Finish Zinc-Plated Head Style Pan Drive Style Phillips System of Measurement Metric Thread Size M3 Pitch .5 mm Length 14 mm
+ 92005A122  $2.28 per Pack of 100  M3 12mm Pan Head
+ 
+
+Right Angle Headers:
+--------------------
+A26285-ND	10pin, 5x2
+A23881-ND	4pin, 4x1
+
+
+

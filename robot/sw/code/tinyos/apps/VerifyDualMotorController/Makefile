@@ -1,0 +1,3 @@
+COMPONENT=VerifyDualMotorController
+include ../Makerules
+

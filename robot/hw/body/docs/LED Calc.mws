@@ -1,0 +1,37 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "LED Current Limiting Desig
+n Considerations" }}{PARA 0 "" 0 "" {TEXT -1 22 "Jonathan Friedman, GS
+R" }}{PARA 0 "" 0 "" {TEXT -1 37 "Networked Embedded Systems Lab (NESL
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+29 "CHARGING SOURCE CURRENT LIMIT" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "Vref := 4.97;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%V
+refG$\"$(\\!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Vled := \+
+3.5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%VledG$\"#N!\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 38 "                       (Ilim is in mA)" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Ilim := 20;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%%IlimG\"#?" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "Rx := solve(Vref = Vled + x*(Ilim/1000),x);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#RxG$\"++++]t!\")" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "R1 := 75;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#R
+1G\"#v" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "pExact := evalf(I
+lim/1000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'pExactG$\"+++++?!#6" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "pImpl := solve(Vref = Vle
+d + R1*x,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&pImplG$\"++++g>!#6
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "pError := (pImpl-pExact
+)/pExact*100;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'pErrorG$!+++++?!\"
+*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 30 "Panasonic EXB-2HV power rati
+ng" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Iresistor := 0.063/(V
+ref-Vled);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*IresistorG$\"+&G9dG%!
+#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "Ipackage := 0.25/(Vre
+f-Vled);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)IpackageG$\"+++++D!#5" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Ipackage/8;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#$\"++++DJ!#6" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "7 1 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

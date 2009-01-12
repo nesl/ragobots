@@ -1,0 +1,111 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-4.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding footprint HONEYWELL/HMC6052/14
+Adding package HONEYWELL/HMC6052
+Adding component C10
+Component L6 renamed to L9
+Adding component MAG2
+Adding component L6
+Net N666149 renamed to N2678432
+Net N670594 renamed to N2678280
+Adding net N2679136
+Net F5_VCC_CN renamed to N2680745
+Adding net SENS_NOT_Y
+Net CB2_MAG_SR renamed to SENS_NOT_A
+Adding net 3.3_AVCC_CN
+Deleting AMP_X.5 from net 2.5_VREF
+Deleting AMP_Y.5 from net 2.5_VREF
+Deleting LV2.6 from net 5_AVCC_CN
+Deleting R83.1 from net 5_AVCC_CN
+Deleting Q11.3 from net 5_AVCC_CN
+Deleting C25.1 from net 5_AVCC_CN
+Deleting MAG1.13 from net AGND_CN
+Deleting MAG1.9 from net AGND_CN
+Deleting AMP_X.4 from net AGND_CN
+Deleting MAG1.15 from net AGND_CN
+Deleting MAG1.7 from net AGND_CN
+Deleting HXFT1.1 from net AGND_CN
+Deleting C27.2 from net AGND_CN
+Deleting AMP_Y.4 from net AGND_CN
+Adding MAG2.15 to net AGND_CN
+Adding MAG2.12 to net AGND_CN
+Adding C10.2 to net AGND_CN
+Deleting AMP_X.6 from net ANALOG0
+Adding MAG2.13 to net ANALOG0
+Deleting AMP_Y.6 from net ANALOG1
+Adding MAG2.14 to net ANALOG1
+Deleting LV2.5 from net CB2_MAG_EN
+Deleting LV2.3 from net SENS_NOT_A
+Adding U69.9 to net SENS_NOT_A
+Adding MAG2.7 to net SENS_NOT_A
+Deleting U69.9 from net CHARGE-
+Deleting C25.2 from net CHARGE-
+Deleting LV2.2 from net CHARGE-
+Deleting C24.2 from net CHARGE-
+Deleting LV2.1 from net CLIFF_IRED+
+Deleting C24.1 from net CLIFF_IRED+
+Adding L6.2 to net CLIFF_IRED+
+Deleting AMP_Y.7 from net N2680745
+Deleting C27.1 from net N2680745
+Deleting AMP_X.7 from net N2680745
+Deleting MAG1.3 from net N2680745
+Deleting MAG1.6 from net N2680745
+Adding MAG2.11 to net N2680745
+Adding MAG2.3 to net N2680745
+Deleting HXFT1.3 from net MAG_VCC_CN
+Deleting HXFT1.7 from net N2678432
+Deleting HXFT1.8 from net N2678432
+Deleting HXFT1.6 from net N2678432
+Deleting HXFT1.5 from net N2678432
+Adding MAG2.5 to net N2678432
+Deleting MAG1.14 from net N2678280
+Deleting MAG1.8 from net N2678280
+Adding MAG2.9 to net N2678280
+Adding BRAIN1.13 to net BCU_BRAIN0
+Adding U50.11 to net BUMP_ALERT
+Adding MAG2.8 to net N2679136
+Adding C10.1 to net N2679136
+Adding U69.8 to net SENS_NOT_Y
+Adding MAG2.10 to net SENS_NOT_Y
+Adding U12.13 to net AND_B
+Adding L6.1 to net 3.3_AVCC_CN
+Adding Q11.3 to net 3.3_AVCC_CN
+Adding R83.1 to net 3.3_AVCC_CN
+Adding U12.11 to net AND_Y
+Adding U12.12 to net AND_A
+Adding NECK.28 to net N1605123
+Adding NECK.26 to net N1605784
+Adding NECK.34 to net N1605976
+Adding NECK.24 to net N1605594
+Adding NECK.36 to net N1606170
+Adding U3.4 to net N2661181
+Adding U3.15 to net N2664992
+Adding DDSC.13 to net HEAD_EN
+Adding J20.13 to net N1558683
+Adding BRAIN1.29 to net BCU_BRAIN_1
+Adding DDSC.14 to net NECK_EN
+Deleting component RGAIN_Y
+Deleting component RGAIN_X
+Deleting component R33
+Deleting component MAG1
+Deleting component LV2
+Deleting component HXFT1
+Deleting component C27
+Deleting component C25
+Deleting component C24
+Deleting component AMP_Y
+Deleting component AMP_X
+Deleting net N2566921
+Deleting net N666462
+Deleting net N652503
+Deleting net N652464
+Deleting net N652392
+Deleting net N652353
+Deleting net MAG_YOUT-
+Deleting net MAG_YOUT+
+Deleting net MAG_XOUT-
+Deleting net MAG_XOUT+
+*EOF*
+No errors found

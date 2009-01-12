@@ -1,0 +1,80 @@
+void DieWithError(char *errorMessage)
+{
+    fprintf(stderr,"%s: %d\n", errorMessage, WSAGetLastError());
+    exit(1);
+}
+
+void calculateCRC(uint8_t bl, uint16_t* ax) {
+  uint16_t dx;
+  uint8_t *al = (uint8_t *)ax;
+  uint8_t *ah = al+1;
+  uint8_t *dl = (uint8_t *)&dx;
+  uint8_t *dh = dl+1;
+  uint8_t tmp;
+  tmp = *al;
+  *al = *ah;
+  *ah = tmp;
+  dx = *ax;
+  *dl = *al ^ bl;
+  *dl = *dl ^ (*dl / 16);
+  *ah = *dl * 16;
+  *dh = *dh ^ *ah;
+  *al = *dl;
+  *ah = 0;
+  *ax *= 32;
+  *ax = *ax ^ dx;
+} /* Calc_CRC */
+
+  int sock;                        /* Socket descriptor */
+  struct sockaddr_in echoServAddr; /* Echo server address */
+  WSADATA wsaData;                 /* Structure for WinSock setup communication */
+
+  if(WSAStartup(MAKEWORD(2, 0), &wsaData) != 0) /* Load Winsock 2.0 DLL */
+    {
+      fprintf(stderr, "WSAStartup() failed");
+      exit(1);
+    }
+
+  /* Create a reliable, stream socket using TCP */
+  if ((sock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
+    DieWithError("socket() failed");
+
+  /* Construct the server address structure */
+  memset(&echoServAddr, 0, sizeof(echoServAddr));     /* Zero out structure */
+  echoServAddr.sin_family      = AF_INET;             /* Internet address family */
+  echoServAddr.sin_addr.s_addr = inet_addr("127.0.0.1");   /* Server IP address */
+  echoServAddr.sin_port        = htons(MOTECOM_PORT_ADDR); /* Server port */
+  /* Establish the connection to the echo server */
+  if (connect(sock, (struct sockaddr *) &echoServAddr, sizeof(echoServAddr)) < 0)
+    DieWithError("connect() failed");
+
+  /* Send the TOS_Msg to the server */
+  if (send(sock, (char*) msg, sizeof(TOS_Msg), 0) != sizeof(TOS_Msg))
+    DieWithError("send() sent a different number of bytes than expected");
+
+  HANDLE handlePort_;
+  DCB config_;
+
+  handlePort_ = CreateFile("COM1", GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL);
+  if(handlePort_ == INVALID_HANDLE_VALUE)
+	printf("Error opening port.\n");
+
+  if (GetCommState(handlePort_,&config_) == 0)
+  {
+    exit(1);
+  }
+
+  // Assign user parameter.
+  config_.BaudRate = 57600;
+  config_.StopBits = 0;
+  config_.Parity = 0;
+  config_.ByteSize = 8;
+
+  if (GetCommState(handlePort_,&config_) == 0)
+    exit(1);
+
+  if (WriteFile(handlePort_, msg.data, 29, &length,NULL) == 0)
+	printf("Error in writing data to serial port.\n");
+
+  if(CloseHandle(handlePort_) == 0)
+	printf("Error closing serial port.\n");

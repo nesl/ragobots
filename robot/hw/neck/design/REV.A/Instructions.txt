@@ -1,0 +1,51 @@
+Neck Rev.A. Assembly Notes:
+==============================
+GERBER
+------
+Filenames are "RAGOBOT" with the following extensions:
+
+.OUT	BOARD OUTLINE
+.TOP	TOP METAL
+.BOT	BOTTOM METAL
+.DRI	NC DRILL
+
+.SMB	SOLDER MASK BOTTOM
+.SMT	SOLDER MASK TOP
+.SPB	SOLDER PASTE BOTTOM
+.SPT	SOLDER PASTE TOP
+.SST	SILK SCREEN TOP
+.SSB	SILK SCREEN BOTTOM
+
+LIST OF OTHER FILES
+-------------------
+Neck_BOM.xls	Bill of Materials
+Instruction.txt	Extra Assembly Instructions
+INSERTION.txt	Insertion/Centroid data
+
+INSTRUCIONS
+-----------
+1) D8, D9, D10, D11 (SMT LED's)  The tick mark (looks like -> " ^ ") on the end of the silk-screen place-outline for these parts indicates the Cathode, which is indicated on the actual part by a line. In other words, the line on the part should be closer to the Reference designators on the Silkscreen.
+
+2) U5 (Accelerometer; Item number 13) The dot inside the outline on the silk-screen corresponds to a dot marking 
+on the ADXL103 chip which is on the bottom of the actual part (i.e. - you have to turn the chip over and look at it from underneath to see this polarity indicator).
+
+3) In case it is unclear, DBNCE1 is in a SOT143 package. The fatter pin is pin1 and is located just above the "BN" in the part reference designator DBNCE1. 
+
+DO NOT POPULATE:
+----------------
+The following reference designators are not to be populated. These parts are highlighted in red in the included BOM we sent you.
+
+J4 (Item number 9)
+RFID 3 (Item number 11)
+
+***************************************************************************
+CALL US IF YOU HAVE QUESTIONS, ANY TIME DAY OR NIGHT (INCLUDING WEEKENDS, HOLIDAYS, ETC):
+
+UCLA NES Laboratory (310-825-7707, 310-206-5698)
+Jonathan Friedman, jf@ee.ucla.edu, 404-259-8168 (cell)
+David Lee, davidlee@ee.ucla.edu, 408-318-2373 (cell)
+***************************************************************************
+
+
+
+

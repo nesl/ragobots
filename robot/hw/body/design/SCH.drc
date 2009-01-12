@@ -1,0 +1,358 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: 02_Ragobot
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict POWER SUPPLY,PGND_CN Output Connected to Output
+                    02_Ragobot, NEW LAYOUT  (10.80, 0.90) 
+ERROR:  [DRC0004]  Possible pin type conflict U9,GND Power Connected to Output
+                    02_Ragobot, NEW LAYOUT  (13.10, 13.50) 
+ERROR:  [DRC0004]  Possible pin type conflict U9,VCC Power Connected to Output
+                    02_Ragobot, NEW LAYOUT  (13.20, 13.50) 
+WARNING:  [DRC0004]  Possible pin type conflict BRAIN1,NECK_BR4/JTAG_TDO Bidirectional Connected to Output
+                    02_Ragobot, NEW LAYOUT  (11.60, 8.40) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0007]  Net has no driving source 3.3_AVCC_CN
+                    02_Ragobot, NEW LAYOUT  (7.50, 9.00) 
+WARNING:  [DRC0007]  Net has no driving source AGND_CN
+                    02_Ragobot, NEW LAYOUT  (7.50, 9.10) 
+WARNING:  [DRC0007]  Net has no driving source 5_AVCC_CN
+                    02_Ragobot, NEW LAYOUT  (5.90, 3.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections N2664992
+                    02_Ragobot, NEW LAYOUT  (10.90, 12.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections N2661181
+                    02_Ragobot, NEW LAYOUT  (10.50, 12.30) 
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N1626029
+                    02_Ragobot, NEW LAYOUT  (10.00, 6.90) 
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N1625755
+                    02_Ragobot, NEW LAYOUT  (17.40, 6.40) 
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N1642118
+                    02_Ragobot, NEW LAYOUT  (19.80, 7.40) 
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N1521059
+                    02_Ragobot, NEW LAYOUT  (12.30, 5.90) 
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N1522939
+                    02_Ragobot, NEW LAYOUT  (13.50, 14.70) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 08_Annunciation
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict U6,GND Power Connected to Input Port
+                    08_Annunciation, Annunciation  (2.00, 1.10) 
+ERROR:  [DRC0004]  Possible pin type conflict U6,VCC Power Connected to Input Port
+                    08_Annunciation, Annunciation  (1.90, 1.10) 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 12_Neck_IF
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections N1605594
+                    12_Neck_IF, NECK  (3.80, 2.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections N1605123
+                    12_Neck_IF, NECK  (3.80, 3.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections N1606170
+                    12_Neck_IF, NECK  (3.80, 3.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections N1605976
+                    12_Neck_IF, NECK  (3.80, 3.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections N1605784
+                    12_Neck_IF, NECK  (3.80, 3.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections NECK_EN
+                    12_Neck_IF, NECK  (8.30, 2.00) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 13_Feet_IF
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections FOOT_EN1
+                    13_Feet_IF, Feet  (8.00, 1.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections FOOT_EN0
+                    13_Feet_IF, Feet  (8.00, 1.40) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 09_Brain_IF
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict U50,VDD Power Connected to Input Port
+                    09_Brain_IF, Brain  (9.30, 5.80) 
+ERROR:  [DRC0004]  Possible pin type conflict DFF6,VCC Power Connected to Input Port
+                    09_Brain_IF, Brain  (4.30, 8.30) 
+ERROR:  [DRC0004]  Possible pin type conflict U50,GND Power Connected to Input Port
+                    09_Brain_IF, Brain  (9.30, 6.00) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections AGND_CN
+                    09_Brain_IF, Brain  (11.00, 1.30) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+    CB2_DATA_IN  -  Brain (11.58, 2.70)
+    CB2_UPDATE  -  Brain (11.58, 2.30)
+    CB2_RESET  -  Brain (11.58, 2.10)
+    SERVO_PAN  -  Brain (11.58, 4.10)
+    CB2_CLOCK  -  Brain (11.58, 2.50)
+    SERVO_TILT  -  Brain (11.58, 4.30)
+    NECK_SERIAL_TX  -  Brain (11.62, 3.10)
+    CB2_RESET  -  Brain (10.98, 2.20)
+    CB2_RESET  -  Brain (11.58, 2.20)
+    CB2_UPDATE  -  Brain (10.98, 2.40)
+    CB2_UPDATE  -  Brain (11.58, 2.40)
+    CB2_CLOCK  -  Brain (10.98, 2.60)
+    CB2_CLOCK  -  Brain (11.58, 2.60)
+    CB2_DATA_IN  -  Brain (10.98, 2.80)
+    CB2_DATA_IN  -  Brain (11.58, 2.80)
+    SERVO_PAN  -  Brain (11.58, 4.20)
+    SERVO_TILT  -  Brain (11.58, 4.40)
+    NECK_SERIAL_TX  -  Brain (11.62, 3.20)
+    NECK_SERIAL_TX  -  Brain (11.02, 3.20)
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 05_DDSC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 03_BCU
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict DGND_CN Input Port Connected to Power
+                    03_BCU, BCU  (13.90, 3.70) 
+ERROR:  [DRC0004]  Possible pin type conflict BCU_NOT_A2 Output Port Connected to Power
+                    03_BCU, BCU  (13.90, 7.00) 
+ERROR:  [DRC0004]  Possible pin type conflict DFF7,VCC Power Connected to Input Port
+                    03_BCU, BCU  (7.20, 0.60) 
+ERROR:  [DRC0004]  Possible pin type conflict DFF7,GND Power Connected to Input Port
+                    03_BCU, BCU  (7.20, 0.70) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections BCU_NOT_Y2
+                    03_BCU, BCU  (4.10, 5.50) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 11_Head_IF
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections HEAD_EN
+                    11_Head_IF, HEAD  (8.40, 0.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections N1558683
+                    11_Head_IF, HEAD  (4.90, 3.60) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 07_Sensors
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict LV3,GND Power Connected to Input Port
+                    07_Sensors, Sensors  (5.50, 7.10) 
+ERROR:  [DRC0004]  Possible pin type conflict LV3,VCC Power Connected to Input Port
+                    07_Sensors, Sensors  (4.00, 6.90) 
+ERROR:  [DRC0004]  Possible pin type conflict LV3,VL Power Connected to Input Port
+                    07_Sensors, Sensors  (5.50, 6.90) 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+    MAG_X  -  Sensors (13.64, 0.50)
+    MAG_Y  -  Sensors (13.64, 0.70)
+    ACC_X  -  Sensors (13.64, 1.10)
+    5_AVCC_CN  -  Sensors (13.64, 3.30)
+    NECK_ANALOG1  -  Sensors (13.64, 1.50)
+    ACC_Y  -  Sensors (13.64, 1.30)
+    NECK_ANALOG2  -  Sensors (13.64, 1.70)
+    NECK_ANALOG0  -  Sensors (13.64, 0.90)
+    SENS_NOT_Y  -  Sensors (13.64, 6.60)
+    SENS_NOT_A  -  Sensors (13.64, 6.40)
+    5_DVCC_CN  -  Sensors (13.64, 3.10)
+    5_AVCC_CN  -  Sensors (13.64, 3.40)
+    5_AVCC_CN  -  Sensors (13.14, 3.40)
+    NECK_ANALOG1  -  Sensors (13.14, 1.60)
+    NECK_ANALOG1  -  Sensors (13.64, 1.60)
+    HEAD_ANALOG0  -  Sensors (13.14, 2.00)
+    ACC_X  -  Sensors (13.14, 1.20)
+    ACC_X  -  Sensors (13.64, 1.20)
+    MAG_Y  -  Sensors (13.14, 0.80)
+    MAG_Y  -  Sensors (13.64, 0.80)
+    NECK_ANALOG0  -  Sensors (13.14, 1.00)
+    NECK_ANALOG0  -  Sensors (13.64, 1.00)
+    MAG_X  -  Sensors (13.14, 0.60)
+    MAG_X  -  Sensors (13.64, 0.60)
+    ACC_Y  -  Sensors (13.14, 1.40)
+    ACC_Y  -  Sensors (13.64, 1.40)
+    NECK_ANALOG2  -  Sensors (13.14, 1.80)
+    NECK_ANALOG2  -  Sensors (13.64, 1.80)
+    FOOT_ANALOG0  -  Sensors (13.14, 2.40)
+    MAG_SR  -  Sensors (13.64, 6.50)
+    MAG_SR  -  Sensors (13.14, 6.50)
+    SENS_NOT_Y  -  Sensors (13.64, 6.70)
+    SENS_NOT_Y  -  Sensors (13.14, 6.70)
+    5_DVCC_CN  -  Sensors (13.64, 3.20)
+    5_DVCC_CN  -  Sensors (13.14, 3.20)
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 10_Nerve_IF
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict DGND_CN Input Port Connected to Power
+                    10_Nerve_IF, NERVE  (8.20, 0.50) 
+ERROR:  [DRC0004]  Possible pin type conflict 5_VCC_CN Input Port Connected to Power
+                    10_Nerve_IF, NERVE  (8.20, 0.30) 
+ERROR:  [DRC0004]  Possible pin type conflict 3.3_VCC_CN Input Port Connected to Power
+                    10_Nerve_IF, NERVE  (8.20, 0.20) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections NERVE_EN
+                    10_Nerve_IF, NERVE  (8.20, 3.70) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 04_IRIS
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict U16,GND Power Connected to Input Port
+                    04_IRIS, IRIS  (1.90, 4.70) 
+ERROR:  [DRC0004]  Possible pin type conflict IR1,A Power Connected to Input Port
+                    04_IRIS, IRIS  (0.20, 0.80) 
+ERROR:  [DRC0004]  Possible pin type conflict IR6,B Power Connected to Input Port
+                    04_IRIS, IRIS  (6.50, 0.80) 
+
+Checking for Unconnected Nets
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N1322118
+                    04_IRIS, IRIS  (17.20, 5.30) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: 06_Power
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict SW3,Vin Power Connected to Input Port
+                    06_Power, Power Supply  (7.40, 3.20) 
+ERROR:  [DRC0004]  Possible pin type conflict SW3,GND Power Connected to Input Port
+                    06_Power, Power Supply  (7.40, 3.40) 
+ERROR:  [DRC0004]  Possible pin type conflict SW3,GND Power Connected to Output Port
+                    06_Power, Power Supply  (7.40, 3.40) 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Duplicate References
+
+Reporting Off-Grid Objects
+
+Check Bus width mismatch

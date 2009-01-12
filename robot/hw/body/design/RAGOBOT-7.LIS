@@ -1,0 +1,12 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-6.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component 2.5V
+Adding component MAGX
+Adding component MAGY
+Adding 2.5V.1 to net 2.5_VREF
+Adding MAGX.1 to net ANALOG0
+Adding MAGY.1 to net ANALOG1
+*EOF*
+No errors found

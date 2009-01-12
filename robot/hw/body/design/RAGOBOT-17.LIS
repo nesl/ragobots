@@ -1,0 +1,24 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-16.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding net BCU_BRAIN0
+Adding net AND_B
+Adding net AND_Y
+Net N13220540 renamed to N27214571
+Net N13221100 renamed to N27227011
+Net N13220700 renamed to N27223731
+Adding net AND_A
+Adding net N1605123
+Adding net N1605784
+Adding net N1605976
+Adding net N1605594
+Adding net N1606170
+Adding net N2661181
+Adding net N2664992
+Adding net HEAD_EN
+Adding net N1558683
+Adding net BCU_BRAIN_1
+Adding net NECK_EN
+*EOF*
+No errors found

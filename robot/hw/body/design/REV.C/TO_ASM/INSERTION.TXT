@@ -1,0 +1,288 @@
+******************************************************************************
+*                                                                            *
+* INSERTION LIST REPORT                                                      *
+*                                                                            *
+* C:\DAVIDLEE\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\REV.C\ENG_DWG\RAGOBOTNEW.MAX  *
+* Thu Dec 22 15:13:38 2005                                                   *
+*                                                                            *
+******************************************************************************
+
+REF DES    VALUE            FOOTPRINT                      XCOORD       YCOORD       ROTATION BOARDSIDE    
+-----------------------------------------------------------------------------------------------------------
+2.5V       HEADER 1         NESL/TESTPOINT_0.040/SM         4222.00 m    1517.00 m   0        TOP                       
+AC1        1                SOG.050/8/WG.244/L.200          4360.00 m    1830.00 m   0        TOP                       
+ACCEL1     Accelerometer    ANALOG_DEVICES/ADXL320          4326.31 m    2305.38 m   180      TOP                       
+ADC1       MAXIM/MAX1138    MAXIM/QSOP/16                   3751.50 m    1835.50 m   0        TOP                       
+BC1        MAX1908          MAXIM/QFN/28/5X5X0.8            214.43 m     2238.43 m   270      TOP                       
+BCU        ATMEL/ATMEGA48.. ATMEL/32M1-A/32                 1809.85 m    1566.97 m   180      TOP                       
+BC_C1      1.0uF            SM/C_0603                       510.00 m     2289.00 m   180      TOP                       
+BC_C2      1.0uF            SM/C_0603                       510.00 m     2226.00 m   180      TOP                       
+BC_C3      1.0uF            SM/C_0603                       445.80 m     2362.80 m   45       TOP                       
+BC_C4      22uF             SM/C_1210                       131.50 m     1213.00 m   180      TOP                       
+BC_C7      1.0uF            SM/C_0603                       399.80 m     2408.80 m   45       TOP                       
+BC_C8      0.01uF           SM/C_0402                       154.00 m     2424.00 m   90       TOP                       
+BC_C9      0.01uF           SM/C_0402                       202.00 m     2424.00 m   90       TOP                       
+BC_L1      10uH             SUMIDA_CDRH104R                 343.16 m     1872.00 m   90       TOP                       
+BC_R1      33.2             SM/R_0402                       427.00 m     2256.00 m   270      TOP                       
+BC_R2      133K             SM/R_0402                       -79.00 m     2398.00 m   270      TOP                       
+BC_R3      9.31k            SM/R_0402                       -79.00 m     2306.00 m   270      TOP                       
+BC_R4      133K             SM/R_0402                       394.00 m     1231.00 m   270      TOP                       
+BC_R5      1k               SM/C_0402                       105.00 m     2424.00 m   90       TOP                       
+BC_R6      9.31k            SM/R_0402                       252.00 m     2567.00 m   90       BOTTOM                    
+BC_RS2     0.015            SM/R_2512                       243.00 m     1890.00 m   0        BOTTOM                    
+BM1        DS2438           SOG.050/8/WG.244/L.200          138.00 m     532.00 m    270      BOTTOM                    
+BM_R1      5.1K             SM/R_0402                       418.00 m     457.00 m    0        BOTTOM                    
+BM_RFILT1  133K             SM/R_0402                       -214.00 m    770.00 m    270      TOP                       
+BM_RSENS1  0.039            SM/C_1812                       -313.00 m    869.00 m    90       TOP                       
+BRAIN1     Mica2 Sensor  .. XBOW/MICAX                      3441.58 m    1165.19 m   270      BOTTOM                    
+C1         22uF             SM/C_1210                       4035.00 m    1886.50 m   90       BOTTOM                    
+C2         0.1uF            SM/C_0402                       4229.00 m    1727.00 m   270      TOP                       
+C3         0.1uF            SM/C_0402                       4222.00 m    -143.00 m   180      TOP                       
+C4         0.1uF            SM/C_0402                       -181.00 m    2442.00 m   90       TOP                       
+C5         0.1uF            SM/C_0402                       -166.00 m    -106.00 m   90       TOP                       
+C6         0.1uF            SM/C_0402                       4526.00 m    2612.00 m   270      TOP                       
+C7         0.1uF            SM/C_0402                       4514.00 m    -326.00 m   270      TOP                       
+C8         0.1uF            SM/C_0402                       2228.00 m    2271.00 m   270      BOTTOM                    
+C9         0.1uF            SM/C_0402                       2462.00 m    222.00 m    180      BOTTOM                    
+C10        1.0uF            SM/C_0603                       4344.00 m    1079.00 m   180      BOTTOM                    
+C13        680u             NICHICON/NL10/2                 295.56 m     177.00 m    270      TOP                       
+C15        0.1uF            SM/C_0402                       30.00 m      24.00 m     90       BOTTOM                    
+C16        0.1uF            SM/C_0402                       2631.00 m    622.00 m    180      TOP                       
+C17        0.1uF            SM/C_0402                       1629.00 m    1340.00 m   90       TOP                       
+C18        0.1uF            SM/C_0402                       1840.00 m    1341.00 m   270      TOP                       
+C19        0.1uF            SM/C_0402                       3253.00 m    1562.00 m   0        TOP                       
+C20        0.1uF            SM/C_0402                       3233.00 m    1137.00 m   0        TOP                       
+C21        220uF            TM/6.3MM_RADIAL_CAP/2           569.79 m     1111.00 m   180      TOP                       
+C22        10uF             SM/C_1206                       4131.00 m    1258.00 m   180      BOTTOM                    
+C23        0.1uF            SM/C_0402                       4088.00 m    1185.00 m   180      TOP                       
+C26        0.33uF           SM/C_0805                       4341.00 m    1206.00 m   90       BOTTOM                    
+C29        0.1uF            SM/C_0402                       4289.00 m    2122.00 m   270      TOP                       
+C30        0.47uF           SM/C_0603                       4154.00 m    2358.00 m   90       TOP                       
+C31        0.47uF           SM/C_0603                       4154.00 m    2236.00 m   270      TOP                       
+C32        0.1uF            SM/C_0402                       3774.00 m    2016.00 m   0        TOP                       
+C33        0.1uF            SM/C_0402                       3603.00 m    2224.00 m   0        TOP                       
+C34        0.1uF            SM/C_0402                       3471.00 m    2030.00 m   0        TOP                       
+C35        0.1uF            SM/C_0402                       3491.00 m    2224.00 m   0        TOP                       
+C36        0.1uF            SM/C_0402                       3577.00 m    2030.00 m   0        TOP                       
+C42        1.0uF            SM/C_0603                       1596.00 m    1624.00 m   90       TOP                       
+C43        0.1uF            SM/C_0402                       4462.00 m    1828.00 m   90       BOTTOM                    
+C44        0.1uF            SM/C_0402                       4346.00 m    2018.00 m   180      TOP                       
+C45        18pF             SM/R_0402                       2714.00 m    549.00 m    270      TOP                       
+C46        18pF             SM/R_0402                       3410.00 m    551.00 m    270      TOP                       
+C54        0.1uF            SM/C_0402                       1761.00 m    1340.00 m   90       BOTTOM                    
+C55        0.1uF            SM/C_0402                       4178.00 m    557.00 m    270      BOTTOM                    
+C57        0.1uF            SM/C_0402                       3389.00 m    692.00 m    0        TOP                       
+C58        0.1uF            SM/C_0402                       2631.00 m    1207.00 m   180      TOP                       
+C59        0.1uF            SM/C_0402                       3947.00 m    1341.00 m   90       BOTTOM                    
+C60        0.1uF            SM/C_0402                       3252.00 m    1033.00 m   0        TOP                       
+C61        1.0uF            SM/C_0603                       3475.00 m    865.00 m    0        TOP                       
+C62        0.1uF            SM/C_0402                       4212.00 m    117.00 m    0        BOTTOM                    
+C71        0.1uF            SM/C_0402                       4234.00 m    557.00 m    270      BOTTOM                    
+CB3        0.1uF            SM/C_0402                       3446.00 m    891.00 m    0        BOTTOM                    
+CB4        22uF             SM/C_1210                       2928.50 m    2060.00 m   180      BOTTOM                    
+CB5        22uF             SM/C_1210                       3241.50 m    2060.00 m   180      BOTTOM                    
+CB6        0.1uF            SM/C_0402                       3449.00 m    1122.00 m   0        BOTTOM                    
+CB7        0.1uF            SM/C_0402                       3920.00 m    587.00 m    180      TOP                       
+CB8        0.1uF            SM/C_0402                       3447.00 m    1355.00 m   0        BOTTOM                    
+CB9        0.1uF            SM/C_0402                       378.00 m     2256.00 m   270      TOP                       
+CB10       0.1uF            SM/C_0402                       105.00 m     2515.00 m   90       TOP                       
+CB11       0.1uF            SM/C_0402                       -38.00 m     531.00 m    270      BOTTOM                    
+CB12       0.1uF            SM/C_0402                       3889.00 m    2028.00 m   0        BOTTOM                    
+CB33       0.1uF            SM/C_0402                       3445.00 m    662.00 m    0        BOTTOM                    
+CBS1       0.1uF            SM/C_0402                       3899.00 m    765.00 m    0        TOP                       
+CD1        0.01uF           SM/C_0402                       1791.00 m    1341.00 m   270      TOP                       
+CD2        0.01uF           SM/C_0402                       1938.00 m    1341.00 m   270      TOP                       
+CIN2       22uF             SM/C_1210                       6.00 m       2545.50 m   0        BOTTOM                    
+D1         LED              SM/D_1206_21                    4359.37 m    -295.37 m   135      TOP                       
+D2         LED              SM/D_1206_21                    4361.37 m    2624.37 m   225      TOP                       
+D3         LED              SM/D_1206_21                    2056.50 m    2264.00 m   0        TOP                       
+D4         LED              SM/D_1206_21                    297.63 m     2508.37 m   315      TOP                       
+D5         LED              SM/D_1206_21                    295.63 m     -177.37 m   45       TOP                       
+D6         LED              SM/D_1206_21                    2056.50 m    69.00 m     0        TOP                       
+D7         5305H1/5 Trico.. 5305H1/5                        4550.00 m    360.00 m    270      TOP                       
+D8         5305H1/5 Trico.. 5305H1/5                        4549.00 m    1970.00 m   270      TOP                       
+D9         5305H1/5 Trico.. 5305H1/5                        -100.00 m    560.00 m    90       TOP                       
+D10        5305H1/5 Trico.. 5305H1/5                        -100.00 m    1770.00 m   90       TOP                       
+D12        950nm            PANASONIC/LN54                  -274.00 m    2436.00 m   90       BOTTOM                    
+D13        950nm            PANASONIC/LN54                  4721.00 m    2636.00 m   270      BOTTOM                    
+D14        950nm            PANASONIC/LN54                  2468.00 m    2203.00 m   0        BOTTOM                    
+D15        950nm            PANASONIC/LN54                  -274.00 m    -106.00 m   90       BOTTOM                    
+D16        950nm            PANASONIC/LN54                  4721.00 m    -306.00 m   270      BOTTOM                    
+D17        950nm            PANASONIC/LN54                  2462.00 m    127.00 m    180      BOTTOM                    
+D18        .                TOSHIBA/CRS06/A                 4138.00 m    1739.88 m   90       TOP                       
+D26        .                TOSHIBA/CRS06/A                 -335.00 m    1167.12 m   90       TOP                       
+D27        .                TOSHIBA/CRS06/A                 477.00 m     2145.12 m   0        TOP                       
+D28        .                TOSHIBA/CRS06/A                 975.00 m     857.12 m    270      TOP                       
+D29        .                TOSHIBA/CRS06/A                 722.00 m     1145.88 m   90       TOP                       
+D30        .                TOSHIBA/CRS06/A                 173.00 m     2519.88 m   270      BOTTOM                    
+D31        15V              SM/DIODE_KIS2/SMA               -214.00 m    1767.00 m   90       BOTTOM                    
+D43        .                TOSHIBA/CRS06/A                 1154.00 m    1939.88 m   90       BOTTOM                    
+DAC1       1                MAXIM/UMAX/8                    4364.62 m    1829.00 m   0        BOTTOM                    
+DBNCE1     MAXIM/MAX6816    SM/SOT143_1234                  4346.00 m    9.50 m      180      TOP                       
+DDSC       ATMEL/ATMEGA48.. ATMEL/32M1-A/32                 4244.07 m    336.93 m    0        BOTTOM                    
+DDSCL0     LED              SM/D_1206_21                    2706.00 m    1857.50 m   90       TOP                       
+DFF1       D-TYPE           SOG.65M/8/WG4.10/L3.17          3496.08 m    1918.39 m   270      BOTTOM                    
+DFF2       D-TYPE           SOG.65M/8/WG4.10/L3.17          3496.08 m    1785.39 m   270      BOTTOM                    
+DFF3       D-TYPE           SOG.65M/8/WG4.10/L3.17          3496.08 m    1652.39 m   270      BOTTOM                    
+DFF4       D-TYPE           SOG.65M/8/WG4.10/L3.17          3494.93 m    1515.39 m   270      BOTTOM                    
+DFF5       D-TYPE           SOG.65M/8/WG4.10/L3.17          4070.39 m    782.93 m    90       BOTTOM                    
+DFF6       D-TYPE           SOG.65M/8/WG4.10/L3.17          4067.39 m    923.93 m    90       BOTTOM                    
+DFF7       D-TYPE           SOG.65M/8/WG4.10/L3.17          4163.61 m    1831.93 m   0        BOTTOM                    
+DZ1        NSM/LM4050CEM3   SM/SOT23_123                    4352.00 m    1492.50 m   0        TOP                       
+D_BCU      LED              SM/D_1206_21                    3147.00 m    1857.50 m   90       TOP                       
+D_IRISL    LED              SM/D_1206_21                    3149.00 m    158.50 m    270      TOP                       
+D_IRISU    LED              SM/D_1206_21                    2708.00 m    159.50 m    270      TOP                       
+FET1       Dual P           SOG.050/8/WG.275/L.250          890.00 m     1197.00 m   180      TOP                       
+FET2       Dual P           SOG.050/8/WG.275/L.250          278.00 m     1445.00 m   0        TOP                       
+FOOT0      12               HIROSE/DF11-12DP-2DS/12         3702.85 m    334.63 m    0        TOP                       
+FOOT1      12               HIROSE/DF11-12DP-2DS/12         836.85 m     334.63 m    0        TOP                       
+IR1        SHARP/GP1UD26XK  SHARP/GP1UD28YK/5               -259.43 m    2435.00 m   270      TOP                       
+IR2        SHARP/GP1UD26XK  SHARP/GP1UD28YK/5               -259.43 m    -105.00 m   270      TOP                       
+IR3        SHARP/GP1UD26XK  SHARP/GP1UD28YK/5               4710.43 m    2635.00 m   90       TOP                       
+IR4        SHARP/GP1UD26XK  SHARP/GP1UD28YK/5               4710.43 m    -305.00 m   90       TOP                       
+IR5        SHARP/GP1UD26XK  SHARP/GP1UD28YK/5               2463.00 m    2199.58 m   180      TOP                       
+IR6        SHARP/GP1UD26XK  SHARP/GP1UD28YK/5               2462.00 m    130.43 m    0        TOP                       
+IRISL      ATMEL/ATMEGA48.. ATMEL/32M1-A/32                 3220.93 m    827.93 m    0        TOP                       
+IRISU      ATMEL/ATMEGA48.. ATMEL/32M1-A/32                 3221.93 m    1356.93 m   0        TOP                       
+J5         CONN_JACK_PWR    CUI/PJ-016                      -84.18 m     1475.93 m   90       TOP                       
+J20        33               HIROSE/FH12-33S-0.5SV/33/A      1708.05 m    431.04 m    270      TOP                       
+J30        0                SM/C_0402                       2489.00 m    1207.00 m   0        TOP                       
+J31        0                SM/C_0402                       652.00 m     1634.00 m   0        TOP                       
+J32        0                SM/C_0402                       380.00 m     1046.00 m   270      TOP                       
+J33        0                SM/C_0402                       4235.00 m    1453.00 m   180      TOP                       
+J34        0                SM/C_0402                       4254.00 m    1618.00 m   0        TOP                       
+J42        0                SM/C_0402                       2209.00 m    2099.00 m   0        TOP                       
+J_NERVE    50               SAMTEC/MB1/50/A                 1241.47 m    1266.51 m   0        BOTTOM                    
+L2         1.5K             SM/C_0603                       3244.00 m    665.00 m    180      BOTTOM                    
+L3         1.5K             SM/C_0603                       1685.00 m    1329.00 m   90       TOP                       
+L4         1.5K             SM/C_0603                       4109.00 m    2032.00 m   0        BOTTOM                    
+L5         22uH             SUMIDA/CDRH125                  632.93 m     734.09 m    180      TOP                       
+L7         1.5K             SM/C_0603                       4353.00 m    2109.00 m   90       TOP                       
+L8         1.5K             SM/C_0603                       3755.00 m    2117.00 m   270      TOP                       
+L9         1.5K             SM/C_0603                       4081.00 m    1253.00 m   0        TOP                       
+L11        1.5K             SM/C_0603                       1596.00 m    1503.00 m   270      TOP                       
+L50        1.5K             SM/C_0603                       3475.00 m    799.00 m    0        TOP                       
+LED BAR .. LUMEX SSA-LXB1.. DIP.100/20/W.300/L1.000         4621.00 m    1165.00 m   90       TOP                       
+LS1        SPEAKER          BLKCON2.0MM/VH/TM1SQ/2          3770.37 m    2265.00 m   180      TOP                       
+LS2        SPEAKER          BLKCON2.0MM/VH/TM1SQ/2          1180.37 m    90.00 m     270      TOP                       
+LV3        .                TI/SC70/6                       3607.58 m    2143.43 m   0        TOP                       
+LV4        .                TI/SC70/6                       3495.58 m    2143.43 m   0        TOP                       
+MAG1       HMC6052          HONEYWELL/HMC6052/14            4222.37 m    1164.95 m   90       TOP                       
+MAGX       HEADER 1         NESL/TESTPOINT_0.040/SM         4283.00 m    1271.00 m   0        TOP                       
+MAGY       HEADER 1         NESL/TESTPOINT_0.040/SM         4219.00 m    1271.00 m   0        TOP                       
+MECH5      SERVOCITY/90_D.. SERVOCITY/BTR-7006              4574.00 m    2276.00 m   0        TOP                       
+MECH6      SERVOCITY/90_D.. SERVOCITY/BTR-7006              4575.00 m    54.00 m     0        TOP                       
+MECH7      SERVOCITY/90_D.. SERVOCITY/BTR-7006              -124.00 m    2076.00 m   180      TOP                       
+MECH8      SERVOCITY/90_D.. SERVOCITY/BTR-7006              -124.00 m    254.00 m    180      TOP                       
+MH3                         MOUNT HOLE 4-40                 2480.00 m    1590.00 m   0        TOP                       
+MH4                         MOUNT HOLE 4-40                 2480.00 m    740.00 m    0        TOP                       
+NECK       50               SAMTEC/HSEC8/50                 1291.93 m    1120.06 m   270      TOP                       
+PAN/TILT1  6x1              TYCO/644861-6                   3043.00 m    2188.00 m   180      TOP                       
+PANTILT                     GWS/PARK L SERVO/HEX STAND_R..  2270.05 m    1168.03 m   90       TOP                       
+PROG1      5x2              AMP/103310-1/10                 1486.00 m    1911.00 m   0        TOP                       
+P_BCU      5F               MILLMAX/851XX00510001000/5/PGM  3242.00 m    1693.00 m   0        TOP                       
+P_DDSC     5F               MILLMAX/851XX00510001000/5/PGM  2801.00 m    1693.00 m   0        TOP                       
+P_IRISL    5F               MILLMAX/851XX00510001000/5/PGM  3242.00 m    323.00 m    0        TOP                       
+P_IRISU    5F               MILLMAX/851XX00510001000/5/PGM  2801.00 m    323.00 m    0        TOP                       
+Q2         Dual N-CH        SOG.050/8/WG.275/L.250          2418.00 m    1003.00 m   90       TOP                       
+Q3         dual mosfet      SOG.050/8/WG.275/L.250          2426.00 m    1911.00 m   270      TOP                       
+Q4         Dual N-CH        SOG.050/8/WG.275/L.250          223.00 m     2250.00 m   0        BOTTOM                    
+Q11        dual mosfet      SOG.050/8/WG.275/L.250          4204.00 m    1470.00 m   90       BOTTOM                    
+Q12        Dual N-CH        SOG.050/8/WG.275/L.250          2180.00 m    1615.00 m   270      TOP                       
+Q13        dual mosfet      SOG.050/8/WG.275/L.250          4326.00 m    2216.00 m   180      BOTTOM                    
+R1         150              SM/R_0402                       4474.00 m    -213.00 m   180      TOP                       
+R2         150              SM/R_0402                       4456.00 m    2528.00 m   90       TOP                       
+R3         150              SM/R_0402                       2019.00 m    2148.00 m   180      TOP                       
+R4         150              SM/R_0402                       164.00 m     2597.00 m   0        TOP                       
+R5         150              SM/R_0402                       115.00 m     -256.00 m   0        TOP                       
+R6         150              SM/R_0402                       2019.00 m    196.00 m    180      TOP                       
+R7         47.5             SM/C_0402                       4642.00 m    1737.00 m   270      TOP                       
+R8         47.5             SM/C_0402                       4765.00 m    1737.00 m   270      TOP                       
+R9         47.5             SM/C_0402                       4689.00 m    361.00 m    0        BOTTOM                    
+R10        47.5             SM/C_0402                       4677.00 m    1972.00 m   0        BOTTOM                    
+R11        47.5             SM/C_0402                       -223.00 m    561.00 m    180      BOTTOM                    
+R12        47.5             SM/C_0402                       -24.00 m     1791.00 m   90       BOTTOM                    
+R13        33k              SM/C_0402                       1793.00 m    1862.00 m   0        BOTTOM                    
+R14        4.70             SM/C_0402                       2199.00 m    1095.00 m   0        TOP                       
+R15        4.70             SM/C_0402                       2199.00 m    1041.00 m   0        TOP                       
+R16        17.4             SM/R_0402                       2199.00 m    987.00 m    0        TOP                       
+R17        1.0M             SM/C_0402                       1742.00 m    1340.00 m   90       TOP                       
+R19        191              SM/C_0402                       1926.00 m    1853.00 m   270      TOP                       
+R20        1.0M             SM/C_0402                       1888.80 m    1340.00 m   90       TOP                       
+R21        33k              SM/C_0402                       2722.00 m    235.00 m    0        BOTTOM                    
+R22        33k              SM/C_0402                       1940.00 m    1339.00 m   270      BOTTOM                    
+R23        33k              SM/C_0402                       4176.00 m    1695.00 m   270      BOTTOM                    
+R24        33k              SM/C_0402                       3078.00 m    1139.00 m   180      TOP                       
+R25        27.4             SM/R_0402                       2287.00 m    1459.00 m   0        TOP                       
+R26        191              SM/C_0402                       1974.00 m    1853.00 m   270      TOP                       
+R27        33k              SM/C_0402                       3321.00 m    234.00 m    0        BOTTOM                    
+R28        33k              SM/C_0402                       3163.00 m    234.00 m    180      BOTTOM                    
+R29        33k              SM/C_0402                       1705.00 m    1340.00 m   90       BOTTOM                    
+R31        27K              SM/C_0805                       2319.00 m    1912.00 m   90       BOTTOM                    
+R32        27K              SM/C_0805                       4398.00 m    2422.00 m   180      BOTTOM                    
+R34        330              SM/R_0402                       4395.00 m    1516.00 m   90       BOTTOM                    
+R35        330              SM/R_0402                       2209.00 m    2148.00 m   0        TOP                       
+R36        33k              SM/C_0402                       4456.00 m    307.00 m    270      BOTTOM                    
+R37        150              SM/R_0402                       3134.00 m    1816.00 m   180      BOTTOM                    
+R43        330              SM/R_0402                       2630.00 m    1078.00 m   0        TOP                       
+R44        330              SM/R_0402                       2630.00 m    978.00 m    0        TOP                       
+R45        5.1K             SM/R_0402                       1444.00 m    293.00 m    180      TOP                       
+R46        5.1K             SM/R_0402                       1443.00 m    232.00 m    180      TOP                       
+R48        33k              SM/C_0402                       4042.00 m    424.00 m    180      BOTTOM                    
+R50        33k              SM/C_0402                       4043.00 m    483.00 m    0        BOTTOM                    
+R51        330              SM/R_0402                       2724.00 m    899.00 m    0        BOTTOM                    
+R52        330              SM/R_0402                       2723.00 m    843.00 m    180      BOTTOM                    
+R53        330              SM/R_0402                       3102.00 m    2079.00 m   270      BOTTOM                    
+R54        330              SM/R_0402                       2789.00 m    2079.00 m   270      BOTTOM                    
+R55        330              SM/R_0402                       1083.00 m    1225.00 m   90       BOTTOM                    
+R56        330              SM/R_0402                       1024.00 m    1225.00 m   90       BOTTOM                    
+R64        150              SM/R_0402                       2720.00 m    1816.00 m   180      BOTTOM                    
+R72        150              SM/R_0402                       3163.00 m    117.00 m    180      BOTTOM                    
+R73        150              SM/R_0402                       2722.00 m    118.00 m    0        BOTTOM                    
+R80        5.1K             SM/R_0402                       3604.00 m    2225.00 m   180      BOTTOM                    
+R81        5.1K             SM/R_0402                       3492.00 m    2225.00 m   0        BOTTOM                    
+R82        330              SM/R_0402                       4266.00 m    2409.00 m   180      BOTTOM                    
+R83        27K              SM/C_0805                       4089.00 m    1473.00 m   90       TOP                       
+RFID_ANT..                  NESL/0.150_TEST_POINT/1         1470.00 m    118.00 m    0        TOP                       
+RN1        47               SM/0402X8                       4643.79 m    1156.94 m   90       TOP                       
+RN2        1.0Meg           SM/0402X8                       4299.94 m    -49.21 m    180      BOTTOM                    
+RN3        1.0Meg           SM/0402X8                       3494.94 m    2074.21 m   270      BOTTOM                    
+RV1        5.1K             SM/R_0402                       4332.00 m    1391.00 m   180      TOP                       
+SR+        HEADER 1         NESL/TESTPOINT_0.040/SM         4100.00 m    1061.00 m   0        TOP                       
+SW1        SPST-M-NO        PANASONIC/EVQPH/4               4320.73 m    309.98 m    0        TOP                       
+SW2        slide switch     SLIDE_SWITCH                    825.73 m     2203.37 m   0        TOP                       
+SW3        PowerPath Ctlr   LINEAR/TSOT23/6                 306.40 m     1203.57 m   0        TOP                       
+TP1        HEADER 1         NESL/TESTPOINT_0.040/SM         3368.00 m    221.00 m    0        TOP                       
+TP2        HEADER 1         NESL/TESTPOINT_0.040/SM         3368.00 m    134.00 m    0        TOP                       
+TP3        HEADER 1         NESL/TESTPOINT_0.040/SM         3368.00 m    47.00 m     0        TOP                       
+TP4        HEADER 1         NESL/TESTPOINT_0.040/SM         2826.00 m    221.00 m    0        TOP                       
+TP5        HEADER 1         NESL/TESTPOINT_0.040/SM         2826.00 m    90.00 m     0        TOP                       
+TP6        HEADER 1         NESL/TESTPOINT_0.040/SM         3268.00 m    221.00 m    0        TOP                       
+TP7        HEADER 1         NESL/TESTPOINT_0.040/SM         2826.00 m    1789.00 m   0        TOP                       
+TP8        HEADER 1         NESL/TESTPOINT_0.040/SM         2826.00 m    1902.00 m   0        TOP                       
+U3         ON/MC74HC595A/.. SOG.025/16/WG.270/L.200         3693.00 m    806.50 m    90       BOTTOM                    
+U6         ON/MC74HC595A/.. SOG.025/16/WG.270/L.200         3693.00 m    1036.50 m   90       BOTTOM                    
+U7         ON/MC74HC595A/.. SOG.025/16/WG.270/L.200         4161.00 m    673.50 m    90       TOP                       
+U8         ON/MC74HC595A/.. SOG.025/16/WG.270/L.200         3693.00 m    1266.50 m   90       BOTTOM                    
+U9         ON/MC74HC595A/.. SOG.025/16/WG.270/L.200         3693.00 m    576.50 m    90       BOTTOM                    
+U12        4                SOG.050/14/WG.244/L.350         2839.00 m    828.00 m    90       TOP                       
+U16        TOSHIBA/74HC14.. SOG.050/14/WG.244/L.350         2839.00 m    1357.00 m   90       TOP                       
+U17        .                SOG.050/16/WG.420/L.425         296.00 m     183.00 m    90       BOTTOM                    
+U50        8bit I/O regis.. SOG.65M/16/WG6.70/L5.10         3785.53 m    1517.41 m   90       BOTTOM                    
+U51        TOSHIBA/74HC14.. SOG.050/14/WG.244/L.350         3790.00 m    1832.00 m   0        BOTTOM                    
+U69        TOSHIBA/74HC14.. SOG.050/14/WG.244/L.350         1794.00 m    1001.00 m   0        TOP                       
+UCG1       14               HIROSE/DF11-14DP-2DS/14         -52.37 m     1003.22 m   270      BOTTOM                    
+VREG3      MAXIM/MAX1626    SOG.050/8/WG.244/L.200          906.00 m     1775.00 m   180      TOP                       
+VREG5      MAXIM/MAX1626    SOG.050/8/WG.244/L.200          197.00 m     798.00 m    0        TOP                       
+VR_C1      0.1uF            SM/C_0402                       293.00 m     598.00 m    180      TOP                       
+VR_C2      0.1uF            SM/C_0402                       732.00 m     1945.00 m   90       TOP                       
+VR_C3      0.1uF            SM/C_0402                       950.50 m     590.50 m    270      TOP                       
+VR_C4      0.1uF            SM/C_0402                       550.00 m     1634.00 m   0        TOP                       
+VR_CI1     10uF             SM/C_1206                       663.00 m     1881.00 m   270      TOP                       
+VR_CIN1    22uF             SM/C_1210                       200.50 m     483.00 m    180      TOP                       
+VR_CO1     22uF             SM/C_1210                       958.50 m     2008.00 m   180      TOP                       
+VR_CS1     0.47uF           SM/C_0603                       144.00 m     590.00 m    180      TOP                       
+VR_L1      15uH             TOKO/D73_D75_SERIES/2           567.00 m     1423.98 m   90       TOP                       
+VR_RSEN1   0.039            SM/C_1812                       170.00 m     1041.00 m   180      TOP                       
+VR_RSEN2   0.039            SM/C_1812                       875.00 m     1518.00 m   0        TOP                       
+Y1         16.000 MHz       ECS/CSM-7/2                     3062.00 m    549.00 m    0        TOP                       

@@ -1,0 +1,30 @@
+**********************************************************
+*                                                        *
+* INSERTION LIST REPORT                                  *
+*                                                        *
+* C:\DAVIDLEE\RAGOBOTS_HW\ROBOT\HW\NECK\DESIGN\NECK.MAX  *
+* Thu Apr 14 02:51:36 2005                               *
+*                                                        *
+**********************************************************
+
+REF DES    VALUE            FOOTPRINT                      XCOORD       YCOORD       ROTATION BOARDSIDE    
+-----------------------------------------------------------------------------------------------------------
+C3         33PF             SM/C_0805                       1480.80 m    702.28 m    180      TOP                       
+C5         0.1UF            SM/C_0402                       698.57 m     995.35 m    90       BOTTOM                    
+C6         0.1UF            SM/C_0402                       681.33 m     1004.18 m   270      TOP                       
+C7         0.1UF            SM/C_0402                       353.78 m     1001.25 m   270      TOP                       
+D8         RED              SM/D_1206_21                    871.98 m     660.92 m    90       BOTTOM                    
+D9         RED              SM/D_1206_21                    1011.55 m    660.97 m    90       BOTTOM                    
+D10        RED              SM/D_1206_21                    1149.88 m    660.95 m    90       BOTTOM                    
+D11        RED              SM/D_1206_21                    1288.67 m    661.38 m    90       BOTTOM                    
+DBNCE1     MAXIM/MAX6816    SM/SOT143_1234                  543.42 m     971.70 m    0        BOTTOM                    
+J2         33H              HIROSE/FH12-33S-0.5SH/33/A      302.23 m     429.29 m    90       TOP                       
+J4         HEADER 2         BLKCON.100/VH/TM1SQ/W.100/2     1472.33 m    1013.48 m   180      BOTTOM                    
+R2         100 KOHM         SM/C_0805                       1480.83 m    523.13 m    180      TOP                       
+RFID3      SKYETEK/M1-MIN.. SKYETEK/M1-MINI/B               1062.97 m    550.57 m    180      TOP                       
+SW1        SPST-M-NO        PANASONIC/EVQPH/4               213.92 m     962.12 m    90       BOTTOM                    
+U5         ANALOG_DEVICES.. ANALOG_DEVICES/ADXL103CE        526.44 m     947.74 m    0        TOP                       
+U7         TI/SN74HC191     SOG.050/16/WG.244/L.375         679.40 m     523.58 m    270      TOP                       
+U8         FAIRCHILD/74AC.. SOG.050/16/WG.244/L.375         1052.40 m    528.52 m    270      TOP                       
+U9         150              CTS/743C083                     697.42 m     680.33 m    90       BOTTOM                    
+U10        HIROSE/FX2-40P.. HIROSE/FX2-40P-0.635SH          788.63 m     309.55 m    180      BOTTOM                    

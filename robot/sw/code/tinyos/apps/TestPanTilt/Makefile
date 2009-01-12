@@ -1,0 +1,3 @@
+COMPONENT=TestPanTilt
+include ../Makerules
+

@@ -1,0 +1,3 @@
+COMPONENT=TestLocalization
+include ../Makerules
+

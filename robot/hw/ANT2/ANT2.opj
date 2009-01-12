@@ -1,0 +1,65 @@
+(ExpressProject "ANT2" 
+  (ProjectVersion "19981106") 
+  (ProjectType "PCB") 
+  (Folder "Design Resources" 
+    (Folder "Library") 
+    (NoModify) 
+    (File ".\ant2.dsn" 
+      (Type "Schematic Design")) 
+    (BuildFileAddedOrDeleted "x") 
+    (CompileFileAddedOrDeleted "x") 
+    (Netlist_TAB "3") 
+    (LAYOUT_Netlist_File "ANT2.MNL") 
+    (LAYOUT_PCB_Footprint "{PCB Footprint}") 
+    (TRUE) 
+    (LAYOUT_Units "0")
+    (TRUE)) 
+  (Folder "Outputs" 
+    (File ".\ant2.mnl" 
+      (Type "LAYOUT Netlist File"))) 
+  (Folder "Referenced Projects") 
+  (PartMRUSelector
+    ("HEADER 2" 
+      (FullPartName "HEADER 2.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_CONNECTOR.OLB") 
+      (DeviceIndex "0")) 
+    (BATTERY
+      (FullPartName "BATTERY.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (R
+      (FullPartName "R.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (HIROSE/U.FL-R-SMT
+      (FullPartName "HIROSE/U.FL-R-SMT.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_CONNECTOR.OLB") 
+      (DeviceIndex "0"))) 
+  (GlobalState
+    (FileView
+      (Path "Design Resources") 
+      (Path "Outputs") 
+      (Select "Design Resources" 
+         "C:\DAVIDLEE\RAGOBOTS_HW\ROBOT\HW\ANT2\ant2.dsn")) 
+    (HierarchyView) 
+    (Doc
+      (Type "COrCapturePMDoc") 
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 585")) 
+      (Tab 0)))
+  (MPSSessionName "Jonathan")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Projects\ragobots_hw\robot\hw\ANT2\ant2.dsn")
+      (Path "Design Resources" "C:\Projects\ragobots_hw\robot\hw\ANT2\ant2.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "C:\Projects\ragobots_hw\robot\hw\ANT2\ant2.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 595"))
+      (Tab 0))))

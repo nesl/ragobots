@@ -1,0 +1,1475 @@
+# Cadence Design Systems, Inc.
+# SPECCTRA ShapeBased Automation Software Automatic Router
+# SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\SpecctraWithinLayout.dsn
+# Initialization options:
+#   -do C:\Projects\ragobots_hw\robot\hw\body\design\Do_Nothing.do
+# Status File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\monitor.sts
+select_product  SPECCTRAQuest SI expert
+# Use Colormap In Design File.
+#
+#
+#
+#
+	select_product  SPECCTRAQuest SI expert
+unit mil
+sh echo HELLO!
+protect all wires
+vset system Place_error off
+repaint
+vset system Unroute off
+repaint
+vset system Place_back off
+repaint
+vset system Place_front off
+repaint
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA I2C_SCL)
+# define (pair (nets I2C_NETS))
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+# define (class MPL_NETS MPL*)
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA I2C_SCL)
+# define (pair (nets I2C_NETS))
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+sh echo hello!
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA I2C_SCL)
+# define (pair (nets I2C_NETS))
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+sh echo hello!
+rule class SIO_NETS (edge_primary_gap 15)
+sh echo hello!2
+define (class I2C_NETS I2C_SDA I2C_SCL)
+# define (pair (nets I2C_NETS))
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+sh echo hello!2
+define (class I2C_NETS I2C_SDA I2C_SCL)
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+sh echo hello!
+define (pair (nets AUDIO?+ AUDIO?-))
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+# define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update)
+# rule class I2C_NETS (edge_primary_gap 15)
+# define (class BRAIN_CB2_NETS BRAIN_CB2*)
+# define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+# rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+# define (class NERVE_CB2_NETS NERVE_CB2*)
+# define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+# rule class NERVE_CB2_NETS (edge_primary_gap 15)
+# define (class DIFF_PAIRS AUDIO* SIO_NETS MPL_NETS CB2C_NETS I2C_NETS BRAIN_CB2_NETS NERVE_CB2_NETS)
+# rule class DIFF_PAIRS (ignore_gather_length unspecified)
+# rule class DIFF_PAIRS  (neck_down_width 5)
+# rule class DIFF_PAIRS (neck_down_gap 5)
+# rule class DIFF_PAIRS (diffpair_line_width 8)
+# rule class DIFF_PAIRS (edge_primary_gap 6)
+# define (class ANALOG_NETS ANALOG*)
+# rule class ANALOG_NETS (shield_tie_down_interval 1000)
+# rule class ANALOG_NETS (shield_gap 5)
+# circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+sh echo hello!2
+define (class I2C_NETS I2C_SDA I2C_SCL)
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+sh echo hello!
+define (pair (nets AUDIO?+ AUDIO?-))
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+# define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update)
+# rule class CB2C_NETS (edge_primary_gap 15)
+# define (class BRAIN_CB2_NETS BRAIN_CB2*)
+# define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+# rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+# define (class NERVE_CB2_NETS NERVE_CB2*)
+# define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+# rule class NERVE_CB2_NETS (edge_primary_gap 15)
+# define (class DIFF_PAIRS AUDIO* SIO_NETS MPL_NETS CB2C_NETS I2C_NETS BRAIN_CB2_NETS NERVE_CB2_NETS)
+# rule class DIFF_PAIRS (ignore_gather_length unspecified)
+# rule class DIFF_PAIRS  (neck_down_width 5)
+# rule class DIFF_PAIRS (neck_down_gap 5)
+# rule class DIFF_PAIRS (diffpair_line_width 8)
+# rule class DIFF_PAIRS (edge_primary_gap 6)
+# define (class ANALOG_NETS ANALOG*)
+# rule class ANALOG_NETS (shield_tie_down_interval 1000)
+# rule class ANALOG_NETS (shield_gap 5)
+# circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA I2C_SCL)
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+define (pair (nets AUDIO?+ AUDIO?-))
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+# define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update)
+# rule class CB2C_NETS (edge_primary_gap 15)
+# sh echo hello!
+# define (class BRAIN_CB2_NETS BRAIN_CB2*)
+# define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+# rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+# define (class NERVE_CB2_NETS NERVE_CB2*)
+# define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+# rule class NERVE_CB2_NETS (edge_primary_gap 15)
+# define (class DIFF_PAIRS AUDIO* SIO_NETS MPL_NETS CB2C_NETS I2C_NETS BRAIN_CB2_NETS NERVE_CB2_NETS)
+# rule class DIFF_PAIRS (ignore_gather_length unspecified)
+# rule class DIFF_PAIRS  (neck_down_width 5)
+# rule class DIFF_PAIRS (neck_down_gap 5)
+# rule class DIFF_PAIRS (diffpair_line_width 8)
+# rule class DIFF_PAIRS (edge_primary_gap 6)
+# define (class ANALOG_NETS ANALOG*)
+# rule class ANALOG_NETS (shield_tie_down_interval 1000)
+# rule class ANALOG_NETS (shield_gap 5)
+# circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+# ERROR: NOT EXECUTED
+modify_list new_bundle_nets (add  I2C_SCL_5 I2C_SDA_5)
+select net I2C_SDA
+modify_list new_bundle_nets (add  CB2_ACC_EN CB2_BCU CB2_CLOCK CB2_CONTROL0 CB2_CONTROL1 CB2_DATA_IN CB2_IRIS CB2_MAG_EN CB2_RESET CB2_SERVO_EN CB2_UPDATE)
+modify_list new_bundle_nets (remove CB2_ACC_EN )
+modify_list new_bundle_nets (remove CB2_BCU )
+modify_list new_bundle_nets (remove CB2_CONTROL0 )
+modify_list new_bundle_nets (remove CB2_CONTROL1 )
+modify_list new_bundle_nets (remove CB2_SERVO_EN )
+modify_list new_bundle_nets (remove CB2_MAG_EN )
+modify_list new_bundle_nets (remove CB2_IRIS )
+modify_list new_bundle_nets (remove CB2_DATA_IN )
+define (bundle bundle1 (nets CB2_CLOCK CB2_RESET CB2_UPDATE ) )
+forget bundle bundle1
+mode measure
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+define (pair (nets AUDIO?+ AUDIO?-))
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+sh echo hello!
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+# define (class DIFF_PAIRS AUDIO* SIO_NETS MPL_NETS CB2C_NETS I2C_NETS BRAIN_CB2_NETS NERVE_CB2_NETS)
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+define (pair (nets AUDIO?+ AUDIO?-))
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+sh echo hello!
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class DIFF_PAIRS AUDIO* SIOC MPL* CB2_Reset I2C_SDA BRAIN_CB2* NERVE_CB2*)
+rule class DIFF_PAIRS (ignore_gather_length unspecified)
+rule class DIFF_PAIRS  (neck_down_width 5)
+rule class DIFF_PAIRS (neck_down_gap 5)
+rule class DIFF_PAIRS (diffpair_line_width 8)
+rule class DIFF_PAIRS (edge_primary_gap 6)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+route 25
+mode measure
+delete all wires
+select class DIFF_PAIRS
+route 25
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 6)
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 6)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 6)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 6)
+# define (class ANALOG_NETS ANALOG*)
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 6)
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+# define (class AUDIO_NETS AUDIO*)
+# ERROR: NOT EXECUTED
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 6)
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 6)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 6)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 6)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+route 25
+mode measure
+delete all wires
+route 25
+delete all wires
+route 5
+delete all wires
+unselect all nets
+# select MPL_NETS
+# ERROR: NOT EXECUTED
+select class MPL_NETS
+route 5
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 6)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 6)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 6)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 6)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 6)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 6)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 6)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 6)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 6)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 6)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 6)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 6)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+mode measure
+delete all wires
+route
+select class ANALOG_NETS
+route
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 30)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (edge_primary_gap 15)
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 6)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (edge_primary_gap 15)
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (edge_primary_gap 15)
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 6)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 6)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 6)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+mode measure
+delete all wires
+route 5
+delete all wires
+unselect class ANALOG_NETS
+select class MPL_NETS
+unselect class I2C_NETS
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 30)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+select class MPL_NETS
+route
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 30)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+mode measure
+delete all wires
+select class MPL_NETS
+route
+delete all wires
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type coax) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+select class MPL_NETS
+route
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class MPL_NETS MPL*)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type parallel) (use_net  DGND_CN))
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+route
+mode measure
+delete all wires
+select class MPL_NETS
+route
+vset GND on
+repaint
+vset GND off
+repaint
+vset GND on
+repaint
+vset GND off
+repaint
+delete all wires
+select class ANALOG_NETS
+route
+delete all nets
+select class MPL_NETS
+route
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+define (class MPL_NETS MPL*)
+rule class MPL_NETS (shield_tie_down_interval 750)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+mode measure
+delete all nets
+select class MPL_NETS
+forget bundle MPL_BUNDLE
+forget bundle CB2C_BUNDLE
+forget bundle BRAIN_CB2_BUNDLE
+forget bundle NERVE_CB2_BUNDLE
+route
+zoom in
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (shield_tie_down_interval 1000)
+rule class MPL_NETS (shield_gap 5)
+circuit class MPL_NETS (shield on (type parallel) (use_net  DGND_CN))
+sh echo DONE!
+route
+unselect class ANALOG_NETS
+mode measure
+delete all wires
+route 
+forget bundle MPL_BUNDLE
+route
+delete all wires
+select class MPL_NETS
+route
+delete all wires
+# do C:\Projects\ragobots_hw\robot\hw\body\sp_devel.do
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+sh echo hello!2
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 1000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 30)
+sh echo DONE!
+route
+mode edit fence
+zoom coord -209 2211 4659 321
+zoom coord -209 2301 4659 411
+zoom coord -209 2394 4659 504
+zoom coord -209 2487 4659 598
+zoom coord -209 2577 4659 687
+zoom coord -209 2670 4659 780
+zoom coord -209 2763 4659 874
+zoom coord -209 2853 4659 963
+zoom coord -209 2946 4659 1056
+vset GND on
+repaint
+area init_pt 4002 2048
+area add_pt 4002 1682
+area add_pt 3625 1682
+area add_pt 3625 1916
+area add_pt 1751 1916
+area add_pt 1751 2044
+area add_pt 3706 2044
+area add_pt 3706 2188
+area add_pt 3772 2188
+area add_pt 3772 2044
+area add_pt 4002 2044
+close
+zoom in
+zoom coord 1129 2474 3563 1529
+zoom coord 1249 2474 3683 1529
+zoom coord 1368 2474 3802 1529
+zoom coord 1488 2474 3922 1529
+zoom coord 1607 2474 4041 1529
+zoom coord 1727 2474 4161 1529
+zoom coord 1846 2474 4280 1529
+zoom coord 1966 2474 4400 1529
+zoom coord 2085 2474 4519 1529
+zoom coord 2204 2474 4638 1529
+zoom coord 2324 2474 4758 1529
+zoom coord 2443 2474 4877 1529
+zoom coord 2563 2474 4997 1529
+zoom in
+zoom in
+area add_pt 4002 2047.3
+area clear
+zoom coord 3474.3 2134.3 4082.8 1898.1
+zoom coord 3474.3 2145.9 4082.8 1909.7
+zoom coord 3474.3 2157.1 4082.8 1920.9
+zoom coord 3474.3 2168.3 4082.8 1932.1
+zoom coord 3474.3 2180 4082.8 1943.7
+zoom coord 3474.3 2191.6 4082.8 1955.4
+zoom coord 3474.3 2202.8 4082.8 1966.6
+zoom coord 3474.3 2214.5 4082.8 1978.3
+zoom coord 3474.3 2226.1 4082.8 1989.9
+zoom coord 3474.3 2237.3 4082.8 2001.1
+zoom coord 3474.3 2248.5 4082.8 2012.3
+zoom coord 3474.3 2260.1 4082.8 2023.9
+zoom coord 3474.3 2271.3 4082.8 2035.1
+zoom coord 3474.3 2282.5 4082.8 2046.3
+zoom coord 3474.3 2293.7 4082.8 2057.5
+zoom coord 3474.3 2305.3 4082.8 2069.1
+zoom coord 3474.3 2316.5 4082.8 2080.3
+zoom coord 3474.3 2327.7 4082.8 2091.5
+zoom coord 3474.3 2315.6 4082.8 2079.3
+zoom coord 3474.3 2304.4 4082.8 2068.2
+zoom coord 3474.3 2293.2 4082.8 2057
+zoom coord 3474.3 2282 4082.8 2045.8
+zoom coord 3474.3 2270.4 4082.8 2034.1
+zoom coord 3474.3 2259.2 4082.8 2023
+zoom coord 3474.3 2248 4082.8 2011.8
+zoom coord 3474.3 2236.8 4082.8 2000.6
+zoom coord 3474.3 2225.2 4082.8 1988.9
+zoom coord 3474.3 2214 4082.8 1977.8
+zoom coord 3474.3 2202.8 4082.8 1966.6
+zoom coord 3474.3 2191.6 4082.8 1955.4
+zoom coord 3474.3 2180 4082.8 1943.7
+zoom coord 3474.3 2168.8 4082.8 1932.6
+zoom coord 3474.3 2157.6 4082.8 1921.4
+zoom coord 3474.3 2146.4 4082.8 1910.2
+zoom coord 3474.3 2134.8 4082.8 1898.5
+zoom coord 3474.3 2123.6 4082.8 1887.4
+zoom coord 3474.3 2112.4 4082.8 1876.2
+zoom coord 3474.3 2101.2 4082.8 1865
+zoom coord 3474.3 2089.6 4082.8 1853.3
+help area
+mode edit fence
+area init_pt 3640.5 2068.2
+area add_pt 3669.2 2068.2
+area add_pt 3669.2 2036.1
+area add_pt 3641 2036.1
+area add_pt 3641 2069.1
+area add_pt 3641 2077.9
+area backup_pt
+area close_poly
+fence digitized
+fence digitized
+mode measure
+# delete all fences
+# ERROR: NOT EXECUTED
+circuit class MPL_NETS (priority 255)
+quit -c
+quit -c

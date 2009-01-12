@@ -1,0 +1,6 @@
+ROOTDIR = $(SOSDIR)
+
+INCDIR += -I$(RAGOBOTDIR)/include
+INCDIR += -I$(RAGOBOTDIR)/include/hardware
+
+include $(ROOTDIR)/config/Makerules

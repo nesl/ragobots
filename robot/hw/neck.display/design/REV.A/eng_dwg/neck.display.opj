@@ -1,0 +1,104 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "t:\orcad_lib\j_display.olb"
+        (Type "Schematic Library"))
+      (File "t:\orcad_lib\c_discrete.olb"
+        (Type "Schematic Library"))
+      (File "t:\orcad_lib\j_connector.olb"
+        (Type "Schematic Library"))
+      (File "t:\orcad_lib\j_logic_ic.olb"
+        (Type "Schematic Library"))
+      (File "t:\orcad_lib\j_power.olb"
+        (Type "Schematic Library"))
+      (File "t:\orcad_lib\j_communications.olb"
+        (Type "Schematic Library"))
+      (File "t:\orcad_lib\j_discrete.olb"
+        (Type "Schematic Library")))
+    (File ".\neck.display.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "NECK.DISPLAY.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE))
+  (Folder "Outputs"
+    (File ".\neck.display.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (MILLMAX/851-xx-006/PGM
+      (FullPartName "MILLMAX/851-xx-006/PGM.Normal")
+      (LibraryName "T:\ORCAD_LIB\J_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CRYSTALFONTZ/CFAG12232D-YYH-N
+      (FullPartName "CRYSTALFONTZ/CFAG12232D-YYH-N.Normal")
+      (LibraryName "T:\ORCAD_LIB\J_DISPLAY.OLB")
+      (DeviceIndex "0"))
+    (MICROCHIP/93LC66
+      (FullPartName "MICROCHIP/93LC66.Normal")
+      (LibraryName "T:\ORCAD_LIB\J_LOGIC_IC.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4X2"
+      (FullPartName "HEADER 4X2.Normal")
+      (LibraryName "T:\ORCAD_LIB\C_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "T:\ORCAD_LIB\C_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "T:\ORCAD_LIB\C_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "T:\ORCAD_LIB\C_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "T:\ORCAD_LIB\C_DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\PSD_15.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 588 0 930"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 66 1034 66 688")
+        (Scroll "7726 1612")
+        (Zoom "352")
+        (Occurrence "/"))
+      (Path
+         "C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\NECK.DISPLAY\DESIGN\NECK.DISPLAY.DSN")
+      (Schematic "SCHEMATIC Ver. C")
+      (Page "PAGE1")))
+  (MPSSessionName "Jonathan"))

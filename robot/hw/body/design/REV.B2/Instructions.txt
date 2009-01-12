@@ -1,0 +1,82 @@
+Ragobot Rev.B.2 Assembly Notes:
+RBTBDYB2
+==============================
+GERBER
+------
+Filenames are "RAGOBOT" with the following extensions:
+
+.OTL	BOARD OUTLINE
+.TOP	TOP METAL
+.BOT	BOTTOM METAL
+.DRI	NC DRILL
+
+.SMB	SOLDER MASK BOTTOM
+.SMT	SOLDER MASK TOP
+.SPB	SOLDER PASTE BOTTOM
+.SPT	SOLDER PASTE TOP
+.SST	SILK SCREEN TOP
+.SSB	SILK SCREEN BOTTOM
+
+LEDS
+----
+D7, D8, D9, D10 (Thruhole tri-color LEDs are on the TOP side of the board, with the diffuser overhanging the edge of the board -- i.e., LED's face out from PCB)
+
+D1, D2, D3, D4, D5, D6 (SMT LED's)  The tick mark (looks like -> " ^ ") on the end of the silk-screen place-outline for these parts indicates the Cathode, which is indicated on the actual part by a line.
+
+The IR LED's (D12-D17) should be soldered in from the bottom *PRIOR* to installing the IR Receivers (IR1-IR6).
+
+The IR LED's (D12-D17) should be oriented as indicated on the bottom silk-screen with their diffusers pointed away from the center of the board.
+
+RN1 should be placed before the LED BAR GRAPH. The LED BAR GRAPH goes on top of the RN1. 
+
+SENSORS
+-------
+ACCEL1 (Accelerometer) The dot inside the outline on the silk-screen corresponds to a dot marking on the ADXL203 chip which is on the bottom of the actual part (i.e. - you have to turn the chip over and look at it from underneath to see this polarity indicator).
+
+MAG1 (Magnetometer) The dot inside the outline on the silk-screen corresponds to a dot marking on the HMC1023 chip which is on the bottom of the actual part (i.e. - you have to turn the chip over and look at it from underneath to see this polarity indicator).
+
+IR Receivers (IR1-IR6) should be installed *AFTER* the IR LED's (D12-D17) are soldered in from the bottom.
+
+
+CONNECTORS
+----------
+"NECK" (also labeled "U1") -- This part is symmetric. Please be careful to insert it in the correct orientation. There are three independent indicators:
+1.) On the back of the connector at the top (by the mating edge) there is a triangular indentation on the right side of the back of the connector. This triangular marking should be oriented to the pin 2 side of the land pattern. This triangular marking is indicated on the top silkscreen by pin 2 for reference. 
+2.) In addition, you can confirm correct insertion polarity as the markings "22" & "4E", which appear on the back of the connector at its base, should be oriented towards the "LED BAR GRAPH 1" side of the board (this is the front of the board). 
+3.) If correct, when viewed from above, the longer side of the trapezoidal shaped connector is on the side of the land pattern labeled "NECK".
+
+"NERVE" (also labeled "J15") Polarity is guided by boss holes. Unfortunately, the boss holes are drilled slightly too big so the part can move around once seated. 
+
+"BRAIN" (also labeled "BRAIN1") -- Polarity is guided by boss holes and trapezoidal land pattern.
+
+"HEAD" (also labeled "J16") -- Polarity is guided by trapezoidal land pattern.
+
+IC's
+----
+DBNCE1 -- Pin 1 has a wider land pattern than the other three. The corner of the place outline, by Pin 1, on the top silkscreen is indented, but this is difficult to see on the actual PCB (check the Gerber: RAGOBOT.SST if necessary)
+
+
+DO NOT POPULATE:
+----------------
+The following reference designators are not to be populated. These parts are not included in the BOM we sent you. They appear here simply to confirm our intent. This list may not necessarily be complete:
+
+DAC1 (item 29)
+FET1 (item 31)
+IB1 (item 34)
+MECH1 MECH2 MECH3 MECH4 (item 47)
+PROG1 PROG2 (item 49)
+Q1, Q2, Q3, Q4, Q5 (item 50)
+US1 (item 68)
+US2 (item 69)
+
+***************************************************************************
+CALL US IF YOU HAVE QUESTIONS, ANY TIME DAY OR NIGHT (INCLUDING WEEKENDS, HOLIDAYS, ETC):
+
+UCLA NES Laboratory (310-825-7707, 310-206-5698)
+Jonathan Friedman, jf@ee.ucla.edu, 404-259-8168 (cell)
+David Lee, davidlee@ee.ucla.edu, 408-318-2373 (cell)
+***************************************************************************
+
+
+
+

@@ -1,0 +1,157 @@
+# Cadence Design Systems, Inc.
+# SPECCTRA ShapeBased Automation Software Automatic Router
+# SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\SpecctraWithinLayout.dsn
+# Initialization options:
+#   -do C:\Projects\ragobots_hw\robot\hw\body\design\Do_Nothing.do
+# Status File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\monitor.sts
+select_product  SPECCTRAQuest SI expert
+# Use Colormap In Design File.
+#
+#
+#
+#
+	select_product  SPECCTRAQuest SI expert
+unit mil
+sh echo HELLO!
+vset system Place_error off
+repaint
+vset system Error off
+repaint
+vset system Unroute off
+repaint
+vset system Place_front off
+repaint
+vset system Place_back off
+repaint
+vset SPTOP on
+repaint
+vset SPTOP off
+repaint
+vset SPTOP on
+repaint
+vset SPTOP off
+repaint
+sset SPTOP on
+sset SPTOP on
+protect all wires
+delete conflicts -segment
+route 1
+delete conflicts -segment
+route 1
+delete conflicts
+# do Ragobot.do
+	select_product  SPECCTRAQuest SI expert
+	zoom all
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	unit mil
+	status_file $/SpecctraWithinLayout.STS
+	bestsave on $/SpecctraWithinLayout.WBEST
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+	rule PCB (width 6)
+cost layer TOP medium  (type length)
+cost layer BOTTOM medium  (type length)
+cost layer INNER2 low  (type length)
+cost layer INNER3 low  (type length)
+cost layer INNER4 low  (type length)
+direction TOP orthogonal
+direction BOTTOM orthogonal
+direction INNER2 horizontal
+direction INNER3 vertical
+direction INNER4 horizontal
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 30)
+circuit class MPL_NETS (priority 200)
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class SR_NETS SENS_NOT*)
+define (pair (nets SENS_NOT_A SENS_NOT_Y))
+rule class SR_NETS (ignore_gather_length unspecified)
+rule class SR_NETS  (neck_down_width 5)
+rule class SR_NETS (neck_down_gap 5)
+rule class SR_NETS (diffpair_line_width 8)
+rule class SR_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+rule class ANALOG_NETS (shield_tie_down_interval 2000)
+rule class ANALOG_NETS (shield_gap 5)
+circuit class ANALOG_NETS (shield on (type parallel) (use_net  DGND_CN))
+circuit class ANALOG_NETS (priority 190)
+	sh echo +++++
+	sh echo PRE-ROUTE
+	sh echo +++++
+	select all nets
+	select all components
+	fanout 4 (direction   in_out) (location anywhere) (max_len -1)  (pin_type power) (pin_type signal)    (pin_share on (maximum_connections 2)) (via_share on (maximum_connections 2)) (smd_share on (maximum_connections 2)) (share_len -1)   
+	seedvia 1000 -force
+unit mil
+status_file $/SpecctraWithinLayout.STS
+bestsave on $/SpecctraWithinLayout.WBEST
+ tax cross 1.2
+ tax squeeze .5
+sh echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDEBUG!
+sh echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDEBUG!
+sh echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDEBUG!
+sh echo WHILE_LOOP!................................................................................................................................
+route 1
+# delete all wires
+# ERROR: NOT EXECUTED
+mode measure

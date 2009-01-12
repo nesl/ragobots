@@ -1,0 +1,3 @@
+COMPONENT=TestObstacleMap
+include ../Makerules
+

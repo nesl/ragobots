@@ -1,0 +1,40 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }2 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }2 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "Jonathan Friedman, GSR" }}
+{PARA 0 "" 0 "" {TEXT -1 10 "NESL, UCLA" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "clock_speed := 8.192e6;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%,clock_speedG$\"%#>)\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "desired_baud := 9600;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%-desired_baudG\"%+'*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 21 "F
+OR NORMAL RATE PORT:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "UBR
+R_slow := floor(clock_speed/(16*desired_baud)-1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%*UBRR_slowG\"#_" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "actual_baud_slow := clock_speed/(16*(UBRR_slow+1));" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%1actual_baud_slowG$\"+etPg'*!\"'" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 65 "error_slow := (actual_bau
+d_slow-desired_baud)/(desired_baud)*100;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%+error_slowG$\"+D\"3$*G'!#5" }}}{EXCHG {PARA 256 "" 0 "" 
+{TEXT -1 18 "...as a percentage" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+21 "FOR DOUBLE RATE PORT:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+51 "UBRR_fast := floor(clock_speed/(8*desired_baud)-1);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%*UBRR_fastG\"$0\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "convert(UBRR_fast,hex);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#69G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "act
+ual_baud_fast := clock_speed/(8*(UBRR_fast+1));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%1actual_baud_fastG$\"+etPg'*!\"'" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 65 "error_fast := (actual_baud_fast-desired_baud
+)/(desired_baud)*100;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+error_fast
+G$\"+D\"3$*G'!#5" }}}{EXCHG {PARA 257 "" 0 "" {TEXT -1 18 "...as a per
+centage" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%#69G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}}{MARK "11 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,73 @@
+Ragobot Rev.C Fabrication Notes:
+RBTBDYC
+==============================
+GERBER (RS274X WITH COMPOSITE/MULTIPOLAR LAYERS)
+------
+Filenames are "RAGOBOT" with the following extensions:
+
+.OTL	BOARD OUTLINE
+.DRL	NC DRILL
+
+IN ORDER OF STACKUP
+.SST	SILK SCREEN TOP
+.SMT	SOLDER MASK TOP
+.TOP	TOP METAL
+.GND    GND PLANE
+.PW3    3.3V PLANE
+.IN2    SIGNAL IN2 
+.IN3    SIGNAL IN3
+.IN4    SINGAL IN4
+.PW5    5.0V PLANE
+.BOT	BOTTOM METAL
+.SMB	SOLDER MASK BOTTOM
+.SSB	SILK SCREEN BOTTOM
+
+OTHER FILES
+--------------
+.IPC    IPC-D-356 NETLIST
+
+NOTES
+-----
+MIN FEATURE SIZE: 0.005"
+MIN VIA DRILL SIZE: 0.008" (.020" annular ring)(plugged via is okay)
+MIN OPEN DRILL SIZE: 0.20"
+COPPER WEIGHT (all layers): 0.5 oz
+NUM ETCHED LAYERS: 8 
+SOLDERMASK COLOR: BLACK
+SILKING COLOR: WHITE
+NUM OF PCBS: 5 
+NUM DAY TURN: 3
+
+Please ensure that planes are not exposed to the edge of the board. Outline 
+layer is the actual cut line of the board (do not invade).
+
+Drawn drill sizes are finished sizes.
+
+----
+There should be three errors when you run the netlist verification:
+	(1) 3.3AVCC_CN is shorted to 3.3VCC_CN
+	(2) 5AVCC_CN is shorted to 5VCC_CN
+	(3) DGND_CN is shorted to AGND_CN
+
+There are opened fences on the respective plane layers that are causing this condition. This is intentional. 
+
+----
+PLEASE SHIP (OVERNIGHT) BOARDS TO (FOR ASSEMBLY):
+	
+	SCREAMING CIRCUITS
+	1140 NW THIRD AVENUE
+	CANBY, OREGON 97013-3441
+
+
+***************************************************************************
+CALL US IF YOU HAVE QUESTIONS, ANY TIME DAY OR NIGHT (INCLUDING WEEKENDS, 
+HOLIDAYS, ETC):
+
+UCLA NES Laboratory (310-825-7707, 310-206-5698)
+Jonathan Friedman, jf@ee.ucla.edu, 404-259-8168 (cell)
+David Lee, davidlee@ee.ucla.edu, 408-318-2373 (cell)
+***************************************************************************
+
+
+
+

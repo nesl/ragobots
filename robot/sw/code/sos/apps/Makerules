@@ -1,0 +1,12 @@
+ROOTDIR = $(SOSDIR)
+
+DEFS += -DSOS_MICA2_PERIPHERAL
+
+VPATH += $(RAGOBOTDIR)/dev/mica2
+
+INCDIR += -I$(RAGOBOTDIR)/include -I$(RAGOBOTDIR)/dev/mica2
+
+SRCS += mica2_peripheral.c pushbutton.c cb2bus_hardware.c servos.c hipri_int.c irranger.c
+SRCS += one-wire.c uart_ragobot.c
+
+include $(ROOTDIR)/apps/Makerules

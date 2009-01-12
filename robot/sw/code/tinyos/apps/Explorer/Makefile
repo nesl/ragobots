@@ -1,0 +1,3 @@
+COMPONENT=Explorer
+include ../Makerules
+

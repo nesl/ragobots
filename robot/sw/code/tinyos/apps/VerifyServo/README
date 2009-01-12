@@ -1,0 +1,15 @@
+README for Blink
+Author/Contact: parixit@ee.ucla.edu
+
+Description:
+This program verify functon of Servo Motor using to PWM output of timer0 or timer1.
+
+Tools:
+
+None
+
+Known bugs/limitations:
+
+None
+
+See Also:

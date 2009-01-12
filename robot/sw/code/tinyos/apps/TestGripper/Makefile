@@ -1,0 +1,3 @@
+COMPONENT=TestGripper
+include ../Makerules
+

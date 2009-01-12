@@ -1,0 +1,11 @@
+####
+# General defines used by many targets
+####
+
+INCDIR += -I$(RAGOBOTDIR)/include
+
+VPATH += $(RAGOBOTDIR)/dev/mica2/
+INCDIR += -I$(RAGOBOTDIR)/dev/mica2
+
+include $(SOSDIR)/modules/mc/Makemod
+

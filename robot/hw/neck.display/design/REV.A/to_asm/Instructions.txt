@@ -1,0 +1,52 @@
+Neck Display Rev.A. Assembly Notes:
+RBTNDPA
+==============================
+GERBER
+------
+Filenames are "NECK_DISPLAY-5" with the following extensions:
+
+.OUT	BOARD OUTLINE
+.TOP	TOP METAL
+.BOT	BOTTOM METAL
+.DRL	NC DRILL
+
+.SMB	SOLDER MASK BOTTOM
+.SMT	SOLDER MASK TOP
+.SPB	SOLDER PASTE BOTTOM
+.SPT	SOLDER PASTE TOP
+.SST	SILK SCREEN TOP
+.SSB	SILK SCREEN BOTTOM
+
+LIST OF OTHER FILES
+-------------------
+BOM.RBTNDPA.xls	Bill of Materials
+Instruction.txt	Extra Assembly Instructions
+INSERT.txt	Insertion/Centroid data
+
+INSTRUCIONS
+-----------
+1) D1-D9 (SMT LED's)  The tick mark (looks like -> " ^ ") on the end of the silk-screen place-outline for these parts indicates the Cathode, which is indicated on the actual part by a line. In other words, the line on the part should be closer to the tick marks on the Silkscreen.
+
+
+
+DO NOT POPULATE:
+----------------
+The following reference designators are not to be populated. These parts are highlighted in a separate section  in the included BOM we sent you.
+
+J1
+J2
+P_DFLH P_GPU
+LCD1
+LCD1 (cont'd)
+
+***************************************************************************
+CALL US IF YOU HAVE QUESTIONS, ANY TIME DAY OR NIGHT (INCLUDING WEEKENDS, HOLIDAYS, ETC):
+
+UCLA NES Laboratory (310-825-7707, 310-206-5698)
+Jonathan Friedman, jf@ee.ucla.edu, 404-259-8168 (cell)
+David Lee, davidlee@ee.ucla.edu, 408-318-2373 (cell)
+***************************************************************************
+
+
+
+

@@ -1,0 +1,14 @@
+Ragobot Software Directory Structure
+/ragobot <the code for use with tinyos> Note: need to change this to tinyos.
+
+
+
+
+/sos <the code for use with sos>
+	/apps	<applications>
+	/dev
+		/mica2 <all ragobot modules specific to mica2>
+	/include
+		/modules <all header files for function signatures of commands>
+	/modules
+		/mc <all platform independent Ragobot modules>

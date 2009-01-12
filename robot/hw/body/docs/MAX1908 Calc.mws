@@ -1,0 +1,50 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "MAX1908 Power Supply Desig
+n Considerations" }}{PARA 0 "" 0 "" {TEXT -1 22 "Jonathan Friedman, GS
+R" }}{PARA 0 "" 0 "" {TEXT -1 37 "Networked Embedded Systems Lab (NESL
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+29 "CHARGING SOURCE CURRENT LIMIT" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "Vref := 4.096;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%
+VrefG$\"%'4%!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "RS1 := \+
+0.039;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$RS1G$\"#R!\"$" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 82 "solve for Iinput assuming that the CLS re
+sistors are equal valued = 50% of Vref..." }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "Iinput := .5*(.075/RS1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%'IinputG$\"+:YQ:'*!#5" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 47 "...or set Iinput and solve for the limiting R's" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Iinput := 3;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%'IinputG\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "solve(Iinput=x/Vref*(.075/RS1),x);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#$\"+++SQ;!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 34 "solve(x=Vref/2/Vref*(.075/RS1),x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"++++]P!\"*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 124 "
+Using two of the same resistors for the voltage divider is easier and \+
+only reduces supply current limit 250mA (perfectly OK)" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "CHARGE PROFILE CURRE
+NT LIMIT (Design for 330mA)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "Vldo := 5.4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%VldoG$\"#a!\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Ichg := .330;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%%IchgG$\"$I$!\"$" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "Vrefin := Vldo;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%'VrefinG$\"#a!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "
+RS2 := 0.015;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$RS2G$\"#:!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Victl := solve(Ichg=x/Vrefin
+*(0.075/RS2),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&VictlG$\"++++kN
+!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "pExact := Victl/Vldo
+*100;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'pExactG$\"+++++m!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "r16 := 9.31;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$r16G$\"$J*!\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "r15 := 133;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$r15
+G\"$L\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "pImpl := r16/(r1
+6+r15)*100;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&pImplG$\"+vg0Ul!\"*
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "pError := (pImpl-pExact
+)/pExact*100;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'pErrorG$!+wDQz()!#
+5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "7 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

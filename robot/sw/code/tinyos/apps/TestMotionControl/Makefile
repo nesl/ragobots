@@ -1,0 +1,3 @@
+COMPONENT=TestMotionControl
+include ../Makerules
+

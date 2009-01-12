@@ -1,0 +1,218 @@
+(ExpressProject "ragobot_head" 
+  (ProjectVersion "19981106") 
+  (ProjectType "PCB") 
+  (Folder "Design Resources" 
+    (Folder "Library" 
+      (File "t:\orcad_lib\j_sensor.olb" 
+        (Type "Schematic Library")) 
+      (File "t:\orcad_lib\j_maxim.olb" 
+        (Type "Schematic Library")) 
+      (File "t:\orcad_lib\j_connector.olb" 
+        (Type "Schematic Library")) 
+      (File "t:\orcad_lib\j_power.olb" 
+        (Type "Schematic Library")) 
+      (File "T:\ORCAD_LIB\C_DISCRETE.OLB" 
+        (Type "Schematic Library")) 
+      (File "t:\orcad_lib\j_discrete.olb" 
+        (Type "Schematic Library")) 
+      (File "t:\orcad_lib\j_electromechanical.olb" 
+        (Type "Schematic Library")) 
+      (File "T:\ORCAD_LIB\J_MCU.OLB" 
+        (Type "Schematic Library"))) 
+    (NoModify) 
+    (File ".\ragobot_head.dsn" 
+      (Type "Schematic Design")) 
+    (BuildFileAddedOrDeleted "x") 
+    (CompileFileAddedOrDeleted "x") 
+    (Netlist_TAB "3") 
+    (LAYOUT_Netlist_File "RAGOBOT_HEAD.MNL") 
+    (LAYOUT_PCB_Footprint "{PCB Footprint}") 
+    (TRUE) 
+    (LAYOUT_Units "0") 
+    (ANNOTATE_Scope "0") 
+    (ANNOTATE_Mode "1") 
+    (ANNOTATE_Action "0") 
+    (ANNOTATE_Reset_References_to_1 "TRUE") 
+    (ANNOTATE_No_Page_Number_Change "TRUE") 
+    (ANNOTATE_Property_Combine "{Value}{Source Package}") 
+    (TRUE) 
+    (TRUE) 
+    (FLDSTUFF_Scope "0") 
+    (FLDSTUFF_Action "0") 
+    (FLDSTUFF_Report_File
+       "C:\Projects\ragobots_prev_new\robot_head\hw\design\ragobot_head.RPT") 
+    (FLDSTUFF_Update_File
+       "C:\Projects\ragobots_prev_new\robot_head\hw\design\ragobot_head.UPD") 
+    (FLDSTUFF__Uppercase_Result_Property "FALSE") 
+    (FLDSTUFF_Uppercase_Update_Property "FALSE") 
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE") 
+    (FLDSTUFF_Visibility "0") 
+    (FLDSTUFF_inst_or_occurrence "0") 
+    (FLDSTUFF_Create_Report_File "TRUE") 
+    (EXPORT_Scope "0") 
+    (EXPORT_Contents "0") 
+    (EXPORT_File_Name
+       "C:\PROJECTS\RAGOBOTS_PREV_NEW\ROBOT_HEAD\HW\DESIGN\RAGOBOT_HEAD.EXP") 
+    (FALSE) 
+    (TRUE) 
+    (TRUE) 
+    (GATE_&_PIN_SWAP_Scope "0") 
+    (GATE_&_PIN_SWAP_File_Name
+       "C:\PROJECTS\RAGOBOTS\ROBOT\HW\HEAD\DESIGN\RAGOBOT_HEAD.SWP") 
+    (TRUE) 
+    (TRUE) 
+    (TRUE) 
+    (TRUE)) 
+  (Folder "Outputs" 
+    (File ".\ragobot_head.mnl" 
+      (Type "LAYOUT Netlist File")) 
+    (File ".\ragobot_head.exp" 
+      (Type "Report"))) 
+  (Folder "Referenced Projects") 
+  (GlobalState
+    (FileView
+      (Path "Design Resources") 
+      (Path "Design Resources" "Library") 
+      (Path "Design Resources" "Library" "t:\orcad_lib\j_discrete.olb") 
+      (Path "Outputs") 
+      (Select "Design Resources" "Library" "t:\orcad_lib\j_discrete.olb" 
+         "CAP NP")) 
+    (HierarchyView) 
+    (Doc
+      (Type "COrCapturePMDoc") 
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 110 1063 110 714")) 
+      (Tab 0)) 
+    (Doc
+      (Type "COrSchematicDoc") 
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 286 1280 286 906") 
+        (Scroll "0 0") 
+        (Zoom "87") 
+        (Occurrence "/")) 
+      (Path "C:\DAVIDLEE\RAGOBOTS_HW\ROBOT\HW\HEAD\DESIGN\RAGOBOT_HEAD.DSN") 
+      (Schematic "RAGOBOT_HEAD_BOARD") 
+      (Page "HEAD")) 
+    (Doc
+      (Type "COrPartDoc") 
+      (Frame
+        (Placement "44 0 1 160 878 -4 -23 242 1232 242 858") 
+        (PackageScroll "0 0") 
+        (PackageZoom "1") 
+        (PartPackage "Part") 
+        (Scroll "1891 1133") 
+        (Zoom "499")) 
+      (Path "T:\ORCAD_LIB\J_DISCRETE.OLB") 
+      (Package "LINEAR/LTC6900"))) 
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    ("CAP NP" 
+      (FullPartName "CAP NP.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\C_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (LINEAR/LTC6900
+      (FullPartName "LINEAR/LTC6900.Normal") 
+      (LibraryName "\\CAMELOT\CADD_DB\ORCAD_LIB\J_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    ("HEADER 1" 
+      (FullPartName "HEADER 1.Normal") 
+      (LibraryName "T:\ORCAD_LIB\C_CONNECTOR.OLB") 
+      (DeviceIndex "0")) 
+    (HIROSE/FH12-33S-0.5SH
+      (FullPartName "HIROSE/FH12-33S-0.5SH.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_CONNECTOR.OLB") 
+      (DeviceIndex "0")) 
+    (TitleBlock_NESL_C
+      (LibraryName "T:\ORCAD_LIB\J_TITLE.OLB") 
+      (DeviceIndex "0")) 
+    (FAIRCHILD/FDS6912A_DUAL_NFET
+      (FullPartName "FAIRCHILD/FDS6912A_DUAL_NFET.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_POWER.OLB") 
+      (DeviceIndex "0")) 
+    ("CAPACITOR POL" 
+      (FullPartName "CAPACITOR POL.Normal") 
+      (LibraryName "T:\ORCAD_LIB\C_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (SHARP/GP1UD26XK
+      (FullPartName "SHARP/GP1UD26XK.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_SENSOR.OLB") 
+      (DeviceIndex "0")) 
+    (SERVOCITY/90_DEG_SERVO_MOUNTS
+      (FullPartName "SERVOCITY/90_DEG_SERVO_MOUNTS.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_ELECTROMECHANICAL.OLB") 
+      (DeviceIndex "0")) 
+    (KNOWLES/EK3132
+      (FullPartName "KNOWLES/EK3132.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_SENSOR.OLB") 
+      (DeviceIndex "0")) 
+    (TitleBlock_NESL_J_FRIEDMAN
+      (LibraryName "C:\PROJECTS\ORCAD_LIB\J_TITLE.OLB") 
+      (DeviceIndex "0")) 
+    (PERICOM/PI74STX1G04CX/SC70
+      (FullPartName "PERICOM/PI74STX1G04CX/SC70.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (ECS/ECS-3953M
+      (FullPartName "ECS/ECS-3953M.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (LED
+      (FullPartName "LED.Normal") 
+      (LibraryName "T:\ORCAD_LIB\C_DISCRETE.OLB") 
+      (DeviceIndex "0")) 
+    (SHARP/GP2D02
+      (FullPartName "SHARP/GP2D02.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_SENSOR.OLB") 
+      (DeviceIndex "0")) 
+    (HIROSE/FH12-20S-0.5SH
+      (FullPartName "HIROSE/FH12-20S-0.5SH.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_CONNECTOR.OLB") 
+      (DeviceIndex "0")) 
+    (MAXIM/MAX4061
+      (FullPartName "MAXIM/MAX4061.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_SENSOR.OLB") 
+      (DeviceIndex "0")) 
+    (MAXIM/MAX5407
+      (FullPartName "MAXIM/MAX5407.Normal") 
+      (LibraryName "T:\ORCAD_LIB\J_MAXIM.OLB") 
+      (DeviceIndex "0"))) 
+  (LastUsedLibraryBrowseDirectory "C:\Program Files\OrCAD\CAPTURE\LIBRARY") 
+  (MPSSessionName "Jonathan") 
+  (PartMRUSelector) 
+  (GlobalState
+    (FileView
+      (Path "Design Resources") 
+      (Path "Design Resources" 
+         "C:\Projects\ragobots_hw\robot\hw\head\design\ragobot_head.dsn") 
+      (Path "Design Resources" 
+         "C:\Projects\ragobots_hw\robot\hw\head\design\ragobot_head.dsn" 
+         "RAGOBOT_HEAD_BOARD") 
+      (Select "Design Resources" 
+         "C:\Projects\ragobots_hw\robot\hw\head\design\ragobot_head.dsn" 
+         "RAGOBOT_HEAD_BOARD" "HEAD")) 
+    (HierarchyView) 
+    (Doc
+      (Type "COrCapturePMDoc") 
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 585")) 
+      (Tab 0)))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Projects\ragobots_hw\robot\hw\head\design\ragobot_head.dsn")
+      (Path "Design Resources"
+         "C:\Projects\ragobots_hw\robot\hw\head\design\ragobot_head.dsn"
+         "RAGOBOT_HEAD_BOARD")
+      (Select "Design Resources"
+         "C:\Projects\ragobots_hw\robot\hw\head\design\ragobot_head.dsn"
+         "RAGOBOT_HEAD_BOARD" "HEAD"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 595"))
+      (Tab 0))))

@@ -1,0 +1,5 @@
+Jonathan Friedman, GSR
+
+Camera 24MHz highspeed 11-bit parallel bus routing (8b-data,3b-control)
+--------------------------------------------------------------------------
+100 mil relative length variance = 14 deg phase shift

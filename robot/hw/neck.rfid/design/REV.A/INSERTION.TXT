@@ -1,0 +1,28 @@
+************************************************************
+*                                                          *
+* INSERTION LIST REPORT                                    *
+*                                                          *
+* C:\DAVIDLEE\RAGOBOTS\ROBOT\HW\NECK\DESIGN\NECK.MAX       *
+* Wed Feb 16 17:46:46 2005                                 *
+*                                                          *
+************************************************************
+
+REF DES    VALUE            FOOTPRINT                      XCOORD       YCOORD       ROTATION BOARDSIDE    
+-----------------------------------------------------------------------------------------------------------
+C3         33PF             SM/C_0402                       1295.95 m    545.18 m    180      TOP                       
+C5         0.1UF            SM/C_0402                       709.77 m     985.55 m    90       BOTTOM                    
+C6         0.1UF            SM/C_0402                       351.55 m     1007.93 m   270      TOP                       
+C7         0.1UF            SM/C_0402                       708.78 m     1002.20 m   270      TOP                       
+D8         RED              SM/D_1206_21                    870.00 m     718.50 m    90       BOTTOM                    
+D9         AMBER            SM/D_1206_21                    1010.00 m    718.50 m    90       BOTTOM                    
+D10        YELLOW           SM/D_1206_21                    1150.00 m    718.50 m    90       BOTTOM                    
+D11        GREEN            SM/D_1206_21                    1290.00 m    718.50 m    90       BOTTOM                    
+DBNCE1     MAXIM/MAX6816    SM/SOT143_1234                  544.42 m     971.70 m    0        BOTTOM                    
+J2         33H              HIROSE/FH12-33S-0.5SH/33/A      113.13 m     440.84 m    90       TOP                       
+R2         100 KOHM         SM/C_0402                       1295.92 m    438.32 m    180      TOP                       
+SW1        SPST-M-NO        PANASONIC/EVQPH/4               213.92 m     962.12 m    90       BOTTOM                    
+U5         ANALOG_DEVICES.. ANALOG_DEVICES/ADXL103CE        524.33 m     930.81 m    0        TOP                       
+U7         TI/SN74HC191     SOG.050/16/WG.244/L.375         210.78 m     613.03 m    90       BOTTOM                    
+U8         FAIRCHILD/74AC.. SOG.050/16/WG.244/L.375         593.57 m     615.23 m    90       BOTTOM                    
+U9         150              CTS/743C083                     1055.33 m    519.13 m    180      BOTTOM                    
+U10        HIROSE/FX2-40P.. HIROSE/FX2-40P-0.635SH          788.63 m     180.55 m    180      BOTTOM                    

@@ -1,0 +1,3 @@
+COMPONENT=RemoteControl
+include ../Makerules
+

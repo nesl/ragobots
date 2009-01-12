@@ -1,0 +1,3 @@
+COMPONENT=TestVorTx
+include ../Makerules
+

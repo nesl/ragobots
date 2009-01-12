@@ -1,0 +1,4 @@
+Agilent E3631A reads: 1.201V, 3mA CC
+I_peak = 368.8mV -> 16.6mA
+I_avg = 165.2mV -> 7.2mA
+

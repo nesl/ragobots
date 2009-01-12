@@ -1,0 +1,8 @@
+#SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+#Host 
+#ROUTING STATUS <<< C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\SpecctraWithinLayout.dsn >>>
+Start  Time: Report Time: Tue Dec 13 17:30:36 2005
+
+Nets         =      336   Connections         =      941
+Current Wire =        0   Reroute wires       =      362
+Completion   =   25.61%   Unconnections       =      686

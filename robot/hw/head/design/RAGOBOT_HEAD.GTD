@@ -1,0 +1,108 @@
+{Program	GerbTool for Layout
+	{Version	8.0}
+	{Created	Tue Mar 08 03:21:35 2005}
+}
+{Environment
+	{FilesPath  C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\HEAD\DESIGN}
+}
+{Layers
+	{Layer  1
+		{File        RAGOBOT_HEAD.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        RAGOBOT_HEAD.GND}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Blue}
+		{DrawColor   Blue}
+		{Type        Plane}
+	}
+	{Layer  3
+		{File        RAGOBOT_HEAD.IN1}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Cyan}
+		{DrawColor   Cyan}
+		{Type        Inner}
+	}
+	{Layer  4
+		{File        RAGOBOT_HEAD.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Bottom}
+	}
+	{Layer  5
+		{File        RAGOBOT_HEAD.OTL}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16yellow}
+		{DrawColor   vga16yellow}
+		{Type        Other}
+	}
+	{Layer  6
+		{File        RAGOBOT_HEAD.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  7
+		{File        RAGOBOT_HEAD.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16yellow}
+		{DrawColor   vga16yellow}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        RAGOBOT_HEAD.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  NavyBlue}
+		{DrawColor   NavyBlue}
+		{Type        Other}
+	}
+	{Layer  9
+		{File        RAGOBOT_HEAD.SSB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  aquamarine4}
+		{DrawColor   aquamarine4}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}

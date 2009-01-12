@@ -1,0 +1,30 @@
+(ExpressProject "rgbt_XYZ_Adapter"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rgbt_xyz_adapter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\PROJECTS\ragobots\robot\hw\brain\XYZ_adapter\design\rgbt_xyz_adapter.dsn")
+      (Path "Design Resources"
+         "C:\PROJECTS\ragobots\robot\hw\brain\XYZ_adapter\design\rgbt_xyz_adapter.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "C:\PROJECTS\ragobots\robot\hw\brain\XYZ_adapter\design\rgbt_xyz_adapter.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 585"))
+      (Tab 0))))

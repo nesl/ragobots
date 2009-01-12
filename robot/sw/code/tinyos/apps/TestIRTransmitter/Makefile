@@ -1,0 +1,3 @@
+COMPONENT=TestIRTransmitter
+include ../Makerules
+

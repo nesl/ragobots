@@ -1,0 +1,70 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\NECK.DISPLAY\DESIGN\NECK_DISPLAY.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\NECK.DISPLAY\DESIGN\NECK.DISPLAY.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding net JTAG_TDO
+Adding net JTAG_RESET
+Adding net SERVO_TILT
+Adding net N2766676
+Adding net N2766672
+Adding net JTAG_TCK
+Adding net N2766656
+Adding net NECK_NERVE2
+Adding net SERVO_PAN
+Adding net NECK_BRAIN2
+Adding net N2766684
+Adding net N2934680
+Adding net N2766680
+Adding net JTAG_TDI
+Adding net N2934584
+Adding net MOTOR_PWM0
+Adding net NECK_NERVE1
+Adding net MOTOR_PWM1
+Adding net MOTOR_DIR1
+Adding net MOTOR_DIR0
+Adding net JTAG_TMS
+Adding net NECK_CB2_2
+Adding net DIO7
+Adding net DIO8
+Adding net DIO3
+Adding net DIO6
+Adding net DIO12
+Adding net DIO10
+Adding net DIO13
+Adding net DIO9_MPWM0
+Adding net DIO11_MPWM1
+Adding R28.1 to net 3.3_VCC_CN
+Deleting R28.1 from net 5.0_VCC_CN
+Adding J1.16 to net JTAG_TDO
+Adding J1.22 to net JTAG_RESET
+Adding J1.46 to net SERVO_TILT
+Adding J1.26 to net N2766676
+Adding J1.24 to net N2766672
+Adding J1.20 to net JTAG_TCK
+Adding J1.28 to net N2766656
+Adding J1.13 to net NECK_NERVE2
+Adding J1.44 to net SERVO_PAN
+Adding J1.31 to net NECK_BRAIN2
+Adding J1.36 to net N2766684
+Adding U4.19 to net N2934680
+Adding J1.34 to net N2766680
+Adding J1.14 to net JTAG_TDI
+Adding U4.20 to net N2934584
+Adding J1.8 to net MOTOR_PWM0
+Adding J1.11 to net NECK_NERVE1
+Adding J1.12 to net MOTOR_PWM1
+Adding J1.10 to net MOTOR_DIR1
+Adding J1.6 to net MOTOR_DIR0
+Adding J1.18 to net JTAG_TMS
+Adding J1.19 to net NECK_CB2_2
+Adding CDIC1.40 to net DIO7
+Adding CDIC1.41 to net DIO8
+Adding CDIC1.14 to net DIO3
+Adding CDIC1.17 to net DIO6
+Adding CDIC1.30 to net DIO12
+Adding CDIC1.42 to net DIO10
+Adding CDIC1.31 to net DIO13
+Adding CDIC1.29 to net DIO9_MPWM0
+Adding CDIC1.9 to net DIO11_MPWM1
+*EOF*
+No errors found

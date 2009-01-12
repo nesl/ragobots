@@ -1,0 +1,18 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT-8.MAX
+FILE-B: C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\RAGOBOT.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component U9
+Adding component U12
+Adding U12.14 to net 3.3_VCC_IRIS
+Adding U9.11 to net CB2_CLOCK
+Adding U9.10 to net CB2_RESET
+Adding U9.12 to net CB2_UPDATE
+Adding U9.8 to net CHARGE-
+Adding U9.13 to net CHARGE-
+Adding U12.7 to net CHARGE-
+Adding U9.16 to net CLIFF_IRED+
+Adding U12.9 to net IRIS_TX_H
+Adding U12.4 to net IRIS_TX_H
+*EOF*
+No errors found

@@ -1,0 +1,22 @@
+# Cadence Design Systems, Inc.
+# SPECCTRA ShapeBased Automation Software Automatic Router
+# SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\SpecctraWithinLayout.dsn
+# Initialization options:
+#   -do C:\Projects\ragobots_hw\robot\hw\body\design\Do_Nothing.do
+# Status File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\monitor.sts
+select_product  SPECCTRAQuest SI expert
+# Use Colormap In Design File.
+#
+#
+#
+#
+	select_product  SPECCTRAQuest SI expert
+unit mil
+sh echo HELLO!
+quit -c
+quit -c

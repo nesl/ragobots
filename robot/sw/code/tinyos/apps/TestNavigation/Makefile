@@ -1,0 +1,3 @@
+COMPONENT=TestNavigation
+include ../Makerules
+

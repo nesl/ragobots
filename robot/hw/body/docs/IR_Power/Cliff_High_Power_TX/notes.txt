@@ -1,0 +1,10 @@
+Cliff Detector, IR Lamp
+at 1.434V and 5mA supply
+driven through nFET amp from MCU
+Signal is modulated
+40% modulation envelope duty cycle
+This plot is an analysis WITHIN that 40% window (i.e. where fully active)
+
+570uS active
+Average current during active period is (335.5mV)
+335mV = 15mA in our setup

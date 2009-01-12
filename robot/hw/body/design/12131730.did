@@ -1,0 +1,306 @@
+# Cadence Design Systems, Inc.
+# SPECCTRA ShapeBased Automation Software Automatic Router
+# SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\SpecctraWithinLayout.dsn
+# Initialization options:
+#   -do C:\Projects\ragobots_hw\robot\hw\body\design\Do_Nothing.do
+# Status File Name : C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\monitor.sts
+select_product  SPECCTRAQuest SI expert
+# Use Colormap In Design File.
+#
+#
+#
+#
+	select_product  SPECCTRAQuest SI expert
+unit mil
+sh echo HELLO!
+protect all wires
+# do Ragobot.do
+	select_product  SPECCTRAQuest SI expert
+	zoom all
+forget class MPL_NETS
+forget class SIO_NETS
+forget class I2C_NETS
+forget class CB2C_NETS
+forget class BRAIN_CB2_NETS 
+forget class NERVE_CB2_NETS
+forget class DIFF_PAIRS
+forget class ANALOG_NETS
+forget class AUDIO_NETS
+	unit mil
+	status_file $/SpecctraWithinLayout.STS
+	bestsave on $/SpecctraWithinLayout.WBEST
+	mode delete keepout
+	edit_delete_keepout 2167 1348 2396 1208
+	rule PCB (width 6)
+cost layer TOP medium  (type length)
+cost layer BOTTOM medium  (type length)
+cost layer INNER2 low  (type length)
+cost layer INNER3 low  (type length)
+cost layer INNER4 low  (type length)
+direction TOP orthogonal
+direction BOTTOM orthogonal
+direction INNER2 horizontal
+direction INNER3 vertical
+direction INNER4 horizontal
+define (class MPL_NETS MPL*)
+define (bundle MPL_BUNDLE (nets MPL*))
+rule class MPL_NETS (ignore_gather_length unspecified)
+rule class MPL_NETS  (neck_down_width 5)
+rule class MPL_NETS (neck_down_gap 5)
+rule class MPL_NETS (diffpair_line_width 8)
+rule class MPL_NETS (edge_primary_gap 30)
+circuit class MPL_NETS (priority 200)
+define (class SIO_NETS SIOC SIOD)
+define (pair (nets SIOC SIOD))
+rule class SIO_NETS (ignore_gather_length unspecified)
+rule class SIO_NETS  (neck_down_width 5)
+rule class SIO_NETS (neck_down_gap 5)
+rule class SIO_NETS (diffpair_line_width 8)
+rule class SIO_NETS (edge_primary_gap 15)
+define (class I2C_NETS I2C_SDA* I2C_SCL*)
+define (pair (nets I2C_SDA_5 I2C_SCL_5))
+define (pair (nets I2C_SDA I2C_SCL))
+rule class I2C_NETS (ignore_gather_length unspecified)
+rule class I2C_NETS  (neck_down_width 5)
+rule class I2C_NETS (neck_down_gap 5)
+rule class I2C_NETS (diffpair_line_width 8)
+rule class I2C_NETS (edge_primary_gap 15)
+define (class SR_NETS SENS_NOT*)
+define (pair (nets SENS_NOT_A SENS_NOT_Y))
+rule class SR_NETS (ignore_gather_length unspecified)
+rule class SR_NETS  (neck_down_width 5)
+rule class SR_NETS (neck_down_gap 5)
+rule class SR_NETS (diffpair_line_width 8)
+rule class SR_NETS (edge_primary_gap 6)
+define (class AUDIO_NETS AUDIO*)
+define (pair (nets AUDIO?+ AUDIO?-))
+rule class AUDIO_NETS (ignore_gather_length unspecified)
+rule class AUDIO_NETS  (neck_down_width 5)
+rule class AUDIO_NETS (neck_down_gap 5)
+rule class AUDIO_NETS (diffpair_line_width 8)
+rule class AUDIO_NETS (edge_primary_gap 6)
+define (class CB2C_NETS CB2_Reset CB2_Clock CB2_Update)
+define (bundle CB2C_BUNDLE (nets CB2_Reset CB2_Clock CB2_Update))
+rule class CB2C_NETS (ignore_gather_length unspecified)
+rule class CB2C_NETS  (neck_down_width 5)
+rule class CB2C_NETS (neck_down_gap 5)
+rule class CB2C_NETS (diffpair_line_width 8)
+rule class CB2C_NETS (edge_primary_gap 15)
+define (class BRAIN_CB2_NETS BRAIN_CB2*)
+define (bundle BRAIN_CB2_BUNDLE (nets BRAIN_CB2*))
+rule class BRAIN_CB2_NETS (ignore_gather_length unspecified)
+rule class BRAIN_CB2_NETS  (neck_down_width 5)
+rule class BRAIN_CB2_NETS (neck_down_gap 5)
+rule class BRAIN_CB2_NETS (diffpair_line_width 8)
+rule class BRAIN_CB2_NETS (edge_primary_gap 15)
+define (class NERVE_CB2_NETS NERVE_CB2*)
+define (bundle NERVE_CB2_BUNDLE (nets NERVE_CB2*))
+rule class NERVE_CB2_NETS (ignore_gather_length unspecified)
+rule class NERVE_CB2_NETS  (neck_down_width 5)
+rule class NERVE_CB2_NETS (neck_down_gap 5)
+rule class NERVE_CB2_NETS (diffpair_line_width 8)
+rule class NERVE_CB2_NETS (edge_primary_gap 15)
+define (class ANALOG_NETS ANALOG*)
+circuit class ANALOG_NETS (priority 190)
+	sh echo +++++
+	sh echo PRE-ROUTE
+	sh echo +++++
+	select all nets
+	select all components
+	fanout 4 (direction   in_out) (location anywhere) (max_len -1)  (pin_type power) (pin_type signal)    (pin_share on (maximum_connections 2)) (via_share on (maximum_connections 2)) (smd_share on (maximum_connections 2)) (share_len -1)   
+	seedvia 1000 -force
+unit mil
+status_file $/SpecctraWithinLayout.STS
+bestsave on $/SpecctraWithinLayout.WBEST
+ tax cross 1.2
+ tax squeeze .5
+sh echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDEBUG!
+sh echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDEBUG!
+sh echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDEBUG!
+sh echo WHILE_LOOP!................................................................................................................................
+route 1
+# if (complete_wire < 100) (
+clean 2
+# ) endif
+setexpr count (3)
+# while (count >0 && complete_wire < 100) (
+       setexpr comp_rate (complete_wire)
+       route 5 11
+# if (complete_wire < 100 && complete_wire > comp_rate) (
+                setexpr count (count - 1)
+# ) endif
+       setexpr comp_rate (complete_wire)
+       route 5 11
+# if (complete_wire < 100 && complete_wire > comp_rate) (
+                setexpr count (count - 1)
+# ) endif
+       setexpr comp_rate (complete_wire)
+       route 5 11
+# if (complete_wire < 100 && complete_wire > comp_rate) (
+                setexpr count (count - 1)
+# ) endif
+# ) end while
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+mode measure
+delete conflicts -segment
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# if (complete_wire < 100) (
+clean 2
+# ) endif
+setexpr count2 (5)
+# while (count2 >0 && complete_wire < 100) (
+       setexpr comp_rate2 (complete_wire)
+       route 5 16
+# if (complete_wire > comp_rate2) (
+                setexpr count2 (count2 - 1)
+# ) endif
+       setexpr comp_rate2 (complete_wire)
+       route 5 16
+# (pause mode) zoom coord 2217 714 1183 1453
+# (pause mode) zoom coord 748.12 714 2651.88 1453 (dynamic)
+# if (complete_wire > comp_rate2) (
+                setexpr count2 (count2 - 1)
+# ) endif
+       setexpr comp_rate2 (complete_wire)
+       route 5 16
+# (pause mode) measure 1744 738 1744 738
+# if (complete_wire > comp_rate2) (
+                setexpr count2 (count2 - 1)
+# ) endif
+       setexpr comp_rate2 (complete_wire)
+       route 5 16
+# (pause mode) zoom coord 842 1453 2746 714
+# (pause mode) zoom coord 935 1453 2839 714
+# (pause mode) zoom coord 1028 1453 2932 714
+# (pause mode) zoom coord 1122 1453 3026 714
+# (pause mode) zoom coord 1215 1453 3119 714
+# (pause mode) zoom coord 1309 1453 3213 714
+# (pause mode) zoom coord 1402 1453 3306 714
+# if (complete_wire > comp_rate2) (
+                setexpr count2 (count2 - 1)
+# ) endif
+       setexpr comp_rate2 (complete_wire)
+       route 5 16
+# (pause mode) zoom all
+# if (complete_wire > comp_rate2) (
+# else
+                setexpr count2 (0)
+# ) endif
+# ) end while
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+delete conflicts -segment
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sh echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# if (complete_wire < 100) (
+clean 3
+# ) endif
+setexpr count3 (10)
+# while (count3 >0 && complete_wire < 100) (
+       setexpr comp_rate3 (complete_wire)
+       route 5 16
+# if (complete_wire > comp_rate3) (
+# else
+                filter 5
+                limit cross 0
+                route 25 16
+# (pause mode) vset system Place_error off
+# (pause mode) repaint
+# (pause mode) vset system Error off
+# (pause mode) repaint
+# (pause mode) vset system Power off
+# (pause mode) repaint
+# (pause mode) vset system Power on
+# (pause mode) repaint
+# (pause mode) vset system Power off
+# (pause mode) repaint
+# (pause mode) vset system Power on
+# (pause mode) repaint
+# (pause mode) vset system region off
+# (pause mode) repaint
+# (pause mode) vset system region on
+# (pause mode) repaint
+# (pause mode) vset system Unroute off
+# (pause mode) repaint
+# (pause mode) vset system Unroute on
+# (pause mode) repaint
+                setexpr count3 (0)
+# ) endif
+# ) end while
+critic 5
+clean 5
+# (pause mode) zoom coord -458 1787 794 2775
+# (pause mode) zoom coord -454 2775 2091 1787
+# (pause mode) zoom coord -328 2775 2217 1787
+# (pause mode) zoom coord -454 2775 2091 1787
+# (pause mode) zoom coord -578 2775 1967 1787
+ unit mil
+ miter (slant 1000)
+# (pause mode) zoom coord -702 2775 1843 1787
+ miter (pin 50)
+ miter (bend 32 2)
+write routes $/SpecctraWithinLayout.RTE
+report status
+sh echo DONE!	
+zoom all
+unselect all components
+vset TOP off
+repaint
+vset INNER2 off
+repaint
+vset INNER3 off
+repaint
+vset INNER4 off
+repaint
+vset BOTTOM off
+repaint
+vset system Place_front off
+repaint
+vset system Place_back off
+repaint
+vset system Place_back on
+repaint
+vset system Place_back off
+repaint
+zoom coord -42096.609 -16039.714 46546.609 18369.714 (dynamic)
+zoom coord -1810 3010 -890 3710
+zoom all
+zoom coord -6485.726 -2216.32 10935.726 4546.32 (dynamic)
+vset TOP on
+repaint
+zoom coord 2700 180 4480 1600
+zoom coord 1580 1600 5238 180
+zoom coord 1402 1600 5060 180
+zoom coord 1223 1600 4881 180
+zoom coord 1042 1600 4700 180
+zoom coord 861 1600 4519 180
+zoom coord 680 1600 4338 180
+zoom coord 502 1600 4160 180
+zoom coord 323 1600 3982 180
+zoom coord 142 1600 3800 180
+zoom coord -39 1600 3619 180
+zoom coord -39 1670 3619 250
+zoom coord -39 1737 3619 317
+zoom coord -39 1805 3619 385
+zoom coord -39 1875 3619 455
+zoom coord -39 1945 3619 525
+zoom coord -39 2015 3619 595
+zoom coord -39 2085 3619 665
+zoom coord -39 2152 3619 732
+zoom coord -39 2219 3619 799
+zoom coord -39 2287 3619 867
+vset BOTTOM on
+repaint
+vset BOTTOM off
+repaint
+quit -c
+write session (overwrite) C:\PROJECTS\RAGOBOTS_HW\ROBOT\HW\BODY\DESIGN\SpecctraWithinLayout.ses
+ popdown save_quit
+quit -c

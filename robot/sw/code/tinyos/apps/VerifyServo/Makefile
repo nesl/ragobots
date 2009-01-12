@@ -1,0 +1,3 @@
+COMPONENT=VerifyServo
+include ../Makerules
+

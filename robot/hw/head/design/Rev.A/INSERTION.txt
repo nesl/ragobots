@@ -1,0 +1,39 @@
+******************************************************************
+*                                                                *
+* INSERTION LIST REPORT                                          *
+*                                                                *
+* C:\DAVIDLEE\RAGOBOTS_HW\ROBOT\HW\HEAD\DESIGN\RAGOBOT_HEAD.NEW  *
+* Mon Mar 14 14:40:30 2005                                       *
+*                                                                *
+******************************************************************
+
+REF DES    VALUE            FOOTPRINT                      XCOORD       YCOORD       ROTATION BOARDSIDE    
+-----------------------------------------------------------------------------------------------------------
+24                          SHARP/GP2D02/OUTLINE            910.00 m     280.00 m    90       TOP                       
+AMP1       MAXIM/MAX4061    MAXIM/UMAX/8                    901.62 m     265.25 m    0        BOTTOM                    
+C1         0.1uF            SM/C_0402                       909.00 m     271.00 m    180      TOP                       
+C2         0.1uF            SM/C_0402                       1079.00 m    570.00 m    270      BOTTOM                    
+C3         0.1uF            SM/C_0402                       852.00 m     430.00 m    90       BOTTOM                    
+C4         0.1uF            SM/C_0402                       912.00 m     430.00 m    90       BOTTOM                    
+C5         0.1uF            SM/C_0402                       1034.00 m    620.00 m    0        TOP                       
+C6         0.1uF            SM/C_0402                       1164.00 m    80.00 m     0        TOP                       
+C7         0.1uF            SM/C_0402                       599.00 m     162.00 m    180      TOP                       
+C8         0.01uF           SM/C_0402                       599.00 m     282.00 m    0        TOP                       
+C9         47uF             SM/CT_3528_12                   303.50 m     920.00 m    180      BOTTOM                    
+CAMERA1    HIROSE/FH12-20.. HIROSE/FH12-20S-0.5SH/20        1251.99 m    834.98 m    0        BOTTOM                    
+D1         LED              CPCYL/D.225/LS.100/.031_12      1699.00 m    880.00 m    0        TOP                       
+D2         LED              CPCYL/D.225/LS.100/.031_12      1699.00 m    635.00 m    0        TOP                       
+INV1       PERICOM/PI74ST.. TI/SC70/5                       1186.58 m    561.58 m    180      BOTTOM                    
+IR1        SHARP/GP1UD26XK  SHARP/GP1UD26XK/5               285.57 m     814.00 m    90       TOP                       
+IRDAR1     SHARP/GP2D02     BLKCON.100/VH/TM1SQ/W.100/4     707.00 m     70.00 m     0        TOP                       
+J2         33H              HIROSE/FH12-33S-0.5SH/33/A      442.04 m     517.98 m    0        BOTTOM                    
+J3         HEADER 1         NESL/0.50_DRILL_TEST_POINT/1    606.00 m     692.00 m    0        TOP                       
+MECH1      SERVOCITY/90_D.. SERVOCITY/BTR-7006              175.00 m     282.00 m    0        TOP                       
+MIC1       KNOWLES/EK3132   KNOWLES/EK-3132_HORIZONTAL/3    685.00 m     876.88 m    270      TOP                       
+Q2         Dual N-CH        SOG.050/8/WG.275/L.250          1506.00 m    481.00 m    270      BOTTOM                    
+R1         33.2             SM/R_2010                       1660.50 m    70.00 m     180      BOTTOM                    
+R2         75               SM/C_1206                       1100.00 m    315.00 m    90       BOTTOM                    
+R4         47               SM/C_0402                       381.00 m     810.00 m    0        BOTTOM                    
+REG1       2.5V             TI/SC70/5                       975.42 m     561.43 m    0        BOTTOM                    
+U1         20K              MAXIM/SOT23/8                   1102.25 m    96.52 m     90       BOTTOM                    
+Y1         24.000MHz        ECS/ECS-3953M/4                 600.00 m     272.68 m    180      BOTTOM                    
